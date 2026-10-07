@@ -110,6 +110,15 @@ export const AgentTeamView: React.FC = () => {
   const [input, setInput] = useState('');
   const [isProcessing, setIsProcessing] = useState(false);
   const [isSpawnModalOpen, setIsSpawnModalOpen] = useState(false);
+  const [copiedMsgId, setCopiedMsgId] = useState<string | null>(null);
+
+  const handleCopyMessage = (id: string, text: string) => {
+    if (navigator?.clipboard) {
+      navigator.clipboard.writeText(text);
+      setCopiedMsgId(id);
+      setTimeout(() => setCopiedMsgId(null), 2000);
+    }
+  };
 
   // New Spawn Scribe Form State
   const [spawnName, setSpawnName] = useState('');
@@ -1174,40 +1183,57 @@ export const AgentTeamView: React.FC = () => {
                 return (
                   <div
                     key={msg.id}
-                    className={`flex flex-col ${isUser ? 'items-end' : 'items-start'} max-w-3xl ${
-                      isUser ? 'ml-auto' : 'mr-auto'
-                    }`}
+                    className={`flex gap-2.5 sm:gap-3 max-w-3xl ${
+                      isUser ? 'ml-auto justify-end' : 'mr-auto justify-start'
+                    } group`}
                   >
-                    {/* Sender Label */}
-                    <div className="flex items-center gap-1.5 mb-1 px-1 text-[10px] sm:text-[11px] font-mono text-[#787570] flex-wrap">
-                      <span
-                        className="w-2 h-2 rounded-full"
-                        style={{ backgroundColor: msg.senderColor || '#787570' }}
-                      ></span>
-                      <span className="font-bold text-[#111110] dark:text-[#F4F3EF]">
-                        {msg.senderName}
-                      </span>
-                      {msg.senderRole && <span className="hidden sm:inline">· {msg.senderRole}</span>}
-                      {msg.targetAgentName && (
-                        <span className="text-[#8B5CF6] font-semibold">
-                          → @{msg.targetAgentName}
-                        </span>
-                      )}
-                      <span>· {msg.timestamp}</span>
-                    </div>
+                    {!isUser && (
+                      <div className="shrink-0 mt-1">
+                        <AgentPetAvatar
+                          agentId={msg.senderId}
+                          size="sm"
+                          isWorking={isProcessing}
+                        />
+                      </div>
+                    )}
 
-                    {/* Message Bubble */}
-                    <div
-                      className={`rounded-2xl px-3.5 sm:px-5 py-3 sm:py-4 text-xs sm:text-sm leading-relaxed transition-all ${
-                        isUser
-                          ? 'bg-[#111110] dark:bg-[#272624] text-white dark:text-[#F4F3EF] rounded-tr-xs shadow-sm max-w-lg'
-                          : msg.type === 'spawn'
-                          ? 'bg-[#FDF2F8] dark:bg-[#831843]/20 border border-[#F472B6] dark:border-[#9D174D] text-[#831843] dark:text-[#FBCFE8] w-full'
-                          : msg.type === 'synthesis'
-                          ? 'bg-white dark:bg-[#181816] border-2 border-[#8B5CF6]/50 shadow-sm text-[#111110] dark:text-[#F4F3EF] w-full'
-                          : 'bg-white dark:bg-[#161615] text-[#111110] dark:text-[#F4F3EF] border border-[#E5E4DF] dark:border-[#262522] shadow-2xs w-full'
-                      }`}
-                    >
+                    <div className={`flex flex-col ${isUser ? 'items-end' : 'items-start'} max-w-2xl min-w-0`}>
+                      {/* Sender Label & Actions */}
+                      <div className="flex items-center gap-1.5 mb-1 px-1 text-[10px] sm:text-[11px] font-mono text-[#787570] flex-wrap">
+                        <span className="font-bold text-[#111110] dark:text-[#F4F3EF]">
+                          {msg.senderName}
+                        </span>
+                        {msg.senderRole && <span className="hidden sm:inline">· {msg.senderRole}</span>}
+                        {msg.targetAgentName && (
+                          <span className="text-[#8B5CF6] font-semibold">
+                            → @{msg.targetAgentName}
+                          </span>
+                        )}
+                        <span>· {msg.timestamp}</span>
+                        {!isUser && (
+                          <button
+                            type="button"
+                            onClick={() => handleCopyMessage(msg.id, msg.content)}
+                            className="ml-1 opacity-0 group-hover:opacity-100 transition-opacity text-[#787570] hover:text-[#8B5CF6] text-[10px] font-mono cursor-pointer"
+                            title="Copy analysis"
+                          >
+                            {copiedMsgId === msg.id ? 'Copied!' : 'Copy'}
+                          </button>
+                        )}
+                      </div>
+
+                      {/* Message Bubble */}
+                      <div
+                        className={`rounded-2xl px-3.5 sm:px-5 py-3 sm:py-4 text-xs sm:text-sm leading-relaxed transition-all ${
+                          isUser
+                            ? 'bg-[#111110] dark:bg-[#272624] text-white dark:text-[#F4F3EF] rounded-tr-xs shadow-sm max-w-lg'
+                            : msg.type === 'spawn'
+                            ? 'bg-[#FDF2F8] dark:bg-[#831843]/20 border border-[#F472B6] dark:border-[#9D174D] text-[#831843] dark:text-[#FBCFE8] w-full'
+                            : msg.type === 'synthesis'
+                            ? 'bg-white dark:bg-[#181816] border-2 border-[#8B5CF6]/50 shadow-sm text-[#111110] dark:text-[#F4F3EF] w-full'
+                            : 'bg-white dark:bg-[#161615] text-[#111110] dark:text-[#F4F3EF] border border-[#E5E4DF] dark:border-[#262522] shadow-2xs w-full'
+                        }`}
+                      >
                       {isUser ? (
                         <div className="whitespace-pre-wrap font-sans text-xs sm:text-[13px] leading-relaxed">
                           {msg.content}
@@ -1266,8 +1292,9 @@ export const AgentTeamView: React.FC = () => {
                       )}
                     </div>
                   </div>
-                );
-              })}
+                </div>
+              );
+            })}
 
               {isProcessing && (
                 <div className="flex items-center gap-2 text-xs font-mono text-[#8B5CF6] animate-pulse py-2">
