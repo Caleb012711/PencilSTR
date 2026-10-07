@@ -730,7 +730,8 @@ export const AgentTeamView: React.FC = () => {
               {/* Vertical Rectangular Pill of Active Scribe Pets in Collapsed Rail */}
               <div
                 className="w-full bg-[#FAF9F5] dark:bg-[#1A1A18] border border-[#E5E4DF] dark:border-[#282825] rounded-2xl py-2 px-1 flex flex-col items-center gap-1.5 shadow-2xs"
-                title="Active Scribe Pet Status Dock"
+                title="Autonomous Scribes Pet Pill Dock — Active Scribes Pet Status Dock"
+                data-testid="autonomous-scribes-pet-pill-dock"
               >
                 {agents.map((ag) => {
                   const isWorking = simulateWorking || ag.status === 'working' || ag.status === 'collaborating' || isProcessing;
@@ -1162,71 +1163,8 @@ export const AgentTeamView: React.FC = () => {
               })}
             </div>
 
-            {/* Main Agent Chat Body: Contains the Dedicated Vertical Rectangular Pet Pill Dock (only when left bar is closed) and Messages Feed */}
+            {/* Main Agent Chat Body: Messages Feed */}
             <div className="flex-1 flex min-w-0 overflow-hidden relative">
-              {/* ========================================================================= */}
-              {/* VERTICAL RECTANGULAR PILL: Dedicated Live Working Indicator Pet Dock     */}
-              {/* ONLY shown when the leftmost bar (Roster) is MINIMIZED / CLOSED         */}
-              {/* ========================================================================= */}
-              {isLeftMinimized && (
-                <div
-                  className="hidden md:flex flex-col items-center py-2 px-1.5 my-3 ml-3 bg-white/95 dark:bg-[#161615]/95 backdrop-blur-md border border-[#E5E4DF] dark:border-[#282825] rounded-2xl shadow-sm shrink-0 self-start sticky top-3 z-10 gap-1.5 select-none"
-                  title="Autonomous Scribes Pet Pill Dock — Moving pets indicate active underwriting"
-                >
-                  <div className="flex flex-col items-center gap-0.5 pb-1 border-b border-[#E5E4DF] dark:border-[#262624] w-full">
-                    <span className="w-2 h-2 rounded-full bg-[#059669] animate-pulse"></span>
-                    <span className="text-[7px] font-mono uppercase tracking-widest text-[#787570] font-bold">Pets</span>
-                  </div>
-
-                  <div className="flex flex-col items-center gap-1.5">
-                    {agents.map((ag) => {
-                      const isWorking = simulateWorking || ag.status === 'working' || ag.status === 'collaborating' || isProcessing;
-                      const isSelected = selectedDirectAgentId === ag.id;
-                      return (
-                        <button
-                          key={ag.id}
-                          onClick={() => {
-                            setSelectedDirectAgentId(ag.id);
-                            setActiveTab('direct');
-                          }}
-                          className={`relative p-1 rounded-xl transition-all cursor-pointer group flex flex-col items-center ${
-                            isWorking
-                              ? 'bg-[#F59E0B]/20 border border-[#F59E0B] shadow-[0_0_8px_rgba(245,158,11,0.35)]'
-                              : isSelected
-                              ? 'bg-[#8B5CF6]/15 border border-[#8B5CF6]/60'
-                              : 'hover:bg-[#FAF9F5] dark:hover:bg-[#20201D] border border-transparent'
-                          }`}
-                          title={`${ag.name}: ${isWorking ? 'WORKING NOW' : 'IDLE'} · Click to direct`}
-                        >
-                          <AgentPetAvatar agentId={ag.id} size="sm" isWorking={isWorking} />
-                          <span
-                            className={`text-[7px] font-mono font-bold mt-0.5 px-1 rounded-full ${
-                              isWorking
-                                ? 'bg-[#F59E0B] text-white animate-pulse'
-                                : 'text-[#787570]'
-                            }`}
-                          >
-                            {isWorking ? 'WORK' : 'IDLE'}
-                          </span>
-                        </button>
-                      );
-                    })}
-                  </div>
-
-                  {/* Quick Work Simulation Toggle */}
-                  <button
-                    onClick={() => setSimulateWorking(!simulateWorking)}
-                    className={`text-[7px] font-mono font-bold mt-0.5 px-1.5 py-0.5 rounded border transition-all cursor-pointer ${
-                      simulateWorking
-                        ? 'bg-[#F59E0B] text-white border-[#F59E0B] shadow-2xs'
-                        : 'border-[#8B5CF6]/30 bg-[#8B5CF6]/10 text-[#8B5CF6] hover:bg-[#8B5CF6] hover:text-white'
-                    }`}
-                    title="Toggle work simulation to see all pets move and work"
-                  >
-                    {simulateWorking ? 'STOP' : 'TEST'}
-                  </button>
-                </div>
-              )}
 
             {/* Messages Feed */}
             <div className="flex-1 overflow-y-auto px-3 sm:px-6 py-4 sm:py-6 max-w-4xl w-full mx-auto space-y-3.5 sm:space-y-4">
