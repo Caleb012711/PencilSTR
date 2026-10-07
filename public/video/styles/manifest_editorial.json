@@ -1,0 +1,2026 @@
+{
+  "title": "PencilSTR \u2014 The Curated Comp (Architectural & Hospitality Editorial)",
+  "style": "editorial",
+  "profile": {
+    "name": "The Curated Comp",
+    "description": "High-End Architectural & Hospitality Curator (warm, refined, sophisticated)",
+    "openrouter_voice": "shimmer",
+    "macos_voice": "Karen",
+    "speaking_rate": 165,
+    "pitch_adjustment": 0.98,
+    "ffmpeg_filters": "aformat=channel_layouts=stereo,equalizer=f=140:width_type=o:width=1:g=2.0,equalizer=f=2800:width_type=o:width=1:g=1.5,loudnorm=I=-16:LRA=11:TP=-1.5",
+    "bgm_tag": "lofi_acoustic_luxury"
+  },
+  "totalDuration": 72.422,
+  "fullAudioFile": "full_voiceover_editorial.mp3",
+  "vttFile": "subtitles_editorial.vtt",
+  "srtFile": "subtitles_editorial.srt",
+  "chapters": [
+    {
+      "id": "chapter_1_hook",
+      "title": "Aesthetics Meet Underwriting",
+      "text": "True short-term rental performance is driven by spatial beauty, bespoke finishes, and hospitality provenance. Yet traditional real estate underwriting treats million-dollar architectural cabins like generic single-family rentals.",
+      "visualCue": "Editorial warm light mode photography of Scandinavian timber cabins and luxury desert villas.",
+      "audioFile": "chapter_chapter_1_hook_editorial.mp3",
+      "duration": 12.9,
+      "captions": [
+        {
+          "index": 0,
+          "word": "True",
+          "start": 0.0,
+          "end": 0.48
+        },
+        {
+          "index": 1,
+          "word": "short-term",
+          "start": 0.48,
+          "end": 0.96
+        },
+        {
+          "index": 2,
+          "word": "rental",
+          "start": 0.96,
+          "end": 1.43
+        },
+        {
+          "index": 3,
+          "word": "performance",
+          "start": 1.43,
+          "end": 1.91
+        },
+        {
+          "index": 4,
+          "word": "is",
+          "start": 1.91,
+          "end": 2.39
+        },
+        {
+          "index": 5,
+          "word": "driven",
+          "start": 2.39,
+          "end": 2.87
+        },
+        {
+          "index": 6,
+          "word": "by",
+          "start": 2.87,
+          "end": 3.34
+        },
+        {
+          "index": 7,
+          "word": "spatial",
+          "start": 3.34,
+          "end": 3.82
+        },
+        {
+          "index": 8,
+          "word": "beauty,",
+          "start": 3.82,
+          "end": 4.3
+        },
+        {
+          "index": 9,
+          "word": "bespoke",
+          "start": 4.3,
+          "end": 4.78
+        },
+        {
+          "index": 10,
+          "word": "finishes,",
+          "start": 4.78,
+          "end": 5.26
+        },
+        {
+          "index": 11,
+          "word": "and",
+          "start": 5.26,
+          "end": 5.73
+        },
+        {
+          "index": 12,
+          "word": "hospitality",
+          "start": 5.73,
+          "end": 6.21
+        },
+        {
+          "index": 13,
+          "word": "provenance.",
+          "start": 6.21,
+          "end": 6.69
+        },
+        {
+          "index": 14,
+          "word": "Yet",
+          "start": 6.69,
+          "end": 7.17
+        },
+        {
+          "index": 15,
+          "word": "traditional",
+          "start": 7.17,
+          "end": 7.64
+        },
+        {
+          "index": 16,
+          "word": "real",
+          "start": 7.64,
+          "end": 8.12
+        },
+        {
+          "index": 17,
+          "word": "estate",
+          "start": 8.12,
+          "end": 8.6
+        },
+        {
+          "index": 18,
+          "word": "underwriting",
+          "start": 8.6,
+          "end": 9.08
+        },
+        {
+          "index": 19,
+          "word": "treats",
+          "start": 9.08,
+          "end": 9.56
+        },
+        {
+          "index": 20,
+          "word": "million-dollar",
+          "start": 9.56,
+          "end": 10.03
+        },
+        {
+          "index": 21,
+          "word": "architectural",
+          "start": 10.03,
+          "end": 10.51
+        },
+        {
+          "index": 22,
+          "word": "cabins",
+          "start": 10.51,
+          "end": 10.99
+        },
+        {
+          "index": 23,
+          "word": "like",
+          "start": 10.99,
+          "end": 11.47
+        },
+        {
+          "index": 24,
+          "word": "generic",
+          "start": 11.47,
+          "end": 11.94
+        },
+        {
+          "index": 25,
+          "word": "single-family",
+          "start": 11.94,
+          "end": 12.42
+        },
+        {
+          "index": 26,
+          "word": "rentals.",
+          "start": 12.42,
+          "end": 12.9
+        }
+      ]
+    },
+    {
+      "id": "chapter_2_radar",
+      "title": "Curated Market Discovery",
+      "text": "PencilSTR bridges architectural distinction with rigorous credit underwriting. Our autonomous radar uncovers unheralded gems across top destination markets, pairing imagery with verified revenue comps.",
+      "visualCue": "Autonomous Radar highlighting architectural destination nodes in Sevier County and Gulf Shores.",
+      "audioFile": "chapter_chapter_2_radar_editorial.mp3",
+      "duration": 12.3,
+      "captions": [
+        {
+          "index": 0,
+          "word": "PencilSTR",
+          "start": 0.0,
+          "end": 0.51
+        },
+        {
+          "index": 1,
+          "word": "bridges",
+          "start": 0.51,
+          "end": 1.03
+        },
+        {
+          "index": 2,
+          "word": "architectural",
+          "start": 1.03,
+          "end": 1.54
+        },
+        {
+          "index": 3,
+          "word": "distinction",
+          "start": 1.54,
+          "end": 2.05
+        },
+        {
+          "index": 4,
+          "word": "with",
+          "start": 2.05,
+          "end": 2.56
+        },
+        {
+          "index": 5,
+          "word": "rigorous",
+          "start": 2.56,
+          "end": 3.08
+        },
+        {
+          "index": 6,
+          "word": "credit",
+          "start": 3.08,
+          "end": 3.59
+        },
+        {
+          "index": 7,
+          "word": "underwriting.",
+          "start": 3.59,
+          "end": 4.1
+        },
+        {
+          "index": 8,
+          "word": "Our",
+          "start": 4.1,
+          "end": 4.61
+        },
+        {
+          "index": 9,
+          "word": "autonomous",
+          "start": 4.61,
+          "end": 5.13
+        },
+        {
+          "index": 10,
+          "word": "radar",
+          "start": 5.13,
+          "end": 5.64
+        },
+        {
+          "index": 11,
+          "word": "uncovers",
+          "start": 5.64,
+          "end": 6.15
+        },
+        {
+          "index": 12,
+          "word": "unheralded",
+          "start": 6.15,
+          "end": 6.66
+        },
+        {
+          "index": 13,
+          "word": "gems",
+          "start": 6.66,
+          "end": 7.18
+        },
+        {
+          "index": 14,
+          "word": "across",
+          "start": 7.18,
+          "end": 7.69
+        },
+        {
+          "index": 15,
+          "word": "top",
+          "start": 7.69,
+          "end": 8.2
+        },
+        {
+          "index": 16,
+          "word": "destination",
+          "start": 8.2,
+          "end": 8.71
+        },
+        {
+          "index": 17,
+          "word": "markets,",
+          "start": 8.71,
+          "end": 9.23
+        },
+        {
+          "index": 18,
+          "word": "pairing",
+          "start": 9.23,
+          "end": 9.74
+        },
+        {
+          "index": 19,
+          "word": "imagery",
+          "start": 9.74,
+          "end": 10.25
+        },
+        {
+          "index": 20,
+          "word": "with",
+          "start": 10.25,
+          "end": 10.76
+        },
+        {
+          "index": 21,
+          "word": "verified",
+          "start": 10.76,
+          "end": 11.28
+        },
+        {
+          "index": 22,
+          "word": "revenue",
+          "start": 11.28,
+          "end": 11.79
+        },
+        {
+          "index": 23,
+          "word": "comps.",
+          "start": 11.79,
+          "end": 12.3
+        }
+      ]
+    },
+    {
+      "id": "chapter_3_comps_ccr",
+      "title": "The Visual Comp Gallery",
+      "text": "Explore comps through an editorial lens inspired by Pinterest and Muse. High-resolution photo galleries let you evaluate interior volume, designer lighting, and outdoor living areas alongside debt service coverage ratios.",
+      "visualCue": "MuseCompCard smooth image scrub highlighting curated interiors, hot tubs, and scenic views.",
+      "audioFile": "chapter_chapter_3_comps_ccr_editorial.mp3",
+      "duration": 13.55,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Explore",
+          "start": 0.0,
+          "end": 0.45
+        },
+        {
+          "index": 1,
+          "word": "comps",
+          "start": 0.45,
+          "end": 0.9
+        },
+        {
+          "index": 2,
+          "word": "through",
+          "start": 0.9,
+          "end": 1.36
+        },
+        {
+          "index": 3,
+          "word": "an",
+          "start": 1.36,
+          "end": 1.81
+        },
+        {
+          "index": 4,
+          "word": "editorial",
+          "start": 1.81,
+          "end": 2.26
+        },
+        {
+          "index": 5,
+          "word": "lens",
+          "start": 2.26,
+          "end": 2.71
+        },
+        {
+          "index": 6,
+          "word": "inspired",
+          "start": 2.71,
+          "end": 3.16
+        },
+        {
+          "index": 7,
+          "word": "by",
+          "start": 3.16,
+          "end": 3.61
+        },
+        {
+          "index": 8,
+          "word": "Pinterest",
+          "start": 3.61,
+          "end": 4.07
+        },
+        {
+          "index": 9,
+          "word": "and",
+          "start": 4.07,
+          "end": 4.52
+        },
+        {
+          "index": 10,
+          "word": "Muse.",
+          "start": 4.52,
+          "end": 4.97
+        },
+        {
+          "index": 11,
+          "word": "High-resolution",
+          "start": 4.97,
+          "end": 5.42
+        },
+        {
+          "index": 12,
+          "word": "photo",
+          "start": 5.42,
+          "end": 5.87
+        },
+        {
+          "index": 13,
+          "word": "galleries",
+          "start": 5.87,
+          "end": 6.32
+        },
+        {
+          "index": 14,
+          "word": "let",
+          "start": 6.32,
+          "end": 6.78
+        },
+        {
+          "index": 15,
+          "word": "you",
+          "start": 6.78,
+          "end": 7.23
+        },
+        {
+          "index": 16,
+          "word": "evaluate",
+          "start": 7.23,
+          "end": 7.68
+        },
+        {
+          "index": 17,
+          "word": "interior",
+          "start": 7.68,
+          "end": 8.13
+        },
+        {
+          "index": 18,
+          "word": "volume,",
+          "start": 8.13,
+          "end": 8.58
+        },
+        {
+          "index": 19,
+          "word": "designer",
+          "start": 8.58,
+          "end": 9.03
+        },
+        {
+          "index": 20,
+          "word": "lighting,",
+          "start": 9.03,
+          "end": 9.49
+        },
+        {
+          "index": 21,
+          "word": "and",
+          "start": 9.49,
+          "end": 9.94
+        },
+        {
+          "index": 22,
+          "word": "outdoor",
+          "start": 9.94,
+          "end": 10.39
+        },
+        {
+          "index": 23,
+          "word": "living",
+          "start": 10.39,
+          "end": 10.84
+        },
+        {
+          "index": 24,
+          "word": "areas",
+          "start": 10.84,
+          "end": 11.29
+        },
+        {
+          "index": 25,
+          "word": "alongside",
+          "start": 11.29,
+          "end": 11.74
+        },
+        {
+          "index": 26,
+          "word": "debt",
+          "start": 11.74,
+          "end": 12.2
+        },
+        {
+          "index": 27,
+          "word": "service",
+          "start": 12.2,
+          "end": 12.65
+        },
+        {
+          "index": 28,
+          "word": "coverage",
+          "start": 12.65,
+          "end": 13.1
+        },
+        {
+          "index": 29,
+          "word": "ratios.",
+          "start": 13.1,
+          "end": 13.55
+        }
+      ]
+    },
+    {
+      "id": "chapter_4_dscr_engine",
+      "title": "Sensible Financial Discipline",
+      "text": "Behind the refined design lies uncompromising financial math. Model seasonality across twelve peak and shoulder months, account for linen turnover and local tax resolutions, and benchmark your true debt yield.",
+      "visualCue": "Underwriter Studio seasonal revenue curve, expense breakdown, and DSCR gauge.",
+      "audioFile": "chapter_chapter_4_dscr_engine_editorial.mp3",
+      "duration": 11.65,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Behind",
+          "start": 0.0,
+          "end": 0.39
+        },
+        {
+          "index": 1,
+          "word": "the",
+          "start": 0.39,
+          "end": 0.78
+        },
+        {
+          "index": 2,
+          "word": "refined",
+          "start": 0.78,
+          "end": 1.17
+        },
+        {
+          "index": 3,
+          "word": "design",
+          "start": 1.17,
+          "end": 1.55
+        },
+        {
+          "index": 4,
+          "word": "lies",
+          "start": 1.55,
+          "end": 1.94
+        },
+        {
+          "index": 5,
+          "word": "uncompromising",
+          "start": 1.94,
+          "end": 2.33
+        },
+        {
+          "index": 6,
+          "word": "financial",
+          "start": 2.33,
+          "end": 2.72
+        },
+        {
+          "index": 7,
+          "word": "math.",
+          "start": 2.72,
+          "end": 3.11
+        },
+        {
+          "index": 8,
+          "word": "Model",
+          "start": 3.11,
+          "end": 3.5
+        },
+        {
+          "index": 9,
+          "word": "seasonality",
+          "start": 3.5,
+          "end": 3.88
+        },
+        {
+          "index": 10,
+          "word": "across",
+          "start": 3.88,
+          "end": 4.27
+        },
+        {
+          "index": 11,
+          "word": "twelve",
+          "start": 4.27,
+          "end": 4.66
+        },
+        {
+          "index": 12,
+          "word": "peak",
+          "start": 4.66,
+          "end": 5.05
+        },
+        {
+          "index": 13,
+          "word": "and",
+          "start": 5.05,
+          "end": 5.44
+        },
+        {
+          "index": 14,
+          "word": "shoulder",
+          "start": 5.44,
+          "end": 5.83
+        },
+        {
+          "index": 15,
+          "word": "months,",
+          "start": 5.83,
+          "end": 6.21
+        },
+        {
+          "index": 16,
+          "word": "account",
+          "start": 6.21,
+          "end": 6.6
+        },
+        {
+          "index": 17,
+          "word": "for",
+          "start": 6.6,
+          "end": 6.99
+        },
+        {
+          "index": 18,
+          "word": "linen",
+          "start": 6.99,
+          "end": 7.38
+        },
+        {
+          "index": 19,
+          "word": "turnover",
+          "start": 7.38,
+          "end": 7.77
+        },
+        {
+          "index": 20,
+          "word": "and",
+          "start": 7.77,
+          "end": 8.16
+        },
+        {
+          "index": 21,
+          "word": "local",
+          "start": 8.16,
+          "end": 8.54
+        },
+        {
+          "index": 22,
+          "word": "tax",
+          "start": 8.54,
+          "end": 8.93
+        },
+        {
+          "index": 23,
+          "word": "resolutions,",
+          "start": 8.93,
+          "end": 9.32
+        },
+        {
+          "index": 24,
+          "word": "and",
+          "start": 9.32,
+          "end": 9.71
+        },
+        {
+          "index": 25,
+          "word": "benchmark",
+          "start": 9.71,
+          "end": 10.1
+        },
+        {
+          "index": 26,
+          "word": "your",
+          "start": 10.1,
+          "end": 10.49
+        },
+        {
+          "index": 27,
+          "word": "true",
+          "start": 10.49,
+          "end": 10.87
+        },
+        {
+          "index": 28,
+          "word": "debt",
+          "start": 10.87,
+          "end": 11.26
+        },
+        {
+          "index": 29,
+          "word": "yield.",
+          "start": 11.26,
+          "end": 11.65
+        }
+      ]
+    },
+    {
+      "id": "chapter_5_scribe_mesh",
+      "title": "Autonomous Curators at Work",
+      "text": "Our multi-agent scribe team acts as your boutique hospitality advisory board. They examine local short-term rental bylaws, identify regulatory risks, and refine investment theses in real time.",
+      "visualCue": "Agent Team interface showing Astra and Lex collaborating on zoning and regulatory analysis.",
+      "audioFile": "chapter_chapter_5_scribe_mesh_editorial.mp3",
+      "duration": 11.9,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Our",
+          "start": 0.0,
+          "end": 0.44
+        },
+        {
+          "index": 1,
+          "word": "multi-agent",
+          "start": 0.44,
+          "end": 0.88
+        },
+        {
+          "index": 2,
+          "word": "scribe",
+          "start": 0.88,
+          "end": 1.32
+        },
+        {
+          "index": 3,
+          "word": "team",
+          "start": 1.32,
+          "end": 1.76
+        },
+        {
+          "index": 4,
+          "word": "acts",
+          "start": 1.76,
+          "end": 2.2
+        },
+        {
+          "index": 5,
+          "word": "as",
+          "start": 2.2,
+          "end": 2.64
+        },
+        {
+          "index": 6,
+          "word": "your",
+          "start": 2.64,
+          "end": 3.09
+        },
+        {
+          "index": 7,
+          "word": "boutique",
+          "start": 3.09,
+          "end": 3.53
+        },
+        {
+          "index": 8,
+          "word": "hospitality",
+          "start": 3.53,
+          "end": 3.97
+        },
+        {
+          "index": 9,
+          "word": "advisory",
+          "start": 3.97,
+          "end": 4.41
+        },
+        {
+          "index": 10,
+          "word": "board.",
+          "start": 4.41,
+          "end": 4.85
+        },
+        {
+          "index": 11,
+          "word": "They",
+          "start": 4.85,
+          "end": 5.29
+        },
+        {
+          "index": 12,
+          "word": "examine",
+          "start": 5.29,
+          "end": 5.73
+        },
+        {
+          "index": 13,
+          "word": "local",
+          "start": 5.73,
+          "end": 6.17
+        },
+        {
+          "index": 14,
+          "word": "short-term",
+          "start": 6.17,
+          "end": 6.61
+        },
+        {
+          "index": 15,
+          "word": "rental",
+          "start": 6.61,
+          "end": 7.05
+        },
+        {
+          "index": 16,
+          "word": "bylaws,",
+          "start": 7.05,
+          "end": 7.49
+        },
+        {
+          "index": 17,
+          "word": "identify",
+          "start": 7.49,
+          "end": 7.93
+        },
+        {
+          "index": 18,
+          "word": "regulatory",
+          "start": 7.93,
+          "end": 8.37
+        },
+        {
+          "index": 19,
+          "word": "risks,",
+          "start": 8.37,
+          "end": 8.81
+        },
+        {
+          "index": 20,
+          "word": "and",
+          "start": 8.81,
+          "end": 9.26
+        },
+        {
+          "index": 21,
+          "word": "refine",
+          "start": 9.26,
+          "end": 9.7
+        },
+        {
+          "index": 22,
+          "word": "investment",
+          "start": 9.7,
+          "end": 10.14
+        },
+        {
+          "index": 23,
+          "word": "theses",
+          "start": 10.14,
+          "end": 10.58
+        },
+        {
+          "index": 24,
+          "word": "in",
+          "start": 10.58,
+          "end": 11.02
+        },
+        {
+          "index": 25,
+          "word": "real",
+          "start": 11.02,
+          "end": 11.46
+        },
+        {
+          "index": 26,
+          "word": "time.",
+          "start": 11.46,
+          "end": 11.9
+        }
+      ]
+    },
+    {
+      "id": "chapter_6_memo_outro",
+      "title": "The Editorial Credit Package",
+      "text": "Deliver an impeccably curated credit package that delights lenders and capital partners alike. Experience the art and science of short-term rental investing with PencilSTR.",
+      "visualCue": "Pristine lender credit memo with typography hierarchy and investment committee signature line.",
+      "audioFile": "chapter_chapter_6_memo_outro_editorial.mp3",
+      "duration": 9.95,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Deliver",
+          "start": 0.0,
+          "end": 0.41
+        },
+        {
+          "index": 1,
+          "word": "an",
+          "start": 0.41,
+          "end": 0.83
+        },
+        {
+          "index": 2,
+          "word": "impeccably",
+          "start": 0.83,
+          "end": 1.24
+        },
+        {
+          "index": 3,
+          "word": "curated",
+          "start": 1.24,
+          "end": 1.66
+        },
+        {
+          "index": 4,
+          "word": "credit",
+          "start": 1.66,
+          "end": 2.07
+        },
+        {
+          "index": 5,
+          "word": "package",
+          "start": 2.07,
+          "end": 2.49
+        },
+        {
+          "index": 6,
+          "word": "that",
+          "start": 2.49,
+          "end": 2.9
+        },
+        {
+          "index": 7,
+          "word": "delights",
+          "start": 2.9,
+          "end": 3.32
+        },
+        {
+          "index": 8,
+          "word": "lenders",
+          "start": 3.32,
+          "end": 3.73
+        },
+        {
+          "index": 9,
+          "word": "and",
+          "start": 3.73,
+          "end": 4.15
+        },
+        {
+          "index": 10,
+          "word": "capital",
+          "start": 4.15,
+          "end": 4.56
+        },
+        {
+          "index": 11,
+          "word": "partners",
+          "start": 4.56,
+          "end": 4.97
+        },
+        {
+          "index": 12,
+          "word": "alike.",
+          "start": 4.97,
+          "end": 5.39
+        },
+        {
+          "index": 13,
+          "word": "Experience",
+          "start": 5.39,
+          "end": 5.8
+        },
+        {
+          "index": 14,
+          "word": "the",
+          "start": 5.8,
+          "end": 6.22
+        },
+        {
+          "index": 15,
+          "word": "art",
+          "start": 6.22,
+          "end": 6.63
+        },
+        {
+          "index": 16,
+          "word": "and",
+          "start": 6.63,
+          "end": 7.05
+        },
+        {
+          "index": 17,
+          "word": "science",
+          "start": 7.05,
+          "end": 7.46
+        },
+        {
+          "index": 18,
+          "word": "of",
+          "start": 7.46,
+          "end": 7.88
+        },
+        {
+          "index": 19,
+          "word": "short-term",
+          "start": 7.88,
+          "end": 8.29
+        },
+        {
+          "index": 20,
+          "word": "rental",
+          "start": 8.29,
+          "end": 8.71
+        },
+        {
+          "index": 21,
+          "word": "investing",
+          "start": 8.71,
+          "end": 9.12
+        },
+        {
+          "index": 22,
+          "word": "with",
+          "start": 9.12,
+          "end": 9.54
+        },
+        {
+          "index": 23,
+          "word": "PencilSTR.",
+          "start": 9.54,
+          "end": 9.95
+        }
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "index": 0,
+      "word": "True",
+      "start": 0.0,
+      "end": 0.45
+    },
+    {
+      "index": 1,
+      "word": "short-term",
+      "start": 0.45,
+      "end": 0.89
+    },
+    {
+      "index": 2,
+      "word": "rental",
+      "start": 0.89,
+      "end": 1.34
+    },
+    {
+      "index": 3,
+      "word": "performance",
+      "start": 1.34,
+      "end": 1.79
+    },
+    {
+      "index": 4,
+      "word": "is",
+      "start": 1.79,
+      "end": 2.24
+    },
+    {
+      "index": 5,
+      "word": "driven",
+      "start": 2.24,
+      "end": 2.68
+    },
+    {
+      "index": 6,
+      "word": "by",
+      "start": 2.68,
+      "end": 3.13
+    },
+    {
+      "index": 7,
+      "word": "spatial",
+      "start": 3.13,
+      "end": 3.58
+    },
+    {
+      "index": 8,
+      "word": "beauty,",
+      "start": 3.58,
+      "end": 4.02
+    },
+    {
+      "index": 9,
+      "word": "bespoke",
+      "start": 4.02,
+      "end": 4.47
+    },
+    {
+      "index": 10,
+      "word": "finishes,",
+      "start": 4.47,
+      "end": 4.92
+    },
+    {
+      "index": 11,
+      "word": "and",
+      "start": 4.92,
+      "end": 5.36
+    },
+    {
+      "index": 12,
+      "word": "hospitality",
+      "start": 5.36,
+      "end": 5.81
+    },
+    {
+      "index": 13,
+      "word": "provenance.",
+      "start": 5.81,
+      "end": 6.26
+    },
+    {
+      "index": 14,
+      "word": "Yet",
+      "start": 6.26,
+      "end": 6.71
+    },
+    {
+      "index": 15,
+      "word": "traditional",
+      "start": 6.71,
+      "end": 7.15
+    },
+    {
+      "index": 16,
+      "word": "real",
+      "start": 7.15,
+      "end": 7.6
+    },
+    {
+      "index": 17,
+      "word": "estate",
+      "start": 7.6,
+      "end": 8.05
+    },
+    {
+      "index": 18,
+      "word": "underwriting",
+      "start": 8.05,
+      "end": 8.49
+    },
+    {
+      "index": 19,
+      "word": "treats",
+      "start": 8.49,
+      "end": 8.94
+    },
+    {
+      "index": 20,
+      "word": "million-dollar",
+      "start": 8.94,
+      "end": 9.39
+    },
+    {
+      "index": 21,
+      "word": "architectural",
+      "start": 9.39,
+      "end": 9.84
+    },
+    {
+      "index": 22,
+      "word": "cabins",
+      "start": 9.84,
+      "end": 10.28
+    },
+    {
+      "index": 23,
+      "word": "like",
+      "start": 10.28,
+      "end": 10.73
+    },
+    {
+      "index": 24,
+      "word": "generic",
+      "start": 10.73,
+      "end": 11.18
+    },
+    {
+      "index": 25,
+      "word": "single-family",
+      "start": 11.18,
+      "end": 11.62
+    },
+    {
+      "index": 26,
+      "word": "rentals.",
+      "start": 11.62,
+      "end": 12.07
+    },
+    {
+      "index": 27,
+      "word": "PencilSTR",
+      "start": 12.07,
+      "end": 12.52
+    },
+    {
+      "index": 28,
+      "word": "bridges",
+      "start": 12.52,
+      "end": 12.96
+    },
+    {
+      "index": 29,
+      "word": "architectural",
+      "start": 12.96,
+      "end": 13.41
+    },
+    {
+      "index": 30,
+      "word": "distinction",
+      "start": 13.41,
+      "end": 13.86
+    },
+    {
+      "index": 31,
+      "word": "with",
+      "start": 13.86,
+      "end": 14.31
+    },
+    {
+      "index": 32,
+      "word": "rigorous",
+      "start": 14.31,
+      "end": 14.75
+    },
+    {
+      "index": 33,
+      "word": "credit",
+      "start": 14.75,
+      "end": 15.2
+    },
+    {
+      "index": 34,
+      "word": "underwriting.",
+      "start": 15.2,
+      "end": 15.65
+    },
+    {
+      "index": 35,
+      "word": "Our",
+      "start": 15.65,
+      "end": 16.09
+    },
+    {
+      "index": 36,
+      "word": "autonomous",
+      "start": 16.09,
+      "end": 16.54
+    },
+    {
+      "index": 37,
+      "word": "radar",
+      "start": 16.54,
+      "end": 16.99
+    },
+    {
+      "index": 38,
+      "word": "uncovers",
+      "start": 16.99,
+      "end": 17.43
+    },
+    {
+      "index": 39,
+      "word": "unheralded",
+      "start": 17.43,
+      "end": 17.88
+    },
+    {
+      "index": 40,
+      "word": "gems",
+      "start": 17.88,
+      "end": 18.33
+    },
+    {
+      "index": 41,
+      "word": "across",
+      "start": 18.33,
+      "end": 18.78
+    },
+    {
+      "index": 42,
+      "word": "top",
+      "start": 18.78,
+      "end": 19.22
+    },
+    {
+      "index": 43,
+      "word": "destination",
+      "start": 19.22,
+      "end": 19.67
+    },
+    {
+      "index": 44,
+      "word": "markets,",
+      "start": 19.67,
+      "end": 20.12
+    },
+    {
+      "index": 45,
+      "word": "pairing",
+      "start": 20.12,
+      "end": 20.56
+    },
+    {
+      "index": 46,
+      "word": "imagery",
+      "start": 20.56,
+      "end": 21.01
+    },
+    {
+      "index": 47,
+      "word": "with",
+      "start": 21.01,
+      "end": 21.46
+    },
+    {
+      "index": 48,
+      "word": "verified",
+      "start": 21.46,
+      "end": 21.91
+    },
+    {
+      "index": 49,
+      "word": "revenue",
+      "start": 21.91,
+      "end": 22.35
+    },
+    {
+      "index": 50,
+      "word": "comps.",
+      "start": 22.35,
+      "end": 22.8
+    },
+    {
+      "index": 51,
+      "word": "Explore",
+      "start": 22.8,
+      "end": 23.25
+    },
+    {
+      "index": 52,
+      "word": "comps",
+      "start": 23.25,
+      "end": 23.69
+    },
+    {
+      "index": 53,
+      "word": "through",
+      "start": 23.69,
+      "end": 24.14
+    },
+    {
+      "index": 54,
+      "word": "an",
+      "start": 24.14,
+      "end": 24.59
+    },
+    {
+      "index": 55,
+      "word": "editorial",
+      "start": 24.59,
+      "end": 25.03
+    },
+    {
+      "index": 56,
+      "word": "lens",
+      "start": 25.03,
+      "end": 25.48
+    },
+    {
+      "index": 57,
+      "word": "inspired",
+      "start": 25.48,
+      "end": 25.93
+    },
+    {
+      "index": 58,
+      "word": "by",
+      "start": 25.93,
+      "end": 26.38
+    },
+    {
+      "index": 59,
+      "word": "Pinterest",
+      "start": 26.38,
+      "end": 26.82
+    },
+    {
+      "index": 60,
+      "word": "and",
+      "start": 26.82,
+      "end": 27.27
+    },
+    {
+      "index": 61,
+      "word": "Muse.",
+      "start": 27.27,
+      "end": 27.72
+    },
+    {
+      "index": 62,
+      "word": "High-resolution",
+      "start": 27.72,
+      "end": 28.16
+    },
+    {
+      "index": 63,
+      "word": "photo",
+      "start": 28.16,
+      "end": 28.61
+    },
+    {
+      "index": 64,
+      "word": "galleries",
+      "start": 28.61,
+      "end": 29.06
+    },
+    {
+      "index": 65,
+      "word": "let",
+      "start": 29.06,
+      "end": 29.51
+    },
+    {
+      "index": 66,
+      "word": "you",
+      "start": 29.51,
+      "end": 29.95
+    },
+    {
+      "index": 67,
+      "word": "evaluate",
+      "start": 29.95,
+      "end": 30.4
+    },
+    {
+      "index": 68,
+      "word": "interior",
+      "start": 30.4,
+      "end": 30.85
+    },
+    {
+      "index": 69,
+      "word": "volume,",
+      "start": 30.85,
+      "end": 31.29
+    },
+    {
+      "index": 70,
+      "word": "designer",
+      "start": 31.29,
+      "end": 31.74
+    },
+    {
+      "index": 71,
+      "word": "lighting,",
+      "start": 31.74,
+      "end": 32.19
+    },
+    {
+      "index": 72,
+      "word": "and",
+      "start": 32.19,
+      "end": 32.63
+    },
+    {
+      "index": 73,
+      "word": "outdoor",
+      "start": 32.63,
+      "end": 33.08
+    },
+    {
+      "index": 74,
+      "word": "living",
+      "start": 33.08,
+      "end": 33.53
+    },
+    {
+      "index": 75,
+      "word": "areas",
+      "start": 33.53,
+      "end": 33.98
+    },
+    {
+      "index": 76,
+      "word": "alongside",
+      "start": 33.98,
+      "end": 34.42
+    },
+    {
+      "index": 77,
+      "word": "debt",
+      "start": 34.42,
+      "end": 34.87
+    },
+    {
+      "index": 78,
+      "word": "service",
+      "start": 34.87,
+      "end": 35.32
+    },
+    {
+      "index": 79,
+      "word": "coverage",
+      "start": 35.32,
+      "end": 35.76
+    },
+    {
+      "index": 80,
+      "word": "ratios.",
+      "start": 35.76,
+      "end": 36.21
+    },
+    {
+      "index": 81,
+      "word": "Behind",
+      "start": 36.21,
+      "end": 36.66
+    },
+    {
+      "index": 82,
+      "word": "the",
+      "start": 36.66,
+      "end": 37.11
+    },
+    {
+      "index": 83,
+      "word": "refined",
+      "start": 37.11,
+      "end": 37.55
+    },
+    {
+      "index": 84,
+      "word": "design",
+      "start": 37.55,
+      "end": 38.0
+    },
+    {
+      "index": 85,
+      "word": "lies",
+      "start": 38.0,
+      "end": 38.45
+    },
+    {
+      "index": 86,
+      "word": "uncompromising",
+      "start": 38.45,
+      "end": 38.89
+    },
+    {
+      "index": 87,
+      "word": "financial",
+      "start": 38.89,
+      "end": 39.34
+    },
+    {
+      "index": 88,
+      "word": "math.",
+      "start": 39.34,
+      "end": 39.79
+    },
+    {
+      "index": 89,
+      "word": "Model",
+      "start": 39.79,
+      "end": 40.23
+    },
+    {
+      "index": 90,
+      "word": "seasonality",
+      "start": 40.23,
+      "end": 40.68
+    },
+    {
+      "index": 91,
+      "word": "across",
+      "start": 40.68,
+      "end": 41.13
+    },
+    {
+      "index": 92,
+      "word": "twelve",
+      "start": 41.13,
+      "end": 41.58
+    },
+    {
+      "index": 93,
+      "word": "peak",
+      "start": 41.58,
+      "end": 42.02
+    },
+    {
+      "index": 94,
+      "word": "and",
+      "start": 42.02,
+      "end": 42.47
+    },
+    {
+      "index": 95,
+      "word": "shoulder",
+      "start": 42.47,
+      "end": 42.92
+    },
+    {
+      "index": 96,
+      "word": "months,",
+      "start": 42.92,
+      "end": 43.36
+    },
+    {
+      "index": 97,
+      "word": "account",
+      "start": 43.36,
+      "end": 43.81
+    },
+    {
+      "index": 98,
+      "word": "for",
+      "start": 43.81,
+      "end": 44.26
+    },
+    {
+      "index": 99,
+      "word": "linen",
+      "start": 44.26,
+      "end": 44.7
+    },
+    {
+      "index": 100,
+      "word": "turnover",
+      "start": 44.7,
+      "end": 45.15
+    },
+    {
+      "index": 101,
+      "word": "and",
+      "start": 45.15,
+      "end": 45.6
+    },
+    {
+      "index": 102,
+      "word": "local",
+      "start": 45.6,
+      "end": 46.05
+    },
+    {
+      "index": 103,
+      "word": "tax",
+      "start": 46.05,
+      "end": 46.49
+    },
+    {
+      "index": 104,
+      "word": "resolutions,",
+      "start": 46.49,
+      "end": 46.94
+    },
+    {
+      "index": 105,
+      "word": "and",
+      "start": 46.94,
+      "end": 47.39
+    },
+    {
+      "index": 106,
+      "word": "benchmark",
+      "start": 47.39,
+      "end": 47.83
+    },
+    {
+      "index": 107,
+      "word": "your",
+      "start": 47.83,
+      "end": 48.28
+    },
+    {
+      "index": 108,
+      "word": "true",
+      "start": 48.28,
+      "end": 48.73
+    },
+    {
+      "index": 109,
+      "word": "debt",
+      "start": 48.73,
+      "end": 49.18
+    },
+    {
+      "index": 110,
+      "word": "yield.",
+      "start": 49.18,
+      "end": 49.62
+    },
+    {
+      "index": 111,
+      "word": "Our",
+      "start": 49.62,
+      "end": 50.07
+    },
+    {
+      "index": 112,
+      "word": "multi-agent",
+      "start": 50.07,
+      "end": 50.52
+    },
+    {
+      "index": 113,
+      "word": "scribe",
+      "start": 50.52,
+      "end": 50.96
+    },
+    {
+      "index": 114,
+      "word": "team",
+      "start": 50.96,
+      "end": 51.41
+    },
+    {
+      "index": 115,
+      "word": "acts",
+      "start": 51.41,
+      "end": 51.86
+    },
+    {
+      "index": 116,
+      "word": "as",
+      "start": 51.86,
+      "end": 52.3
+    },
+    {
+      "index": 117,
+      "word": "your",
+      "start": 52.3,
+      "end": 52.75
+    },
+    {
+      "index": 118,
+      "word": "boutique",
+      "start": 52.75,
+      "end": 53.2
+    },
+    {
+      "index": 119,
+      "word": "hospitality",
+      "start": 53.2,
+      "end": 53.65
+    },
+    {
+      "index": 120,
+      "word": "advisory",
+      "start": 53.65,
+      "end": 54.09
+    },
+    {
+      "index": 121,
+      "word": "board.",
+      "start": 54.09,
+      "end": 54.54
+    },
+    {
+      "index": 122,
+      "word": "They",
+      "start": 54.54,
+      "end": 54.99
+    },
+    {
+      "index": 123,
+      "word": "examine",
+      "start": 54.99,
+      "end": 55.43
+    },
+    {
+      "index": 124,
+      "word": "local",
+      "start": 55.43,
+      "end": 55.88
+    },
+    {
+      "index": 125,
+      "word": "short-term",
+      "start": 55.88,
+      "end": 56.33
+    },
+    {
+      "index": 126,
+      "word": "rental",
+      "start": 56.33,
+      "end": 56.78
+    },
+    {
+      "index": 127,
+      "word": "bylaws,",
+      "start": 56.78,
+      "end": 57.22
+    },
+    {
+      "index": 128,
+      "word": "identify",
+      "start": 57.22,
+      "end": 57.67
+    },
+    {
+      "index": 129,
+      "word": "regulatory",
+      "start": 57.67,
+      "end": 58.12
+    },
+    {
+      "index": 130,
+      "word": "risks,",
+      "start": 58.12,
+      "end": 58.56
+    },
+    {
+      "index": 131,
+      "word": "and",
+      "start": 58.56,
+      "end": 59.01
+    },
+    {
+      "index": 132,
+      "word": "refine",
+      "start": 59.01,
+      "end": 59.46
+    },
+    {
+      "index": 133,
+      "word": "investment",
+      "start": 59.46,
+      "end": 59.9
+    },
+    {
+      "index": 134,
+      "word": "theses",
+      "start": 59.9,
+      "end": 60.35
+    },
+    {
+      "index": 135,
+      "word": "in",
+      "start": 60.35,
+      "end": 60.8
+    },
+    {
+      "index": 136,
+      "word": "real",
+      "start": 60.8,
+      "end": 61.25
+    },
+    {
+      "index": 137,
+      "word": "time.",
+      "start": 61.25,
+      "end": 61.69
+    },
+    {
+      "index": 138,
+      "word": "Deliver",
+      "start": 61.69,
+      "end": 62.14
+    },
+    {
+      "index": 139,
+      "word": "an",
+      "start": 62.14,
+      "end": 62.59
+    },
+    {
+      "index": 140,
+      "word": "impeccably",
+      "start": 62.59,
+      "end": 63.03
+    },
+    {
+      "index": 141,
+      "word": "curated",
+      "start": 63.03,
+      "end": 63.48
+    },
+    {
+      "index": 142,
+      "word": "credit",
+      "start": 63.48,
+      "end": 63.93
+    },
+    {
+      "index": 143,
+      "word": "package",
+      "start": 63.93,
+      "end": 64.38
+    },
+    {
+      "index": 144,
+      "word": "that",
+      "start": 64.38,
+      "end": 64.82
+    },
+    {
+      "index": 145,
+      "word": "delights",
+      "start": 64.82,
+      "end": 65.27
+    },
+    {
+      "index": 146,
+      "word": "lenders",
+      "start": 65.27,
+      "end": 65.72
+    },
+    {
+      "index": 147,
+      "word": "and",
+      "start": 65.72,
+      "end": 66.16
+    },
+    {
+      "index": 148,
+      "word": "capital",
+      "start": 66.16,
+      "end": 66.61
+    },
+    {
+      "index": 149,
+      "word": "partners",
+      "start": 66.61,
+      "end": 67.06
+    },
+    {
+      "index": 150,
+      "word": "alike.",
+      "start": 67.06,
+      "end": 67.5
+    },
+    {
+      "index": 151,
+      "word": "Experience",
+      "start": 67.5,
+      "end": 67.95
+    },
+    {
+      "index": 152,
+      "word": "the",
+      "start": 67.95,
+      "end": 68.4
+    },
+    {
+      "index": 153,
+      "word": "art",
+      "start": 68.4,
+      "end": 68.85
+    },
+    {
+      "index": 154,
+      "word": "and",
+      "start": 68.85,
+      "end": 69.29
+    },
+    {
+      "index": 155,
+      "word": "science",
+      "start": 69.29,
+      "end": 69.74
+    },
+    {
+      "index": 156,
+      "word": "of",
+      "start": 69.74,
+      "end": 70.19
+    },
+    {
+      "index": 157,
+      "word": "short-term",
+      "start": 70.19,
+      "end": 70.63
+    },
+    {
+      "index": 158,
+      "word": "rental",
+      "start": 70.63,
+      "end": 71.08
+    },
+    {
+      "index": 159,
+      "word": "investing",
+      "start": 71.08,
+      "end": 71.53
+    },
+    {
+      "index": 160,
+      "word": "with",
+      "start": 71.53,
+      "end": 71.97
+    },
+    {
+      "index": 161,
+      "word": "PencilSTR.",
+      "start": 71.97,
+      "end": 72.42
+    }
+  ]
+}

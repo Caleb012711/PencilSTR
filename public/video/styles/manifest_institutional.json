@@ -1,0 +1,2458 @@
+{
+  "title": "PencilSTR \u2014 The Sovereign Creditor (Institutional PE & Debt Fund)",
+  "style": "institutional",
+  "profile": {
+    "name": "The Sovereign Creditor",
+    "description": "British RP / Wall Street Private Equity & Sovereign Debt Fund (authoritative, measured)",
+    "openrouter_voice": "onyx",
+    "macos_voice": "Daniel",
+    "speaking_rate": 168,
+    "pitch_adjustment": 1.0,
+    "ffmpeg_filters": "aformat=channel_layouts=stereo,equalizer=f=120:width_type=o:width=1:g=2.5,equalizer=f=3200:width_type=o:width=1:g=1.8,loudnorm=I=-16:LRA=10:TP=-1.5",
+    "bgm_tag": "orchestral_strings"
+  },
+  "totalDuration": 88.788,
+  "fullAudioFile": "full_voiceover_institutional.mp3",
+  "vttFile": "subtitles_institutional.vtt",
+  "srtFile": "subtitles_institutional.srt",
+  "chapters": [
+    {
+      "id": "chapter_1_hook",
+      "title": "The Fallacy of Retail Pro Formas",
+      "text": "Every private equity sponsor has reviewed a retail pro-forma and realized the numbers were sheer fiction. Unverified occupancy projections, zero allowance for seasonality, and debt covenants modeled on optimism rather than sovereign underwriting.",
+      "visualCue": "Clean Alabaster terminal layout with hairline borders and institutional typography.",
+      "audioFile": "chapter_chapter_1_hook_institutional.mp3",
+      "duration": 13.8,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Every",
+          "start": 0.0,
+          "end": 0.42
+        },
+        {
+          "index": 1,
+          "word": "private",
+          "start": 0.42,
+          "end": 0.84
+        },
+        {
+          "index": 2,
+          "word": "equity",
+          "start": 0.84,
+          "end": 1.25
+        },
+        {
+          "index": 3,
+          "word": "sponsor",
+          "start": 1.25,
+          "end": 1.67
+        },
+        {
+          "index": 4,
+          "word": "has",
+          "start": 1.67,
+          "end": 2.09
+        },
+        {
+          "index": 5,
+          "word": "reviewed",
+          "start": 2.09,
+          "end": 2.51
+        },
+        {
+          "index": 6,
+          "word": "a",
+          "start": 2.51,
+          "end": 2.93
+        },
+        {
+          "index": 7,
+          "word": "retail",
+          "start": 2.93,
+          "end": 3.35
+        },
+        {
+          "index": 8,
+          "word": "pro-forma",
+          "start": 3.35,
+          "end": 3.76
+        },
+        {
+          "index": 9,
+          "word": "and",
+          "start": 3.76,
+          "end": 4.18
+        },
+        {
+          "index": 10,
+          "word": "realized",
+          "start": 4.18,
+          "end": 4.6
+        },
+        {
+          "index": 11,
+          "word": "the",
+          "start": 4.6,
+          "end": 5.02
+        },
+        {
+          "index": 12,
+          "word": "numbers",
+          "start": 5.02,
+          "end": 5.44
+        },
+        {
+          "index": 13,
+          "word": "were",
+          "start": 5.44,
+          "end": 5.85
+        },
+        {
+          "index": 14,
+          "word": "sheer",
+          "start": 5.85,
+          "end": 6.27
+        },
+        {
+          "index": 15,
+          "word": "fiction.",
+          "start": 6.27,
+          "end": 6.69
+        },
+        {
+          "index": 16,
+          "word": "Unverified",
+          "start": 6.69,
+          "end": 7.11
+        },
+        {
+          "index": 17,
+          "word": "occupancy",
+          "start": 7.11,
+          "end": 7.53
+        },
+        {
+          "index": 18,
+          "word": "projections,",
+          "start": 7.53,
+          "end": 7.95
+        },
+        {
+          "index": 19,
+          "word": "zero",
+          "start": 7.95,
+          "end": 8.36
+        },
+        {
+          "index": 20,
+          "word": "allowance",
+          "start": 8.36,
+          "end": 8.78
+        },
+        {
+          "index": 21,
+          "word": "for",
+          "start": 8.78,
+          "end": 9.2
+        },
+        {
+          "index": 22,
+          "word": "seasonality,",
+          "start": 9.2,
+          "end": 9.62
+        },
+        {
+          "index": 23,
+          "word": "and",
+          "start": 9.62,
+          "end": 10.04
+        },
+        {
+          "index": 24,
+          "word": "debt",
+          "start": 10.04,
+          "end": 10.45
+        },
+        {
+          "index": 25,
+          "word": "covenants",
+          "start": 10.45,
+          "end": 10.87
+        },
+        {
+          "index": 26,
+          "word": "modeled",
+          "start": 10.87,
+          "end": 11.29
+        },
+        {
+          "index": 27,
+          "word": "on",
+          "start": 11.29,
+          "end": 11.71
+        },
+        {
+          "index": 28,
+          "word": "optimism",
+          "start": 11.71,
+          "end": 12.13
+        },
+        {
+          "index": 29,
+          "word": "rather",
+          "start": 12.13,
+          "end": 12.55
+        },
+        {
+          "index": 30,
+          "word": "than",
+          "start": 12.55,
+          "end": 12.96
+        },
+        {
+          "index": 31,
+          "word": "sovereign",
+          "start": 12.96,
+          "end": 13.38
+        },
+        {
+          "index": 32,
+          "word": "underwriting.",
+          "start": 13.38,
+          "end": 13.8
+        }
+      ]
+    },
+    {
+      "id": "chapter_2_radar",
+      "title": "Autonomous Market Sweeps",
+      "text": "This is PencilSTR. The institutional short-term rental underwriting terminal. Our autonomous market sweeps crawl unseasoned mountain cabins and luxury desert villas, applying an immediate institutional discount haircut before evaluating loan terms.",
+      "visualCue": "Autonomous Radar sweeps across Sevier County and Scottsdale leads with live comp markers.",
+      "audioFile": "chapter_chapter_2_radar_institutional.mp3",
+      "duration": 14.4,
+      "captions": [
+        {
+          "index": 0,
+          "word": "This",
+          "start": 0.0,
+          "end": 0.46
+        },
+        {
+          "index": 1,
+          "word": "is",
+          "start": 0.46,
+          "end": 0.93
+        },
+        {
+          "index": 2,
+          "word": "PencilSTR.",
+          "start": 0.93,
+          "end": 1.39
+        },
+        {
+          "index": 3,
+          "word": "The",
+          "start": 1.39,
+          "end": 1.86
+        },
+        {
+          "index": 4,
+          "word": "institutional",
+          "start": 1.86,
+          "end": 2.32
+        },
+        {
+          "index": 5,
+          "word": "short-term",
+          "start": 2.32,
+          "end": 2.79
+        },
+        {
+          "index": 6,
+          "word": "rental",
+          "start": 2.79,
+          "end": 3.25
+        },
+        {
+          "index": 7,
+          "word": "underwriting",
+          "start": 3.25,
+          "end": 3.72
+        },
+        {
+          "index": 8,
+          "word": "terminal.",
+          "start": 3.72,
+          "end": 4.18
+        },
+        {
+          "index": 9,
+          "word": "Our",
+          "start": 4.18,
+          "end": 4.65
+        },
+        {
+          "index": 10,
+          "word": "autonomous",
+          "start": 4.65,
+          "end": 5.11
+        },
+        {
+          "index": 11,
+          "word": "market",
+          "start": 5.11,
+          "end": 5.57
+        },
+        {
+          "index": 12,
+          "word": "sweeps",
+          "start": 5.57,
+          "end": 6.04
+        },
+        {
+          "index": 13,
+          "word": "crawl",
+          "start": 6.04,
+          "end": 6.5
+        },
+        {
+          "index": 14,
+          "word": "unseasoned",
+          "start": 6.5,
+          "end": 6.97
+        },
+        {
+          "index": 15,
+          "word": "mountain",
+          "start": 6.97,
+          "end": 7.43
+        },
+        {
+          "index": 16,
+          "word": "cabins",
+          "start": 7.43,
+          "end": 7.9
+        },
+        {
+          "index": 17,
+          "word": "and",
+          "start": 7.9,
+          "end": 8.36
+        },
+        {
+          "index": 18,
+          "word": "luxury",
+          "start": 8.36,
+          "end": 8.83
+        },
+        {
+          "index": 19,
+          "word": "desert",
+          "start": 8.83,
+          "end": 9.29
+        },
+        {
+          "index": 20,
+          "word": "villas,",
+          "start": 9.29,
+          "end": 9.75
+        },
+        {
+          "index": 21,
+          "word": "applying",
+          "start": 9.75,
+          "end": 10.22
+        },
+        {
+          "index": 22,
+          "word": "an",
+          "start": 10.22,
+          "end": 10.68
+        },
+        {
+          "index": 23,
+          "word": "immediate",
+          "start": 10.68,
+          "end": 11.15
+        },
+        {
+          "index": 24,
+          "word": "institutional",
+          "start": 11.15,
+          "end": 11.61
+        },
+        {
+          "index": 25,
+          "word": "discount",
+          "start": 11.61,
+          "end": 12.08
+        },
+        {
+          "index": 26,
+          "word": "haircut",
+          "start": 12.08,
+          "end": 12.54
+        },
+        {
+          "index": 27,
+          "word": "before",
+          "start": 12.54,
+          "end": 13.01
+        },
+        {
+          "index": 28,
+          "word": "evaluating",
+          "start": 13.01,
+          "end": 13.47
+        },
+        {
+          "index": 29,
+          "word": "loan",
+          "start": 13.47,
+          "end": 13.94
+        },
+        {
+          "index": 30,
+          "word": "terms.",
+          "start": 13.94,
+          "end": 14.4
+        }
+      ]
+    },
+    {
+      "id": "chapter_3_comps_ccr",
+      "title": "Spatial Comps & Verbatim Deed Covenants",
+      "text": "Inspect assets through Muse-inspired spatial comp cards with multi-angle photography scrubbing and corner debt indicators. Beneath the imagery lies our legal engine, parsing deed restrictions and county bed-tax resolutions with verbatim legal citations.",
+      "visualCue": "Full-bleed MuseCompCard scrubbing with floating glass DSCR 1.38x pill and CC&R deed citations.",
+      "audioFile": "chapter_chapter_3_comps_ccr_institutional.mp3",
+      "duration": 14.9,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Inspect",
+          "start": 0.0,
+          "end": 0.45
+        },
+        {
+          "index": 1,
+          "word": "assets",
+          "start": 0.45,
+          "end": 0.9
+        },
+        {
+          "index": 2,
+          "word": "through",
+          "start": 0.9,
+          "end": 1.35
+        },
+        {
+          "index": 3,
+          "word": "Muse-inspired",
+          "start": 1.35,
+          "end": 1.81
+        },
+        {
+          "index": 4,
+          "word": "spatial",
+          "start": 1.81,
+          "end": 2.26
+        },
+        {
+          "index": 5,
+          "word": "comp",
+          "start": 2.26,
+          "end": 2.71
+        },
+        {
+          "index": 6,
+          "word": "cards",
+          "start": 2.71,
+          "end": 3.16
+        },
+        {
+          "index": 7,
+          "word": "with",
+          "start": 3.16,
+          "end": 3.61
+        },
+        {
+          "index": 8,
+          "word": "multi-angle",
+          "start": 3.61,
+          "end": 4.06
+        },
+        {
+          "index": 9,
+          "word": "photography",
+          "start": 4.06,
+          "end": 4.52
+        },
+        {
+          "index": 10,
+          "word": "scrubbing",
+          "start": 4.52,
+          "end": 4.97
+        },
+        {
+          "index": 11,
+          "word": "and",
+          "start": 4.97,
+          "end": 5.42
+        },
+        {
+          "index": 12,
+          "word": "corner",
+          "start": 5.42,
+          "end": 5.87
+        },
+        {
+          "index": 13,
+          "word": "debt",
+          "start": 5.87,
+          "end": 6.32
+        },
+        {
+          "index": 14,
+          "word": "indicators.",
+          "start": 6.32,
+          "end": 6.77
+        },
+        {
+          "index": 15,
+          "word": "Beneath",
+          "start": 6.77,
+          "end": 7.22
+        },
+        {
+          "index": 16,
+          "word": "the",
+          "start": 7.22,
+          "end": 7.68
+        },
+        {
+          "index": 17,
+          "word": "imagery",
+          "start": 7.68,
+          "end": 8.13
+        },
+        {
+          "index": 18,
+          "word": "lies",
+          "start": 8.13,
+          "end": 8.58
+        },
+        {
+          "index": 19,
+          "word": "our",
+          "start": 8.58,
+          "end": 9.03
+        },
+        {
+          "index": 20,
+          "word": "legal",
+          "start": 9.03,
+          "end": 9.48
+        },
+        {
+          "index": 21,
+          "word": "engine,",
+          "start": 9.48,
+          "end": 9.93
+        },
+        {
+          "index": 22,
+          "word": "parsing",
+          "start": 9.93,
+          "end": 10.38
+        },
+        {
+          "index": 23,
+          "word": "deed",
+          "start": 10.38,
+          "end": 10.84
+        },
+        {
+          "index": 24,
+          "word": "restrictions",
+          "start": 10.84,
+          "end": 11.29
+        },
+        {
+          "index": 25,
+          "word": "and",
+          "start": 11.29,
+          "end": 11.74
+        },
+        {
+          "index": 26,
+          "word": "county",
+          "start": 11.74,
+          "end": 12.19
+        },
+        {
+          "index": 27,
+          "word": "bed-tax",
+          "start": 12.19,
+          "end": 12.64
+        },
+        {
+          "index": 28,
+          "word": "resolutions",
+          "start": 12.64,
+          "end": 13.09
+        },
+        {
+          "index": 29,
+          "word": "with",
+          "start": 13.09,
+          "end": 13.55
+        },
+        {
+          "index": 30,
+          "word": "verbatim",
+          "start": 13.55,
+          "end": 14.0
+        },
+        {
+          "index": 31,
+          "word": "legal",
+          "start": 14.0,
+          "end": 14.45
+        },
+        {
+          "index": 32,
+          "word": "citations.",
+          "start": 14.45,
+          "end": 14.9
+        }
+      ]
+    },
+    {
+      "id": "chapter_4_dscr_engine",
+      "title": "Deterministic Dual DSCR Modeling",
+      "text": "Calculate debt service coverage in sub-millisecond client time. Toggle between residential Non-QM guidelines and commercial fund net operating income. Stress-test two hundred basis point interest shocks and solve for the exact equity required to preserve a one-point-two-five DSCR.",
+      "visualCue": "Interactive DSCR waterfall, 2D sensitivity matrix heatmap, and rate shock debt yield table.",
+      "audioFile": "chapter_chapter_4_dscr_engine_institutional.mp3",
+      "duration": 15.45,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Calculate",
+          "start": 0.0,
+          "end": 0.41
+        },
+        {
+          "index": 1,
+          "word": "debt",
+          "start": 0.41,
+          "end": 0.81
+        },
+        {
+          "index": 2,
+          "word": "service",
+          "start": 0.81,
+          "end": 1.22
+        },
+        {
+          "index": 3,
+          "word": "coverage",
+          "start": 1.22,
+          "end": 1.63
+        },
+        {
+          "index": 4,
+          "word": "in",
+          "start": 1.63,
+          "end": 2.03
+        },
+        {
+          "index": 5,
+          "word": "sub-millisecond",
+          "start": 2.03,
+          "end": 2.44
+        },
+        {
+          "index": 6,
+          "word": "client",
+          "start": 2.44,
+          "end": 2.85
+        },
+        {
+          "index": 7,
+          "word": "time.",
+          "start": 2.85,
+          "end": 3.25
+        },
+        {
+          "index": 8,
+          "word": "Toggle",
+          "start": 3.25,
+          "end": 3.66
+        },
+        {
+          "index": 9,
+          "word": "between",
+          "start": 3.66,
+          "end": 4.07
+        },
+        {
+          "index": 10,
+          "word": "residential",
+          "start": 4.07,
+          "end": 4.47
+        },
+        {
+          "index": 11,
+          "word": "Non-QM",
+          "start": 4.47,
+          "end": 4.88
+        },
+        {
+          "index": 12,
+          "word": "guidelines",
+          "start": 4.88,
+          "end": 5.29
+        },
+        {
+          "index": 13,
+          "word": "and",
+          "start": 5.29,
+          "end": 5.69
+        },
+        {
+          "index": 14,
+          "word": "commercial",
+          "start": 5.69,
+          "end": 6.1
+        },
+        {
+          "index": 15,
+          "word": "fund",
+          "start": 6.1,
+          "end": 6.51
+        },
+        {
+          "index": 16,
+          "word": "net",
+          "start": 6.51,
+          "end": 6.91
+        },
+        {
+          "index": 17,
+          "word": "operating",
+          "start": 6.91,
+          "end": 7.32
+        },
+        {
+          "index": 18,
+          "word": "income.",
+          "start": 7.32,
+          "end": 7.72
+        },
+        {
+          "index": 19,
+          "word": "Stress-test",
+          "start": 7.72,
+          "end": 8.13
+        },
+        {
+          "index": 20,
+          "word": "two",
+          "start": 8.13,
+          "end": 8.54
+        },
+        {
+          "index": 21,
+          "word": "hundred",
+          "start": 8.54,
+          "end": 8.94
+        },
+        {
+          "index": 22,
+          "word": "basis",
+          "start": 8.94,
+          "end": 9.35
+        },
+        {
+          "index": 23,
+          "word": "point",
+          "start": 9.35,
+          "end": 9.76
+        },
+        {
+          "index": 24,
+          "word": "interest",
+          "start": 9.76,
+          "end": 10.16
+        },
+        {
+          "index": 25,
+          "word": "shocks",
+          "start": 10.16,
+          "end": 10.57
+        },
+        {
+          "index": 26,
+          "word": "and",
+          "start": 10.57,
+          "end": 10.98
+        },
+        {
+          "index": 27,
+          "word": "solve",
+          "start": 10.98,
+          "end": 11.38
+        },
+        {
+          "index": 28,
+          "word": "for",
+          "start": 11.38,
+          "end": 11.79
+        },
+        {
+          "index": 29,
+          "word": "the",
+          "start": 11.79,
+          "end": 12.2
+        },
+        {
+          "index": 30,
+          "word": "exact",
+          "start": 12.2,
+          "end": 12.6
+        },
+        {
+          "index": 31,
+          "word": "equity",
+          "start": 12.6,
+          "end": 13.01
+        },
+        {
+          "index": 32,
+          "word": "required",
+          "start": 13.01,
+          "end": 13.42
+        },
+        {
+          "index": 33,
+          "word": "to",
+          "start": 13.42,
+          "end": 13.82
+        },
+        {
+          "index": 34,
+          "word": "preserve",
+          "start": 13.82,
+          "end": 14.23
+        },
+        {
+          "index": 35,
+          "word": "a",
+          "start": 14.23,
+          "end": 14.64
+        },
+        {
+          "index": 36,
+          "word": "one-point-two-five",
+          "start": 14.64,
+          "end": 15.04
+        },
+        {
+          "index": 37,
+          "word": "DSCR.",
+          "start": 15.04,
+          "end": 15.45
+        }
+      ]
+    },
+    {
+      "id": "chapter_5_scribe_mesh",
+      "title": "The Scribe Multi-Agent War Room",
+      "text": "Behind every valuation is a collaborative mesh of specialized agent scribes. Astra synthesizes committee theses. Scout monitors trailing comps. Cipher models bonus depreciation. And Lex audits zoning compliance. Controlled instantly via the universal Command Palette.",
+      "visualCue": "Scribe Mesh war room showing Astra, Scout, Cipher, Lex with streaming audit logs.",
+      "audioFile": "chapter_chapter_5_scribe_mesh_institutional.mp3",
+      "duration": 17.8,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Behind",
+          "start": 0.0,
+          "end": 0.51
+        },
+        {
+          "index": 1,
+          "word": "every",
+          "start": 0.51,
+          "end": 1.02
+        },
+        {
+          "index": 2,
+          "word": "valuation",
+          "start": 1.02,
+          "end": 1.53
+        },
+        {
+          "index": 3,
+          "word": "is",
+          "start": 1.53,
+          "end": 2.03
+        },
+        {
+          "index": 4,
+          "word": "a",
+          "start": 2.03,
+          "end": 2.54
+        },
+        {
+          "index": 5,
+          "word": "collaborative",
+          "start": 2.54,
+          "end": 3.05
+        },
+        {
+          "index": 6,
+          "word": "mesh",
+          "start": 3.05,
+          "end": 3.56
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "start": 3.56,
+          "end": 4.07
+        },
+        {
+          "index": 8,
+          "word": "specialized",
+          "start": 4.07,
+          "end": 4.58
+        },
+        {
+          "index": 9,
+          "word": "agent",
+          "start": 4.58,
+          "end": 5.09
+        },
+        {
+          "index": 10,
+          "word": "scribes.",
+          "start": 5.09,
+          "end": 5.59
+        },
+        {
+          "index": 11,
+          "word": "Astra",
+          "start": 5.59,
+          "end": 6.1
+        },
+        {
+          "index": 12,
+          "word": "synthesizes",
+          "start": 6.1,
+          "end": 6.61
+        },
+        {
+          "index": 13,
+          "word": "committee",
+          "start": 6.61,
+          "end": 7.12
+        },
+        {
+          "index": 14,
+          "word": "theses.",
+          "start": 7.12,
+          "end": 7.63
+        },
+        {
+          "index": 15,
+          "word": "Scout",
+          "start": 7.63,
+          "end": 8.14
+        },
+        {
+          "index": 16,
+          "word": "monitors",
+          "start": 8.14,
+          "end": 8.65
+        },
+        {
+          "index": 17,
+          "word": "trailing",
+          "start": 8.65,
+          "end": 9.15
+        },
+        {
+          "index": 18,
+          "word": "comps.",
+          "start": 9.15,
+          "end": 9.66
+        },
+        {
+          "index": 19,
+          "word": "Cipher",
+          "start": 9.66,
+          "end": 10.17
+        },
+        {
+          "index": 20,
+          "word": "models",
+          "start": 10.17,
+          "end": 10.68
+        },
+        {
+          "index": 21,
+          "word": "bonus",
+          "start": 10.68,
+          "end": 11.19
+        },
+        {
+          "index": 22,
+          "word": "depreciation.",
+          "start": 11.19,
+          "end": 11.7
+        },
+        {
+          "index": 23,
+          "word": "And",
+          "start": 11.7,
+          "end": 12.21
+        },
+        {
+          "index": 24,
+          "word": "Lex",
+          "start": 12.21,
+          "end": 12.71
+        },
+        {
+          "index": 25,
+          "word": "audits",
+          "start": 12.71,
+          "end": 13.22
+        },
+        {
+          "index": 26,
+          "word": "zoning",
+          "start": 13.22,
+          "end": 13.73
+        },
+        {
+          "index": 27,
+          "word": "compliance.",
+          "start": 13.73,
+          "end": 14.24
+        },
+        {
+          "index": 28,
+          "word": "Controlled",
+          "start": 14.24,
+          "end": 14.75
+        },
+        {
+          "index": 29,
+          "word": "instantly",
+          "start": 14.75,
+          "end": 15.26
+        },
+        {
+          "index": 30,
+          "word": "via",
+          "start": 15.26,
+          "end": 15.77
+        },
+        {
+          "index": 31,
+          "word": "the",
+          "start": 15.77,
+          "end": 16.27
+        },
+        {
+          "index": 32,
+          "word": "universal",
+          "start": 16.27,
+          "end": 16.78
+        },
+        {
+          "index": 33,
+          "word": "Command",
+          "start": 16.78,
+          "end": 17.29
+        },
+        {
+          "index": 34,
+          "word": "Palette.",
+          "start": 17.29,
+          "end": 17.8
+        }
+      ]
+    },
+    {
+      "id": "chapter_6_memo_outro",
+      "title": "The Bankable Credit Memorandum",
+      "text": "With a single click, export a fully formatted, investment-committee-grade credit memorandum ready for debt syndicate signoff. Stop relying on spreadsheets built on hope. Underwrite the truth with PencilSTR.",
+      "visualCue": "One-click generation of the 1-page institutional lender credit memo with printable seal.",
+      "audioFile": "chapter_chapter_6_memo_outro_institutional.mp3",
+      "duration": 12.3,
+      "captions": [
+        {
+          "index": 0,
+          "word": "With",
+          "start": 0.0,
+          "end": 0.44
+        },
+        {
+          "index": 1,
+          "word": "a",
+          "start": 0.44,
+          "end": 0.88
+        },
+        {
+          "index": 2,
+          "word": "single",
+          "start": 0.88,
+          "end": 1.32
+        },
+        {
+          "index": 3,
+          "word": "click,",
+          "start": 1.32,
+          "end": 1.76
+        },
+        {
+          "index": 4,
+          "word": "export",
+          "start": 1.76,
+          "end": 2.2
+        },
+        {
+          "index": 5,
+          "word": "a",
+          "start": 2.2,
+          "end": 2.64
+        },
+        {
+          "index": 6,
+          "word": "fully",
+          "start": 2.64,
+          "end": 3.08
+        },
+        {
+          "index": 7,
+          "word": "formatted,",
+          "start": 3.08,
+          "end": 3.51
+        },
+        {
+          "index": 8,
+          "word": "investment-committee-grade",
+          "start": 3.51,
+          "end": 3.95
+        },
+        {
+          "index": 9,
+          "word": "credit",
+          "start": 3.95,
+          "end": 4.39
+        },
+        {
+          "index": 10,
+          "word": "memorandum",
+          "start": 4.39,
+          "end": 4.83
+        },
+        {
+          "index": 11,
+          "word": "ready",
+          "start": 4.83,
+          "end": 5.27
+        },
+        {
+          "index": 12,
+          "word": "for",
+          "start": 5.27,
+          "end": 5.71
+        },
+        {
+          "index": 13,
+          "word": "debt",
+          "start": 5.71,
+          "end": 6.15
+        },
+        {
+          "index": 14,
+          "word": "syndicate",
+          "start": 6.15,
+          "end": 6.59
+        },
+        {
+          "index": 15,
+          "word": "signoff.",
+          "start": 6.59,
+          "end": 7.03
+        },
+        {
+          "index": 16,
+          "word": "Stop",
+          "start": 7.03,
+          "end": 7.47
+        },
+        {
+          "index": 17,
+          "word": "relying",
+          "start": 7.47,
+          "end": 7.91
+        },
+        {
+          "index": 18,
+          "word": "on",
+          "start": 7.91,
+          "end": 8.35
+        },
+        {
+          "index": 19,
+          "word": "spreadsheets",
+          "start": 8.35,
+          "end": 8.79
+        },
+        {
+          "index": 20,
+          "word": "built",
+          "start": 8.79,
+          "end": 9.23
+        },
+        {
+          "index": 21,
+          "word": "on",
+          "start": 9.23,
+          "end": 9.66
+        },
+        {
+          "index": 22,
+          "word": "hope.",
+          "start": 9.66,
+          "end": 10.1
+        },
+        {
+          "index": 23,
+          "word": "Underwrite",
+          "start": 10.1,
+          "end": 10.54
+        },
+        {
+          "index": 24,
+          "word": "the",
+          "start": 10.54,
+          "end": 10.98
+        },
+        {
+          "index": 25,
+          "word": "truth",
+          "start": 10.98,
+          "end": 11.42
+        },
+        {
+          "index": 26,
+          "word": "with",
+          "start": 11.42,
+          "end": 11.86
+        },
+        {
+          "index": 27,
+          "word": "PencilSTR.",
+          "start": 11.86,
+          "end": 12.3
+        }
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "index": 0,
+      "word": "Every",
+      "start": 0.0,
+      "end": 0.45
+    },
+    {
+      "index": 1,
+      "word": "private",
+      "start": 0.45,
+      "end": 0.9
+    },
+    {
+      "index": 2,
+      "word": "equity",
+      "start": 0.9,
+      "end": 1.35
+    },
+    {
+      "index": 3,
+      "word": "sponsor",
+      "start": 1.35,
+      "end": 1.79
+    },
+    {
+      "index": 4,
+      "word": "has",
+      "start": 1.79,
+      "end": 2.24
+    },
+    {
+      "index": 5,
+      "word": "reviewed",
+      "start": 2.24,
+      "end": 2.69
+    },
+    {
+      "index": 6,
+      "word": "a",
+      "start": 2.69,
+      "end": 3.14
+    },
+    {
+      "index": 7,
+      "word": "retail",
+      "start": 3.14,
+      "end": 3.59
+    },
+    {
+      "index": 8,
+      "word": "pro-forma",
+      "start": 3.59,
+      "end": 4.04
+    },
+    {
+      "index": 9,
+      "word": "and",
+      "start": 4.04,
+      "end": 4.48
+    },
+    {
+      "index": 10,
+      "word": "realized",
+      "start": 4.48,
+      "end": 4.93
+    },
+    {
+      "index": 11,
+      "word": "the",
+      "start": 4.93,
+      "end": 5.38
+    },
+    {
+      "index": 12,
+      "word": "numbers",
+      "start": 5.38,
+      "end": 5.83
+    },
+    {
+      "index": 13,
+      "word": "were",
+      "start": 5.83,
+      "end": 6.28
+    },
+    {
+      "index": 14,
+      "word": "sheer",
+      "start": 6.28,
+      "end": 6.73
+    },
+    {
+      "index": 15,
+      "word": "fiction.",
+      "start": 6.73,
+      "end": 7.17
+    },
+    {
+      "index": 16,
+      "word": "Unverified",
+      "start": 7.17,
+      "end": 7.62
+    },
+    {
+      "index": 17,
+      "word": "occupancy",
+      "start": 7.62,
+      "end": 8.07
+    },
+    {
+      "index": 18,
+      "word": "projections,",
+      "start": 8.07,
+      "end": 8.52
+    },
+    {
+      "index": 19,
+      "word": "zero",
+      "start": 8.52,
+      "end": 8.97
+    },
+    {
+      "index": 20,
+      "word": "allowance",
+      "start": 8.97,
+      "end": 9.42
+    },
+    {
+      "index": 21,
+      "word": "for",
+      "start": 9.42,
+      "end": 9.87
+    },
+    {
+      "index": 22,
+      "word": "seasonality,",
+      "start": 9.87,
+      "end": 10.31
+    },
+    {
+      "index": 23,
+      "word": "and",
+      "start": 10.31,
+      "end": 10.76
+    },
+    {
+      "index": 24,
+      "word": "debt",
+      "start": 10.76,
+      "end": 11.21
+    },
+    {
+      "index": 25,
+      "word": "covenants",
+      "start": 11.21,
+      "end": 11.66
+    },
+    {
+      "index": 26,
+      "word": "modeled",
+      "start": 11.66,
+      "end": 12.11
+    },
+    {
+      "index": 27,
+      "word": "on",
+      "start": 12.11,
+      "end": 12.56
+    },
+    {
+      "index": 28,
+      "word": "optimism",
+      "start": 12.56,
+      "end": 13.0
+    },
+    {
+      "index": 29,
+      "word": "rather",
+      "start": 13.0,
+      "end": 13.45
+    },
+    {
+      "index": 30,
+      "word": "than",
+      "start": 13.45,
+      "end": 13.9
+    },
+    {
+      "index": 31,
+      "word": "sovereign",
+      "start": 13.9,
+      "end": 14.35
+    },
+    {
+      "index": 32,
+      "word": "underwriting.",
+      "start": 14.35,
+      "end": 14.8
+    },
+    {
+      "index": 33,
+      "word": "This",
+      "start": 14.8,
+      "end": 15.25
+    },
+    {
+      "index": 34,
+      "word": "is",
+      "start": 15.25,
+      "end": 15.69
+    },
+    {
+      "index": 35,
+      "word": "PencilSTR.",
+      "start": 15.69,
+      "end": 16.14
+    },
+    {
+      "index": 36,
+      "word": "The",
+      "start": 16.14,
+      "end": 16.59
+    },
+    {
+      "index": 37,
+      "word": "institutional",
+      "start": 16.59,
+      "end": 17.04
+    },
+    {
+      "index": 38,
+      "word": "short-term",
+      "start": 17.04,
+      "end": 17.49
+    },
+    {
+      "index": 39,
+      "word": "rental",
+      "start": 17.49,
+      "end": 17.94
+    },
+    {
+      "index": 40,
+      "word": "underwriting",
+      "start": 17.94,
+      "end": 18.39
+    },
+    {
+      "index": 41,
+      "word": "terminal.",
+      "start": 18.39,
+      "end": 18.83
+    },
+    {
+      "index": 42,
+      "word": "Our",
+      "start": 18.83,
+      "end": 19.28
+    },
+    {
+      "index": 43,
+      "word": "autonomous",
+      "start": 19.28,
+      "end": 19.73
+    },
+    {
+      "index": 44,
+      "word": "market",
+      "start": 19.73,
+      "end": 20.18
+    },
+    {
+      "index": 45,
+      "word": "sweeps",
+      "start": 20.18,
+      "end": 20.63
+    },
+    {
+      "index": 46,
+      "word": "crawl",
+      "start": 20.63,
+      "end": 21.08
+    },
+    {
+      "index": 47,
+      "word": "unseasoned",
+      "start": 21.08,
+      "end": 21.52
+    },
+    {
+      "index": 48,
+      "word": "mountain",
+      "start": 21.52,
+      "end": 21.97
+    },
+    {
+      "index": 49,
+      "word": "cabins",
+      "start": 21.97,
+      "end": 22.42
+    },
+    {
+      "index": 50,
+      "word": "and",
+      "start": 22.42,
+      "end": 22.87
+    },
+    {
+      "index": 51,
+      "word": "luxury",
+      "start": 22.87,
+      "end": 23.32
+    },
+    {
+      "index": 52,
+      "word": "desert",
+      "start": 23.32,
+      "end": 23.77
+    },
+    {
+      "index": 53,
+      "word": "villas,",
+      "start": 23.77,
+      "end": 24.21
+    },
+    {
+      "index": 54,
+      "word": "applying",
+      "start": 24.21,
+      "end": 24.66
+    },
+    {
+      "index": 55,
+      "word": "an",
+      "start": 24.66,
+      "end": 25.11
+    },
+    {
+      "index": 56,
+      "word": "immediate",
+      "start": 25.11,
+      "end": 25.56
+    },
+    {
+      "index": 57,
+      "word": "institutional",
+      "start": 25.56,
+      "end": 26.01
+    },
+    {
+      "index": 58,
+      "word": "discount",
+      "start": 26.01,
+      "end": 26.46
+    },
+    {
+      "index": 59,
+      "word": "haircut",
+      "start": 26.46,
+      "end": 26.91
+    },
+    {
+      "index": 60,
+      "word": "before",
+      "start": 26.91,
+      "end": 27.35
+    },
+    {
+      "index": 61,
+      "word": "evaluating",
+      "start": 27.35,
+      "end": 27.8
+    },
+    {
+      "index": 62,
+      "word": "loan",
+      "start": 27.8,
+      "end": 28.25
+    },
+    {
+      "index": 63,
+      "word": "terms.",
+      "start": 28.25,
+      "end": 28.7
+    },
+    {
+      "index": 64,
+      "word": "Inspect",
+      "start": 28.7,
+      "end": 29.15
+    },
+    {
+      "index": 65,
+      "word": "assets",
+      "start": 29.15,
+      "end": 29.6
+    },
+    {
+      "index": 66,
+      "word": "through",
+      "start": 29.6,
+      "end": 30.04
+    },
+    {
+      "index": 67,
+      "word": "Muse-inspired",
+      "start": 30.04,
+      "end": 30.49
+    },
+    {
+      "index": 68,
+      "word": "spatial",
+      "start": 30.49,
+      "end": 30.94
+    },
+    {
+      "index": 69,
+      "word": "comp",
+      "start": 30.94,
+      "end": 31.39
+    },
+    {
+      "index": 70,
+      "word": "cards",
+      "start": 31.39,
+      "end": 31.84
+    },
+    {
+      "index": 71,
+      "word": "with",
+      "start": 31.84,
+      "end": 32.29
+    },
+    {
+      "index": 72,
+      "word": "multi-angle",
+      "start": 32.29,
+      "end": 32.73
+    },
+    {
+      "index": 73,
+      "word": "photography",
+      "start": 32.73,
+      "end": 33.18
+    },
+    {
+      "index": 74,
+      "word": "scrubbing",
+      "start": 33.18,
+      "end": 33.63
+    },
+    {
+      "index": 75,
+      "word": "and",
+      "start": 33.63,
+      "end": 34.08
+    },
+    {
+      "index": 76,
+      "word": "corner",
+      "start": 34.08,
+      "end": 34.53
+    },
+    {
+      "index": 77,
+      "word": "debt",
+      "start": 34.53,
+      "end": 34.98
+    },
+    {
+      "index": 78,
+      "word": "indicators.",
+      "start": 34.98,
+      "end": 35.43
+    },
+    {
+      "index": 79,
+      "word": "Beneath",
+      "start": 35.43,
+      "end": 35.87
+    },
+    {
+      "index": 80,
+      "word": "the",
+      "start": 35.87,
+      "end": 36.32
+    },
+    {
+      "index": 81,
+      "word": "imagery",
+      "start": 36.32,
+      "end": 36.77
+    },
+    {
+      "index": 82,
+      "word": "lies",
+      "start": 36.77,
+      "end": 37.22
+    },
+    {
+      "index": 83,
+      "word": "our",
+      "start": 37.22,
+      "end": 37.67
+    },
+    {
+      "index": 84,
+      "word": "legal",
+      "start": 37.67,
+      "end": 38.12
+    },
+    {
+      "index": 85,
+      "word": "engine,",
+      "start": 38.12,
+      "end": 38.56
+    },
+    {
+      "index": 86,
+      "word": "parsing",
+      "start": 38.56,
+      "end": 39.01
+    },
+    {
+      "index": 87,
+      "word": "deed",
+      "start": 39.01,
+      "end": 39.46
+    },
+    {
+      "index": 88,
+      "word": "restrictions",
+      "start": 39.46,
+      "end": 39.91
+    },
+    {
+      "index": 89,
+      "word": "and",
+      "start": 39.91,
+      "end": 40.36
+    },
+    {
+      "index": 90,
+      "word": "county",
+      "start": 40.36,
+      "end": 40.81
+    },
+    {
+      "index": 91,
+      "word": "bed-tax",
+      "start": 40.81,
+      "end": 41.26
+    },
+    {
+      "index": 92,
+      "word": "resolutions",
+      "start": 41.26,
+      "end": 41.7
+    },
+    {
+      "index": 93,
+      "word": "with",
+      "start": 41.7,
+      "end": 42.15
+    },
+    {
+      "index": 94,
+      "word": "verbatim",
+      "start": 42.15,
+      "end": 42.6
+    },
+    {
+      "index": 95,
+      "word": "legal",
+      "start": 42.6,
+      "end": 43.05
+    },
+    {
+      "index": 96,
+      "word": "citations.",
+      "start": 43.05,
+      "end": 43.5
+    },
+    {
+      "index": 97,
+      "word": "Calculate",
+      "start": 43.5,
+      "end": 43.95
+    },
+    {
+      "index": 98,
+      "word": "debt",
+      "start": 43.95,
+      "end": 44.39
+    },
+    {
+      "index": 99,
+      "word": "service",
+      "start": 44.39,
+      "end": 44.84
+    },
+    {
+      "index": 100,
+      "word": "coverage",
+      "start": 44.84,
+      "end": 45.29
+    },
+    {
+      "index": 101,
+      "word": "in",
+      "start": 45.29,
+      "end": 45.74
+    },
+    {
+      "index": 102,
+      "word": "sub-millisecond",
+      "start": 45.74,
+      "end": 46.19
+    },
+    {
+      "index": 103,
+      "word": "client",
+      "start": 46.19,
+      "end": 46.64
+    },
+    {
+      "index": 104,
+      "word": "time.",
+      "start": 46.64,
+      "end": 47.08
+    },
+    {
+      "index": 105,
+      "word": "Toggle",
+      "start": 47.08,
+      "end": 47.53
+    },
+    {
+      "index": 106,
+      "word": "between",
+      "start": 47.53,
+      "end": 47.98
+    },
+    {
+      "index": 107,
+      "word": "residential",
+      "start": 47.98,
+      "end": 48.43
+    },
+    {
+      "index": 108,
+      "word": "Non-QM",
+      "start": 48.43,
+      "end": 48.88
+    },
+    {
+      "index": 109,
+      "word": "guidelines",
+      "start": 48.88,
+      "end": 49.33
+    },
+    {
+      "index": 110,
+      "word": "and",
+      "start": 49.33,
+      "end": 49.78
+    },
+    {
+      "index": 111,
+      "word": "commercial",
+      "start": 49.78,
+      "end": 50.22
+    },
+    {
+      "index": 112,
+      "word": "fund",
+      "start": 50.22,
+      "end": 50.67
+    },
+    {
+      "index": 113,
+      "word": "net",
+      "start": 50.67,
+      "end": 51.12
+    },
+    {
+      "index": 114,
+      "word": "operating",
+      "start": 51.12,
+      "end": 51.57
+    },
+    {
+      "index": 115,
+      "word": "income.",
+      "start": 51.57,
+      "end": 52.02
+    },
+    {
+      "index": 116,
+      "word": "Stress-test",
+      "start": 52.02,
+      "end": 52.47
+    },
+    {
+      "index": 117,
+      "word": "two",
+      "start": 52.47,
+      "end": 52.91
+    },
+    {
+      "index": 118,
+      "word": "hundred",
+      "start": 52.91,
+      "end": 53.36
+    },
+    {
+      "index": 119,
+      "word": "basis",
+      "start": 53.36,
+      "end": 53.81
+    },
+    {
+      "index": 120,
+      "word": "point",
+      "start": 53.81,
+      "end": 54.26
+    },
+    {
+      "index": 121,
+      "word": "interest",
+      "start": 54.26,
+      "end": 54.71
+    },
+    {
+      "index": 122,
+      "word": "shocks",
+      "start": 54.71,
+      "end": 55.16
+    },
+    {
+      "index": 123,
+      "word": "and",
+      "start": 55.16,
+      "end": 55.6
+    },
+    {
+      "index": 124,
+      "word": "solve",
+      "start": 55.6,
+      "end": 56.05
+    },
+    {
+      "index": 125,
+      "word": "for",
+      "start": 56.05,
+      "end": 56.5
+    },
+    {
+      "index": 126,
+      "word": "the",
+      "start": 56.5,
+      "end": 56.95
+    },
+    {
+      "index": 127,
+      "word": "exact",
+      "start": 56.95,
+      "end": 57.4
+    },
+    {
+      "index": 128,
+      "word": "equity",
+      "start": 57.4,
+      "end": 57.85
+    },
+    {
+      "index": 129,
+      "word": "required",
+      "start": 57.85,
+      "end": 58.3
+    },
+    {
+      "index": 130,
+      "word": "to",
+      "start": 58.3,
+      "end": 58.74
+    },
+    {
+      "index": 131,
+      "word": "preserve",
+      "start": 58.74,
+      "end": 59.19
+    },
+    {
+      "index": 132,
+      "word": "a",
+      "start": 59.19,
+      "end": 59.64
+    },
+    {
+      "index": 133,
+      "word": "one-point-two-five",
+      "start": 59.64,
+      "end": 60.09
+    },
+    {
+      "index": 134,
+      "word": "DSCR.",
+      "start": 60.09,
+      "end": 60.54
+    },
+    {
+      "index": 135,
+      "word": "Behind",
+      "start": 60.54,
+      "end": 60.99
+    },
+    {
+      "index": 136,
+      "word": "every",
+      "start": 60.99,
+      "end": 61.43
+    },
+    {
+      "index": 137,
+      "word": "valuation",
+      "start": 61.43,
+      "end": 61.88
+    },
+    {
+      "index": 138,
+      "word": "is",
+      "start": 61.88,
+      "end": 62.33
+    },
+    {
+      "index": 139,
+      "word": "a",
+      "start": 62.33,
+      "end": 62.78
+    },
+    {
+      "index": 140,
+      "word": "collaborative",
+      "start": 62.78,
+      "end": 63.23
+    },
+    {
+      "index": 141,
+      "word": "mesh",
+      "start": 63.23,
+      "end": 63.68
+    },
+    {
+      "index": 142,
+      "word": "of",
+      "start": 63.68,
+      "end": 64.12
+    },
+    {
+      "index": 143,
+      "word": "specialized",
+      "start": 64.12,
+      "end": 64.57
+    },
+    {
+      "index": 144,
+      "word": "agent",
+      "start": 64.57,
+      "end": 65.02
+    },
+    {
+      "index": 145,
+      "word": "scribes.",
+      "start": 65.02,
+      "end": 65.47
+    },
+    {
+      "index": 146,
+      "word": "Astra",
+      "start": 65.47,
+      "end": 65.92
+    },
+    {
+      "index": 147,
+      "word": "synthesizes",
+      "start": 65.92,
+      "end": 66.37
+    },
+    {
+      "index": 148,
+      "word": "committee",
+      "start": 66.37,
+      "end": 66.82
+    },
+    {
+      "index": 149,
+      "word": "theses.",
+      "start": 66.82,
+      "end": 67.26
+    },
+    {
+      "index": 150,
+      "word": "Scout",
+      "start": 67.26,
+      "end": 67.71
+    },
+    {
+      "index": 151,
+      "word": "monitors",
+      "start": 67.71,
+      "end": 68.16
+    },
+    {
+      "index": 152,
+      "word": "trailing",
+      "start": 68.16,
+      "end": 68.61
+    },
+    {
+      "index": 153,
+      "word": "comps.",
+      "start": 68.61,
+      "end": 69.06
+    },
+    {
+      "index": 154,
+      "word": "Cipher",
+      "start": 69.06,
+      "end": 69.51
+    },
+    {
+      "index": 155,
+      "word": "models",
+      "start": 69.51,
+      "end": 69.95
+    },
+    {
+      "index": 156,
+      "word": "bonus",
+      "start": 69.95,
+      "end": 70.4
+    },
+    {
+      "index": 157,
+      "word": "depreciation.",
+      "start": 70.4,
+      "end": 70.85
+    },
+    {
+      "index": 158,
+      "word": "And",
+      "start": 70.85,
+      "end": 71.3
+    },
+    {
+      "index": 159,
+      "word": "Lex",
+      "start": 71.3,
+      "end": 71.75
+    },
+    {
+      "index": 160,
+      "word": "audits",
+      "start": 71.75,
+      "end": 72.2
+    },
+    {
+      "index": 161,
+      "word": "zoning",
+      "start": 72.2,
+      "end": 72.64
+    },
+    {
+      "index": 162,
+      "word": "compliance.",
+      "start": 72.64,
+      "end": 73.09
+    },
+    {
+      "index": 163,
+      "word": "Controlled",
+      "start": 73.09,
+      "end": 73.54
+    },
+    {
+      "index": 164,
+      "word": "instantly",
+      "start": 73.54,
+      "end": 73.99
+    },
+    {
+      "index": 165,
+      "word": "via",
+      "start": 73.99,
+      "end": 74.44
+    },
+    {
+      "index": 166,
+      "word": "the",
+      "start": 74.44,
+      "end": 74.89
+    },
+    {
+      "index": 167,
+      "word": "universal",
+      "start": 74.89,
+      "end": 75.34
+    },
+    {
+      "index": 168,
+      "word": "Command",
+      "start": 75.34,
+      "end": 75.78
+    },
+    {
+      "index": 169,
+      "word": "Palette.",
+      "start": 75.78,
+      "end": 76.23
+    },
+    {
+      "index": 170,
+      "word": "With",
+      "start": 76.23,
+      "end": 76.68
+    },
+    {
+      "index": 171,
+      "word": "a",
+      "start": 76.68,
+      "end": 77.13
+    },
+    {
+      "index": 172,
+      "word": "single",
+      "start": 77.13,
+      "end": 77.58
+    },
+    {
+      "index": 173,
+      "word": "click,",
+      "start": 77.58,
+      "end": 78.03
+    },
+    {
+      "index": 174,
+      "word": "export",
+      "start": 78.03,
+      "end": 78.47
+    },
+    {
+      "index": 175,
+      "word": "a",
+      "start": 78.47,
+      "end": 78.92
+    },
+    {
+      "index": 176,
+      "word": "fully",
+      "start": 78.92,
+      "end": 79.37
+    },
+    {
+      "index": 177,
+      "word": "formatted,",
+      "start": 79.37,
+      "end": 79.82
+    },
+    {
+      "index": 178,
+      "word": "investment-committee-grade",
+      "start": 79.82,
+      "end": 80.27
+    },
+    {
+      "index": 179,
+      "word": "credit",
+      "start": 80.27,
+      "end": 80.72
+    },
+    {
+      "index": 180,
+      "word": "memorandum",
+      "start": 80.72,
+      "end": 81.16
+    },
+    {
+      "index": 181,
+      "word": "ready",
+      "start": 81.16,
+      "end": 81.61
+    },
+    {
+      "index": 182,
+      "word": "for",
+      "start": 81.61,
+      "end": 82.06
+    },
+    {
+      "index": 183,
+      "word": "debt",
+      "start": 82.06,
+      "end": 82.51
+    },
+    {
+      "index": 184,
+      "word": "syndicate",
+      "start": 82.51,
+      "end": 82.96
+    },
+    {
+      "index": 185,
+      "word": "signoff.",
+      "start": 82.96,
+      "end": 83.41
+    },
+    {
+      "index": 186,
+      "word": "Stop",
+      "start": 83.41,
+      "end": 83.86
+    },
+    {
+      "index": 187,
+      "word": "relying",
+      "start": 83.86,
+      "end": 84.3
+    },
+    {
+      "index": 188,
+      "word": "on",
+      "start": 84.3,
+      "end": 84.75
+    },
+    {
+      "index": 189,
+      "word": "spreadsheets",
+      "start": 84.75,
+      "end": 85.2
+    },
+    {
+      "index": 190,
+      "word": "built",
+      "start": 85.2,
+      "end": 85.65
+    },
+    {
+      "index": 191,
+      "word": "on",
+      "start": 85.65,
+      "end": 86.1
+    },
+    {
+      "index": 192,
+      "word": "hope.",
+      "start": 86.1,
+      "end": 86.55
+    },
+    {
+      "index": 193,
+      "word": "Underwrite",
+      "start": 86.55,
+      "end": 86.99
+    },
+    {
+      "index": 194,
+      "word": "the",
+      "start": 86.99,
+      "end": 87.44
+    },
+    {
+      "index": 195,
+      "word": "truth",
+      "start": 87.44,
+      "end": 87.89
+    },
+    {
+      "index": 196,
+      "word": "with",
+      "start": 87.89,
+      "end": 88.34
+    },
+    {
+      "index": 197,
+      "word": "PencilSTR.",
+      "start": 88.34,
+      "end": 88.79
+    }
+  ]
+}

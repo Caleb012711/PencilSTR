@@ -1,0 +1,2158 @@
+{
+  "title": "PencilSTR \u2014 The Autonomous Copilot (Silicon Valley Keynote)",
+  "style": "tech_keynote",
+  "profile": {
+    "name": "The Autonomous Copilot",
+    "description": "Silicon Valley Tech Launch / Keynote Presenter (clear, kinetic, engaging)",
+    "openrouter_voice": "nova",
+    "macos_voice": "Samantha",
+    "speaking_rate": 185,
+    "pitch_adjustment": 1.02,
+    "ffmpeg_filters": "aformat=channel_layouts=stereo,equalizer=f=200:width_type=o:width=1:g=1.0,equalizer=f=4500:width_type=o:width=1:g=2.2,loudnorm=I=-15:LRA=9:TP=-1.2",
+    "bgm_tag": "future_bass_pulse"
+  },
+  "totalDuration": 75.828,
+  "fullAudioFile": "full_voiceover_tech_keynote.mp3",
+  "vttFile": "subtitles_tech_keynote.vtt",
+  "srtFile": "subtitles_tech_keynote.srt",
+  "chapters": [
+    {
+      "id": "chapter_1_hook",
+      "title": "The Speed of STR Underwriting",
+      "text": "Real estate underwriting hasn't evolved in twenty years. Analysts still copy-paste Airbnb links into broken spreadsheets, waiting hours for stale estimates while the best deals get snatched off the market in minutes.",
+      "visualCue": "Fast kinetic zoom into the Alabaster light mode command interface and real-time deal scanner.",
+      "audioFile": "chapter_chapter_1_hook_tech_keynote.mp3",
+      "duration": 11.65,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Real",
+          "start": 0.0,
+          "end": 0.36
+        },
+        {
+          "index": 1,
+          "word": "estate",
+          "start": 0.36,
+          "end": 0.73
+        },
+        {
+          "index": 2,
+          "word": "underwriting",
+          "start": 0.73,
+          "end": 1.09
+        },
+        {
+          "index": 3,
+          "word": "hasn't",
+          "start": 1.09,
+          "end": 1.46
+        },
+        {
+          "index": 4,
+          "word": "evolved",
+          "start": 1.46,
+          "end": 1.82
+        },
+        {
+          "index": 5,
+          "word": "in",
+          "start": 1.82,
+          "end": 2.18
+        },
+        {
+          "index": 6,
+          "word": "twenty",
+          "start": 2.18,
+          "end": 2.55
+        },
+        {
+          "index": 7,
+          "word": "years.",
+          "start": 2.55,
+          "end": 2.91
+        },
+        {
+          "index": 8,
+          "word": "Analysts",
+          "start": 2.91,
+          "end": 3.28
+        },
+        {
+          "index": 9,
+          "word": "still",
+          "start": 3.28,
+          "end": 3.64
+        },
+        {
+          "index": 10,
+          "word": "copy-paste",
+          "start": 3.64,
+          "end": 4.0
+        },
+        {
+          "index": 11,
+          "word": "Airbnb",
+          "start": 4.0,
+          "end": 4.37
+        },
+        {
+          "index": 12,
+          "word": "links",
+          "start": 4.37,
+          "end": 4.73
+        },
+        {
+          "index": 13,
+          "word": "into",
+          "start": 4.73,
+          "end": 5.1
+        },
+        {
+          "index": 14,
+          "word": "broken",
+          "start": 5.1,
+          "end": 5.46
+        },
+        {
+          "index": 15,
+          "word": "spreadsheets,",
+          "start": 5.46,
+          "end": 5.83
+        },
+        {
+          "index": 16,
+          "word": "waiting",
+          "start": 5.83,
+          "end": 6.19
+        },
+        {
+          "index": 17,
+          "word": "hours",
+          "start": 6.19,
+          "end": 6.55
+        },
+        {
+          "index": 18,
+          "word": "for",
+          "start": 6.55,
+          "end": 6.92
+        },
+        {
+          "index": 19,
+          "word": "stale",
+          "start": 6.92,
+          "end": 7.28
+        },
+        {
+          "index": 20,
+          "word": "estimates",
+          "start": 7.28,
+          "end": 7.65
+        },
+        {
+          "index": 21,
+          "word": "while",
+          "start": 7.65,
+          "end": 8.01
+        },
+        {
+          "index": 22,
+          "word": "the",
+          "start": 8.01,
+          "end": 8.37
+        },
+        {
+          "index": 23,
+          "word": "best",
+          "start": 8.37,
+          "end": 8.74
+        },
+        {
+          "index": 24,
+          "word": "deals",
+          "start": 8.74,
+          "end": 9.1
+        },
+        {
+          "index": 25,
+          "word": "get",
+          "start": 9.1,
+          "end": 9.47
+        },
+        {
+          "index": 26,
+          "word": "snatched",
+          "start": 9.47,
+          "end": 9.83
+        },
+        {
+          "index": 27,
+          "word": "off",
+          "start": 9.83,
+          "end": 10.19
+        },
+        {
+          "index": 28,
+          "word": "the",
+          "start": 10.19,
+          "end": 10.56
+        },
+        {
+          "index": 29,
+          "word": "market",
+          "start": 10.56,
+          "end": 10.92
+        },
+        {
+          "index": 30,
+          "word": "in",
+          "start": 10.92,
+          "end": 11.29
+        },
+        {
+          "index": 31,
+          "word": "minutes.",
+          "start": 11.29,
+          "end": 11.65
+        }
+      ]
+    },
+    {
+      "id": "chapter_2_radar",
+      "title": "Autonomous Radar & Instant Ingest",
+      "text": "Meet PencilSTR. Paste any MLS URL, Zillow link, or Airbnb listing, and our autonomous ingestion pipeline parses tax records, spatial coordinates, and comps in under four hundred milliseconds.",
+      "visualCue": "Live Autonomous Radar sweeping through live markets with instantaneous telemetry pulses.",
+      "audioFile": "chapter_chapter_2_radar_tech_keynote.mp3",
+      "duration": 12.65,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Meet",
+          "start": 0.0,
+          "end": 0.45
+        },
+        {
+          "index": 1,
+          "word": "PencilSTR.",
+          "start": 0.45,
+          "end": 0.9
+        },
+        {
+          "index": 2,
+          "word": "Paste",
+          "start": 0.9,
+          "end": 1.36
+        },
+        {
+          "index": 3,
+          "word": "any",
+          "start": 1.36,
+          "end": 1.81
+        },
+        {
+          "index": 4,
+          "word": "MLS",
+          "start": 1.81,
+          "end": 2.26
+        },
+        {
+          "index": 5,
+          "word": "URL,",
+          "start": 2.26,
+          "end": 2.71
+        },
+        {
+          "index": 6,
+          "word": "Zillow",
+          "start": 2.71,
+          "end": 3.16
+        },
+        {
+          "index": 7,
+          "word": "link,",
+          "start": 3.16,
+          "end": 3.61
+        },
+        {
+          "index": 8,
+          "word": "or",
+          "start": 3.61,
+          "end": 4.07
+        },
+        {
+          "index": 9,
+          "word": "Airbnb",
+          "start": 4.07,
+          "end": 4.52
+        },
+        {
+          "index": 10,
+          "word": "listing,",
+          "start": 4.52,
+          "end": 4.97
+        },
+        {
+          "index": 11,
+          "word": "and",
+          "start": 4.97,
+          "end": 5.42
+        },
+        {
+          "index": 12,
+          "word": "our",
+          "start": 5.42,
+          "end": 5.87
+        },
+        {
+          "index": 13,
+          "word": "autonomous",
+          "start": 5.87,
+          "end": 6.33
+        },
+        {
+          "index": 14,
+          "word": "ingestion",
+          "start": 6.33,
+          "end": 6.78
+        },
+        {
+          "index": 15,
+          "word": "pipeline",
+          "start": 6.78,
+          "end": 7.23
+        },
+        {
+          "index": 16,
+          "word": "parses",
+          "start": 7.23,
+          "end": 7.68
+        },
+        {
+          "index": 17,
+          "word": "tax",
+          "start": 7.68,
+          "end": 8.13
+        },
+        {
+          "index": 18,
+          "word": "records,",
+          "start": 8.13,
+          "end": 8.58
+        },
+        {
+          "index": 19,
+          "word": "spatial",
+          "start": 8.58,
+          "end": 9.04
+        },
+        {
+          "index": 20,
+          "word": "coordinates,",
+          "start": 9.04,
+          "end": 9.49
+        },
+        {
+          "index": 21,
+          "word": "and",
+          "start": 9.49,
+          "end": 9.94
+        },
+        {
+          "index": 22,
+          "word": "comps",
+          "start": 9.94,
+          "end": 10.39
+        },
+        {
+          "index": 23,
+          "word": "in",
+          "start": 10.39,
+          "end": 10.84
+        },
+        {
+          "index": 24,
+          "word": "under",
+          "start": 10.84,
+          "end": 11.29
+        },
+        {
+          "index": 25,
+          "word": "four",
+          "start": 11.29,
+          "end": 11.75
+        },
+        {
+          "index": 26,
+          "word": "hundred",
+          "start": 11.75,
+          "end": 12.2
+        },
+        {
+          "index": 27,
+          "word": "milliseconds.",
+          "start": 12.2,
+          "end": 12.65
+        }
+      ]
+    },
+    {
+      "id": "chapter_3_comps_ccr",
+      "title": "Pinterest-Grade Visual Comps",
+      "text": "Browse comps with Muse-grade full-bleed gallery cards. Scrub multi-angle photography, inspect corner DSCR pills, and review automated HOA audit checks that scan municipal ordinances for short-term rental permits.",
+      "visualCue": "Smooth carousel scrubbing across MuseCompCard gallery with instant compare drawer dock.",
+      "audioFile": "chapter_chapter_3_comps_ccr_tech_keynote.mp3",
+      "duration": 14.4,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Browse",
+          "start": 0.0,
+          "end": 0.51
+        },
+        {
+          "index": 1,
+          "word": "comps",
+          "start": 0.51,
+          "end": 1.03
+        },
+        {
+          "index": 2,
+          "word": "with",
+          "start": 1.03,
+          "end": 1.54
+        },
+        {
+          "index": 3,
+          "word": "Muse-grade",
+          "start": 1.54,
+          "end": 2.06
+        },
+        {
+          "index": 4,
+          "word": "full-bleed",
+          "start": 2.06,
+          "end": 2.57
+        },
+        {
+          "index": 5,
+          "word": "gallery",
+          "start": 2.57,
+          "end": 3.09
+        },
+        {
+          "index": 6,
+          "word": "cards.",
+          "start": 3.09,
+          "end": 3.6
+        },
+        {
+          "index": 7,
+          "word": "Scrub",
+          "start": 3.6,
+          "end": 4.11
+        },
+        {
+          "index": 8,
+          "word": "multi-angle",
+          "start": 4.11,
+          "end": 4.63
+        },
+        {
+          "index": 9,
+          "word": "photography,",
+          "start": 4.63,
+          "end": 5.14
+        },
+        {
+          "index": 10,
+          "word": "inspect",
+          "start": 5.14,
+          "end": 5.66
+        },
+        {
+          "index": 11,
+          "word": "corner",
+          "start": 5.66,
+          "end": 6.17
+        },
+        {
+          "index": 12,
+          "word": "DSCR",
+          "start": 6.17,
+          "end": 6.69
+        },
+        {
+          "index": 13,
+          "word": "pills,",
+          "start": 6.69,
+          "end": 7.2
+        },
+        {
+          "index": 14,
+          "word": "and",
+          "start": 7.2,
+          "end": 7.71
+        },
+        {
+          "index": 15,
+          "word": "review",
+          "start": 7.71,
+          "end": 8.23
+        },
+        {
+          "index": 16,
+          "word": "automated",
+          "start": 8.23,
+          "end": 8.74
+        },
+        {
+          "index": 17,
+          "word": "HOA",
+          "start": 8.74,
+          "end": 9.26
+        },
+        {
+          "index": 18,
+          "word": "audit",
+          "start": 9.26,
+          "end": 9.77
+        },
+        {
+          "index": 19,
+          "word": "checks",
+          "start": 9.77,
+          "end": 10.29
+        },
+        {
+          "index": 20,
+          "word": "that",
+          "start": 10.29,
+          "end": 10.8
+        },
+        {
+          "index": 21,
+          "word": "scan",
+          "start": 10.8,
+          "end": 11.31
+        },
+        {
+          "index": 22,
+          "word": "municipal",
+          "start": 11.31,
+          "end": 11.83
+        },
+        {
+          "index": 23,
+          "word": "ordinances",
+          "start": 11.83,
+          "end": 12.34
+        },
+        {
+          "index": 24,
+          "word": "for",
+          "start": 12.34,
+          "end": 12.86
+        },
+        {
+          "index": 25,
+          "word": "short-term",
+          "start": 12.86,
+          "end": 13.37
+        },
+        {
+          "index": 26,
+          "word": "rental",
+          "start": 13.37,
+          "end": 13.89
+        },
+        {
+          "index": 27,
+          "word": "permits.",
+          "start": 13.89,
+          "end": 14.4
+        }
+      ]
+    },
+    {
+      "id": "chapter_4_dscr_engine",
+      "title": "Dual Engine Financial Modeling",
+      "text": "Underwrite with deterministic dual engines. Switch instantly between residential debt service coverage and commercial net operating income. Run live interest rate sliders with sub-millisecond recalculations.",
+      "visualCue": "Live interactive DSCR waterfall with color-coded debt service coverage gauge and sensitivity matrix.",
+      "audioFile": "chapter_chapter_4_dscr_engine_tech_keynote.mp3",
+      "duration": 11.7,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Underwrite",
+          "start": 0.0,
+          "end": 0.47
+        },
+        {
+          "index": 1,
+          "word": "with",
+          "start": 0.47,
+          "end": 0.94
+        },
+        {
+          "index": 2,
+          "word": "deterministic",
+          "start": 0.94,
+          "end": 1.4
+        },
+        {
+          "index": 3,
+          "word": "dual",
+          "start": 1.4,
+          "end": 1.87
+        },
+        {
+          "index": 4,
+          "word": "engines.",
+          "start": 1.87,
+          "end": 2.34
+        },
+        {
+          "index": 5,
+          "word": "Switch",
+          "start": 2.34,
+          "end": 2.81
+        },
+        {
+          "index": 6,
+          "word": "instantly",
+          "start": 2.81,
+          "end": 3.28
+        },
+        {
+          "index": 7,
+          "word": "between",
+          "start": 3.28,
+          "end": 3.74
+        },
+        {
+          "index": 8,
+          "word": "residential",
+          "start": 3.74,
+          "end": 4.21
+        },
+        {
+          "index": 9,
+          "word": "debt",
+          "start": 4.21,
+          "end": 4.68
+        },
+        {
+          "index": 10,
+          "word": "service",
+          "start": 4.68,
+          "end": 5.15
+        },
+        {
+          "index": 11,
+          "word": "coverage",
+          "start": 5.15,
+          "end": 5.62
+        },
+        {
+          "index": 12,
+          "word": "and",
+          "start": 5.62,
+          "end": 6.08
+        },
+        {
+          "index": 13,
+          "word": "commercial",
+          "start": 6.08,
+          "end": 6.55
+        },
+        {
+          "index": 14,
+          "word": "net",
+          "start": 6.55,
+          "end": 7.02
+        },
+        {
+          "index": 15,
+          "word": "operating",
+          "start": 7.02,
+          "end": 7.49
+        },
+        {
+          "index": 16,
+          "word": "income.",
+          "start": 7.49,
+          "end": 7.96
+        },
+        {
+          "index": 17,
+          "word": "Run",
+          "start": 7.96,
+          "end": 8.42
+        },
+        {
+          "index": 18,
+          "word": "live",
+          "start": 8.42,
+          "end": 8.89
+        },
+        {
+          "index": 19,
+          "word": "interest",
+          "start": 8.89,
+          "end": 9.36
+        },
+        {
+          "index": 20,
+          "word": "rate",
+          "start": 9.36,
+          "end": 9.83
+        },
+        {
+          "index": 21,
+          "word": "sliders",
+          "start": 9.83,
+          "end": 10.3
+        },
+        {
+          "index": 22,
+          "word": "with",
+          "start": 10.3,
+          "end": 10.76
+        },
+        {
+          "index": 23,
+          "word": "sub-millisecond",
+          "start": 10.76,
+          "end": 11.23
+        },
+        {
+          "index": 24,
+          "word": "recalculations.",
+          "start": 11.23,
+          "end": 11.7
+        }
+      ]
+    },
+    {
+      "id": "chapter_5_scribe_mesh",
+      "title": "Multi-Agent Scribe Mesh",
+      "text": "Four autonomous AI agents work together in parallel. Astra drafts the memo, Scout tracks market comps, Cipher runs tax depreciation, and Lex reviews zoning bylaws, all orchestrated through a native command palette.",
+      "visualCue": "Scribe Mesh agent cards streaming live logs and analysis with Command Palette overlay.",
+      "audioFile": "chapter_chapter_5_scribe_mesh_tech_keynote.mp3",
+      "duration": 14.15,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Four",
+          "start": 0.0,
+          "end": 0.44
+        },
+        {
+          "index": 1,
+          "word": "autonomous",
+          "start": 0.44,
+          "end": 0.88
+        },
+        {
+          "index": 2,
+          "word": "AI",
+          "start": 0.88,
+          "end": 1.33
+        },
+        {
+          "index": 3,
+          "word": "agents",
+          "start": 1.33,
+          "end": 1.77
+        },
+        {
+          "index": 4,
+          "word": "work",
+          "start": 1.77,
+          "end": 2.21
+        },
+        {
+          "index": 5,
+          "word": "together",
+          "start": 2.21,
+          "end": 2.65
+        },
+        {
+          "index": 6,
+          "word": "in",
+          "start": 2.65,
+          "end": 3.1
+        },
+        {
+          "index": 7,
+          "word": "parallel.",
+          "start": 3.1,
+          "end": 3.54
+        },
+        {
+          "index": 8,
+          "word": "Astra",
+          "start": 3.54,
+          "end": 3.98
+        },
+        {
+          "index": 9,
+          "word": "drafts",
+          "start": 3.98,
+          "end": 4.42
+        },
+        {
+          "index": 10,
+          "word": "the",
+          "start": 4.42,
+          "end": 4.86
+        },
+        {
+          "index": 11,
+          "word": "memo,",
+          "start": 4.86,
+          "end": 5.31
+        },
+        {
+          "index": 12,
+          "word": "Scout",
+          "start": 5.31,
+          "end": 5.75
+        },
+        {
+          "index": 13,
+          "word": "tracks",
+          "start": 5.75,
+          "end": 6.19
+        },
+        {
+          "index": 14,
+          "word": "market",
+          "start": 6.19,
+          "end": 6.63
+        },
+        {
+          "index": 15,
+          "word": "comps,",
+          "start": 6.63,
+          "end": 7.08
+        },
+        {
+          "index": 16,
+          "word": "Cipher",
+          "start": 7.08,
+          "end": 7.52
+        },
+        {
+          "index": 17,
+          "word": "runs",
+          "start": 7.52,
+          "end": 7.96
+        },
+        {
+          "index": 18,
+          "word": "tax",
+          "start": 7.96,
+          "end": 8.4
+        },
+        {
+          "index": 19,
+          "word": "depreciation,",
+          "start": 8.4,
+          "end": 8.84
+        },
+        {
+          "index": 20,
+          "word": "and",
+          "start": 8.84,
+          "end": 9.29
+        },
+        {
+          "index": 21,
+          "word": "Lex",
+          "start": 9.29,
+          "end": 9.73
+        },
+        {
+          "index": 22,
+          "word": "reviews",
+          "start": 9.73,
+          "end": 10.17
+        },
+        {
+          "index": 23,
+          "word": "zoning",
+          "start": 10.17,
+          "end": 10.61
+        },
+        {
+          "index": 24,
+          "word": "bylaws,",
+          "start": 10.61,
+          "end": 11.05
+        },
+        {
+          "index": 25,
+          "word": "all",
+          "start": 11.05,
+          "end": 11.5
+        },
+        {
+          "index": 26,
+          "word": "orchestrated",
+          "start": 11.5,
+          "end": 11.94
+        },
+        {
+          "index": 27,
+          "word": "through",
+          "start": 11.94,
+          "end": 12.38
+        },
+        {
+          "index": 28,
+          "word": "a",
+          "start": 12.38,
+          "end": 12.82
+        },
+        {
+          "index": 29,
+          "word": "native",
+          "start": 12.82,
+          "end": 13.27
+        },
+        {
+          "index": 30,
+          "word": "command",
+          "start": 13.27,
+          "end": 13.71
+        },
+        {
+          "index": 31,
+          "word": "palette.",
+          "start": 13.71,
+          "end": 14.15
+        }
+      ]
+    },
+    {
+      "id": "chapter_6_memo_outro",
+      "title": "Instant Bankable Memorandums",
+      "text": "One click exports a lender-ready credit memorandum that gets your term sheet approved before the competition even opens Excel. Welcome to the future of underwriting. Welcome to PencilSTR.",
+      "visualCue": "Clean export of the Lender Credit Memo with one-click print and syndicate sharing.",
+      "audioFile": "chapter_chapter_6_memo_outro_tech_keynote.mp3",
+      "duration": 11.1,
+      "captions": [
+        {
+          "index": 0,
+          "word": "One",
+          "start": 0.0,
+          "end": 0.4
+        },
+        {
+          "index": 1,
+          "word": "click",
+          "start": 0.4,
+          "end": 0.79
+        },
+        {
+          "index": 2,
+          "word": "exports",
+          "start": 0.79,
+          "end": 1.19
+        },
+        {
+          "index": 3,
+          "word": "a",
+          "start": 1.19,
+          "end": 1.59
+        },
+        {
+          "index": 4,
+          "word": "lender-ready",
+          "start": 1.59,
+          "end": 1.98
+        },
+        {
+          "index": 5,
+          "word": "credit",
+          "start": 1.98,
+          "end": 2.38
+        },
+        {
+          "index": 6,
+          "word": "memorandum",
+          "start": 2.38,
+          "end": 2.77
+        },
+        {
+          "index": 7,
+          "word": "that",
+          "start": 2.77,
+          "end": 3.17
+        },
+        {
+          "index": 8,
+          "word": "gets",
+          "start": 3.17,
+          "end": 3.57
+        },
+        {
+          "index": 9,
+          "word": "your",
+          "start": 3.57,
+          "end": 3.96
+        },
+        {
+          "index": 10,
+          "word": "term",
+          "start": 3.96,
+          "end": 4.36
+        },
+        {
+          "index": 11,
+          "word": "sheet",
+          "start": 4.36,
+          "end": 4.76
+        },
+        {
+          "index": 12,
+          "word": "approved",
+          "start": 4.76,
+          "end": 5.15
+        },
+        {
+          "index": 13,
+          "word": "before",
+          "start": 5.15,
+          "end": 5.55
+        },
+        {
+          "index": 14,
+          "word": "the",
+          "start": 5.55,
+          "end": 5.95
+        },
+        {
+          "index": 15,
+          "word": "competition",
+          "start": 5.95,
+          "end": 6.34
+        },
+        {
+          "index": 16,
+          "word": "even",
+          "start": 6.34,
+          "end": 6.74
+        },
+        {
+          "index": 17,
+          "word": "opens",
+          "start": 6.74,
+          "end": 7.14
+        },
+        {
+          "index": 18,
+          "word": "Excel.",
+          "start": 7.14,
+          "end": 7.53
+        },
+        {
+          "index": 19,
+          "word": "Welcome",
+          "start": 7.53,
+          "end": 7.93
+        },
+        {
+          "index": 20,
+          "word": "to",
+          "start": 7.93,
+          "end": 8.32
+        },
+        {
+          "index": 21,
+          "word": "the",
+          "start": 8.32,
+          "end": 8.72
+        },
+        {
+          "index": 22,
+          "word": "future",
+          "start": 8.72,
+          "end": 9.12
+        },
+        {
+          "index": 23,
+          "word": "of",
+          "start": 9.12,
+          "end": 9.51
+        },
+        {
+          "index": 24,
+          "word": "underwriting.",
+          "start": 9.51,
+          "end": 9.91
+        },
+        {
+          "index": 25,
+          "word": "Welcome",
+          "start": 9.91,
+          "end": 10.31
+        },
+        {
+          "index": 26,
+          "word": "to",
+          "start": 10.31,
+          "end": 10.7
+        },
+        {
+          "index": 27,
+          "word": "PencilSTR.",
+          "start": 10.7,
+          "end": 11.1
+        }
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "index": 0,
+      "word": "Real",
+      "start": 0.0,
+      "end": 0.44
+    },
+    {
+      "index": 1,
+      "word": "estate",
+      "start": 0.44,
+      "end": 0.88
+    },
+    {
+      "index": 2,
+      "word": "underwriting",
+      "start": 0.88,
+      "end": 1.31
+    },
+    {
+      "index": 3,
+      "word": "hasn't",
+      "start": 1.31,
+      "end": 1.75
+    },
+    {
+      "index": 4,
+      "word": "evolved",
+      "start": 1.75,
+      "end": 2.19
+    },
+    {
+      "index": 5,
+      "word": "in",
+      "start": 2.19,
+      "end": 2.63
+    },
+    {
+      "index": 6,
+      "word": "twenty",
+      "start": 2.63,
+      "end": 3.07
+    },
+    {
+      "index": 7,
+      "word": "years.",
+      "start": 3.07,
+      "end": 3.51
+    },
+    {
+      "index": 8,
+      "word": "Analysts",
+      "start": 3.51,
+      "end": 3.94
+    },
+    {
+      "index": 9,
+      "word": "still",
+      "start": 3.94,
+      "end": 4.38
+    },
+    {
+      "index": 10,
+      "word": "copy-paste",
+      "start": 4.38,
+      "end": 4.82
+    },
+    {
+      "index": 11,
+      "word": "Airbnb",
+      "start": 4.82,
+      "end": 5.26
+    },
+    {
+      "index": 12,
+      "word": "links",
+      "start": 5.26,
+      "end": 5.7
+    },
+    {
+      "index": 13,
+      "word": "into",
+      "start": 5.7,
+      "end": 6.14
+    },
+    {
+      "index": 14,
+      "word": "broken",
+      "start": 6.14,
+      "end": 6.57
+    },
+    {
+      "index": 15,
+      "word": "spreadsheets,",
+      "start": 6.57,
+      "end": 7.01
+    },
+    {
+      "index": 16,
+      "word": "waiting",
+      "start": 7.01,
+      "end": 7.45
+    },
+    {
+      "index": 17,
+      "word": "hours",
+      "start": 7.45,
+      "end": 7.89
+    },
+    {
+      "index": 18,
+      "word": "for",
+      "start": 7.89,
+      "end": 8.33
+    },
+    {
+      "index": 19,
+      "word": "stale",
+      "start": 8.33,
+      "end": 8.77
+    },
+    {
+      "index": 20,
+      "word": "estimates",
+      "start": 8.77,
+      "end": 9.2
+    },
+    {
+      "index": 21,
+      "word": "while",
+      "start": 9.2,
+      "end": 9.64
+    },
+    {
+      "index": 22,
+      "word": "the",
+      "start": 9.64,
+      "end": 10.08
+    },
+    {
+      "index": 23,
+      "word": "best",
+      "start": 10.08,
+      "end": 10.52
+    },
+    {
+      "index": 24,
+      "word": "deals",
+      "start": 10.52,
+      "end": 10.96
+    },
+    {
+      "index": 25,
+      "word": "get",
+      "start": 10.96,
+      "end": 11.4
+    },
+    {
+      "index": 26,
+      "word": "snatched",
+      "start": 11.4,
+      "end": 11.83
+    },
+    {
+      "index": 27,
+      "word": "off",
+      "start": 11.83,
+      "end": 12.27
+    },
+    {
+      "index": 28,
+      "word": "the",
+      "start": 12.27,
+      "end": 12.71
+    },
+    {
+      "index": 29,
+      "word": "market",
+      "start": 12.71,
+      "end": 13.15
+    },
+    {
+      "index": 30,
+      "word": "in",
+      "start": 13.15,
+      "end": 13.59
+    },
+    {
+      "index": 31,
+      "word": "minutes.",
+      "start": 13.59,
+      "end": 14.03
+    },
+    {
+      "index": 32,
+      "word": "Meet",
+      "start": 14.03,
+      "end": 14.46
+    },
+    {
+      "index": 33,
+      "word": "PencilSTR.",
+      "start": 14.46,
+      "end": 14.9
+    },
+    {
+      "index": 34,
+      "word": "Paste",
+      "start": 14.9,
+      "end": 15.34
+    },
+    {
+      "index": 35,
+      "word": "any",
+      "start": 15.34,
+      "end": 15.78
+    },
+    {
+      "index": 36,
+      "word": "MLS",
+      "start": 15.78,
+      "end": 16.22
+    },
+    {
+      "index": 37,
+      "word": "URL,",
+      "start": 16.22,
+      "end": 16.66
+    },
+    {
+      "index": 38,
+      "word": "Zillow",
+      "start": 16.66,
+      "end": 17.09
+    },
+    {
+      "index": 39,
+      "word": "link,",
+      "start": 17.09,
+      "end": 17.53
+    },
+    {
+      "index": 40,
+      "word": "or",
+      "start": 17.53,
+      "end": 17.97
+    },
+    {
+      "index": 41,
+      "word": "Airbnb",
+      "start": 17.97,
+      "end": 18.41
+    },
+    {
+      "index": 42,
+      "word": "listing,",
+      "start": 18.41,
+      "end": 18.85
+    },
+    {
+      "index": 43,
+      "word": "and",
+      "start": 18.85,
+      "end": 19.29
+    },
+    {
+      "index": 44,
+      "word": "our",
+      "start": 19.29,
+      "end": 19.72
+    },
+    {
+      "index": 45,
+      "word": "autonomous",
+      "start": 19.72,
+      "end": 20.16
+    },
+    {
+      "index": 46,
+      "word": "ingestion",
+      "start": 20.16,
+      "end": 20.6
+    },
+    {
+      "index": 47,
+      "word": "pipeline",
+      "start": 20.6,
+      "end": 21.04
+    },
+    {
+      "index": 48,
+      "word": "parses",
+      "start": 21.04,
+      "end": 21.48
+    },
+    {
+      "index": 49,
+      "word": "tax",
+      "start": 21.48,
+      "end": 21.92
+    },
+    {
+      "index": 50,
+      "word": "records,",
+      "start": 21.92,
+      "end": 22.35
+    },
+    {
+      "index": 51,
+      "word": "spatial",
+      "start": 22.35,
+      "end": 22.79
+    },
+    {
+      "index": 52,
+      "word": "coordinates,",
+      "start": 22.79,
+      "end": 23.23
+    },
+    {
+      "index": 53,
+      "word": "and",
+      "start": 23.23,
+      "end": 23.67
+    },
+    {
+      "index": 54,
+      "word": "comps",
+      "start": 23.67,
+      "end": 24.11
+    },
+    {
+      "index": 55,
+      "word": "in",
+      "start": 24.11,
+      "end": 24.55
+    },
+    {
+      "index": 56,
+      "word": "under",
+      "start": 24.55,
+      "end": 24.98
+    },
+    {
+      "index": 57,
+      "word": "four",
+      "start": 24.98,
+      "end": 25.42
+    },
+    {
+      "index": 58,
+      "word": "hundred",
+      "start": 25.42,
+      "end": 25.86
+    },
+    {
+      "index": 59,
+      "word": "milliseconds.",
+      "start": 25.86,
+      "end": 26.3
+    },
+    {
+      "index": 60,
+      "word": "Browse",
+      "start": 26.3,
+      "end": 26.74
+    },
+    {
+      "index": 61,
+      "word": "comps",
+      "start": 26.74,
+      "end": 27.18
+    },
+    {
+      "index": 62,
+      "word": "with",
+      "start": 27.18,
+      "end": 27.61
+    },
+    {
+      "index": 63,
+      "word": "Muse-grade",
+      "start": 27.61,
+      "end": 28.05
+    },
+    {
+      "index": 64,
+      "word": "full-bleed",
+      "start": 28.05,
+      "end": 28.49
+    },
+    {
+      "index": 65,
+      "word": "gallery",
+      "start": 28.49,
+      "end": 28.93
+    },
+    {
+      "index": 66,
+      "word": "cards.",
+      "start": 28.93,
+      "end": 29.37
+    },
+    {
+      "index": 67,
+      "word": "Scrub",
+      "start": 29.37,
+      "end": 29.81
+    },
+    {
+      "index": 68,
+      "word": "multi-angle",
+      "start": 29.81,
+      "end": 30.24
+    },
+    {
+      "index": 69,
+      "word": "photography,",
+      "start": 30.24,
+      "end": 30.68
+    },
+    {
+      "index": 70,
+      "word": "inspect",
+      "start": 30.68,
+      "end": 31.12
+    },
+    {
+      "index": 71,
+      "word": "corner",
+      "start": 31.12,
+      "end": 31.56
+    },
+    {
+      "index": 72,
+      "word": "DSCR",
+      "start": 31.56,
+      "end": 32.0
+    },
+    {
+      "index": 73,
+      "word": "pills,",
+      "start": 32.0,
+      "end": 32.44
+    },
+    {
+      "index": 74,
+      "word": "and",
+      "start": 32.44,
+      "end": 32.87
+    },
+    {
+      "index": 75,
+      "word": "review",
+      "start": 32.87,
+      "end": 33.31
+    },
+    {
+      "index": 76,
+      "word": "automated",
+      "start": 33.31,
+      "end": 33.75
+    },
+    {
+      "index": 77,
+      "word": "HOA",
+      "start": 33.75,
+      "end": 34.19
+    },
+    {
+      "index": 78,
+      "word": "audit",
+      "start": 34.19,
+      "end": 34.63
+    },
+    {
+      "index": 79,
+      "word": "checks",
+      "start": 34.63,
+      "end": 35.06
+    },
+    {
+      "index": 80,
+      "word": "that",
+      "start": 35.06,
+      "end": 35.5
+    },
+    {
+      "index": 81,
+      "word": "scan",
+      "start": 35.5,
+      "end": 35.94
+    },
+    {
+      "index": 82,
+      "word": "municipal",
+      "start": 35.94,
+      "end": 36.38
+    },
+    {
+      "index": 83,
+      "word": "ordinances",
+      "start": 36.38,
+      "end": 36.82
+    },
+    {
+      "index": 84,
+      "word": "for",
+      "start": 36.82,
+      "end": 37.26
+    },
+    {
+      "index": 85,
+      "word": "short-term",
+      "start": 37.26,
+      "end": 37.69
+    },
+    {
+      "index": 86,
+      "word": "rental",
+      "start": 37.69,
+      "end": 38.13
+    },
+    {
+      "index": 87,
+      "word": "permits.",
+      "start": 38.13,
+      "end": 38.57
+    },
+    {
+      "index": 88,
+      "word": "Underwrite",
+      "start": 38.57,
+      "end": 39.01
+    },
+    {
+      "index": 89,
+      "word": "with",
+      "start": 39.01,
+      "end": 39.45
+    },
+    {
+      "index": 90,
+      "word": "deterministic",
+      "start": 39.45,
+      "end": 39.89
+    },
+    {
+      "index": 91,
+      "word": "dual",
+      "start": 39.89,
+      "end": 40.32
+    },
+    {
+      "index": 92,
+      "word": "engines.",
+      "start": 40.32,
+      "end": 40.76
+    },
+    {
+      "index": 93,
+      "word": "Switch",
+      "start": 40.76,
+      "end": 41.2
+    },
+    {
+      "index": 94,
+      "word": "instantly",
+      "start": 41.2,
+      "end": 41.64
+    },
+    {
+      "index": 95,
+      "word": "between",
+      "start": 41.64,
+      "end": 42.08
+    },
+    {
+      "index": 96,
+      "word": "residential",
+      "start": 42.08,
+      "end": 42.52
+    },
+    {
+      "index": 97,
+      "word": "debt",
+      "start": 42.52,
+      "end": 42.95
+    },
+    {
+      "index": 98,
+      "word": "service",
+      "start": 42.95,
+      "end": 43.39
+    },
+    {
+      "index": 99,
+      "word": "coverage",
+      "start": 43.39,
+      "end": 43.83
+    },
+    {
+      "index": 100,
+      "word": "and",
+      "start": 43.83,
+      "end": 44.27
+    },
+    {
+      "index": 101,
+      "word": "commercial",
+      "start": 44.27,
+      "end": 44.71
+    },
+    {
+      "index": 102,
+      "word": "net",
+      "start": 44.71,
+      "end": 45.15
+    },
+    {
+      "index": 103,
+      "word": "operating",
+      "start": 45.15,
+      "end": 45.58
+    },
+    {
+      "index": 104,
+      "word": "income.",
+      "start": 45.58,
+      "end": 46.02
+    },
+    {
+      "index": 105,
+      "word": "Run",
+      "start": 46.02,
+      "end": 46.46
+    },
+    {
+      "index": 106,
+      "word": "live",
+      "start": 46.46,
+      "end": 46.9
+    },
+    {
+      "index": 107,
+      "word": "interest",
+      "start": 46.9,
+      "end": 47.34
+    },
+    {
+      "index": 108,
+      "word": "rate",
+      "start": 47.34,
+      "end": 47.78
+    },
+    {
+      "index": 109,
+      "word": "sliders",
+      "start": 47.78,
+      "end": 48.21
+    },
+    {
+      "index": 110,
+      "word": "with",
+      "start": 48.21,
+      "end": 48.65
+    },
+    {
+      "index": 111,
+      "word": "sub-millisecond",
+      "start": 48.65,
+      "end": 49.09
+    },
+    {
+      "index": 112,
+      "word": "recalculations.",
+      "start": 49.09,
+      "end": 49.53
+    },
+    {
+      "index": 113,
+      "word": "Four",
+      "start": 49.53,
+      "end": 49.97
+    },
+    {
+      "index": 114,
+      "word": "autonomous",
+      "start": 49.97,
+      "end": 50.41
+    },
+    {
+      "index": 115,
+      "word": "AI",
+      "start": 50.41,
+      "end": 50.84
+    },
+    {
+      "index": 116,
+      "word": "agents",
+      "start": 50.84,
+      "end": 51.28
+    },
+    {
+      "index": 117,
+      "word": "work",
+      "start": 51.28,
+      "end": 51.72
+    },
+    {
+      "index": 118,
+      "word": "together",
+      "start": 51.72,
+      "end": 52.16
+    },
+    {
+      "index": 119,
+      "word": "in",
+      "start": 52.16,
+      "end": 52.6
+    },
+    {
+      "index": 120,
+      "word": "parallel.",
+      "start": 52.6,
+      "end": 53.04
+    },
+    {
+      "index": 121,
+      "word": "Astra",
+      "start": 53.04,
+      "end": 53.47
+    },
+    {
+      "index": 122,
+      "word": "drafts",
+      "start": 53.47,
+      "end": 53.91
+    },
+    {
+      "index": 123,
+      "word": "the",
+      "start": 53.91,
+      "end": 54.35
+    },
+    {
+      "index": 124,
+      "word": "memo,",
+      "start": 54.35,
+      "end": 54.79
+    },
+    {
+      "index": 125,
+      "word": "Scout",
+      "start": 54.79,
+      "end": 55.23
+    },
+    {
+      "index": 126,
+      "word": "tracks",
+      "start": 55.23,
+      "end": 55.67
+    },
+    {
+      "index": 127,
+      "word": "market",
+      "start": 55.67,
+      "end": 56.1
+    },
+    {
+      "index": 128,
+      "word": "comps,",
+      "start": 56.1,
+      "end": 56.54
+    },
+    {
+      "index": 129,
+      "word": "Cipher",
+      "start": 56.54,
+      "end": 56.98
+    },
+    {
+      "index": 130,
+      "word": "runs",
+      "start": 56.98,
+      "end": 57.42
+    },
+    {
+      "index": 131,
+      "word": "tax",
+      "start": 57.42,
+      "end": 57.86
+    },
+    {
+      "index": 132,
+      "word": "depreciation,",
+      "start": 57.86,
+      "end": 58.3
+    },
+    {
+      "index": 133,
+      "word": "and",
+      "start": 58.3,
+      "end": 58.73
+    },
+    {
+      "index": 134,
+      "word": "Lex",
+      "start": 58.73,
+      "end": 59.17
+    },
+    {
+      "index": 135,
+      "word": "reviews",
+      "start": 59.17,
+      "end": 59.61
+    },
+    {
+      "index": 136,
+      "word": "zoning",
+      "start": 59.61,
+      "end": 60.05
+    },
+    {
+      "index": 137,
+      "word": "bylaws,",
+      "start": 60.05,
+      "end": 60.49
+    },
+    {
+      "index": 138,
+      "word": "all",
+      "start": 60.49,
+      "end": 60.93
+    },
+    {
+      "index": 139,
+      "word": "orchestrated",
+      "start": 60.93,
+      "end": 61.36
+    },
+    {
+      "index": 140,
+      "word": "through",
+      "start": 61.36,
+      "end": 61.8
+    },
+    {
+      "index": 141,
+      "word": "a",
+      "start": 61.8,
+      "end": 62.24
+    },
+    {
+      "index": 142,
+      "word": "native",
+      "start": 62.24,
+      "end": 62.68
+    },
+    {
+      "index": 143,
+      "word": "command",
+      "start": 62.68,
+      "end": 63.12
+    },
+    {
+      "index": 144,
+      "word": "palette.",
+      "start": 63.12,
+      "end": 63.56
+    },
+    {
+      "index": 145,
+      "word": "One",
+      "start": 63.56,
+      "end": 63.99
+    },
+    {
+      "index": 146,
+      "word": "click",
+      "start": 63.99,
+      "end": 64.43
+    },
+    {
+      "index": 147,
+      "word": "exports",
+      "start": 64.43,
+      "end": 64.87
+    },
+    {
+      "index": 148,
+      "word": "a",
+      "start": 64.87,
+      "end": 65.31
+    },
+    {
+      "index": 149,
+      "word": "lender-ready",
+      "start": 65.31,
+      "end": 65.75
+    },
+    {
+      "index": 150,
+      "word": "credit",
+      "start": 65.75,
+      "end": 66.19
+    },
+    {
+      "index": 151,
+      "word": "memorandum",
+      "start": 66.19,
+      "end": 66.62
+    },
+    {
+      "index": 152,
+      "word": "that",
+      "start": 66.62,
+      "end": 67.06
+    },
+    {
+      "index": 153,
+      "word": "gets",
+      "start": 67.06,
+      "end": 67.5
+    },
+    {
+      "index": 154,
+      "word": "your",
+      "start": 67.5,
+      "end": 67.94
+    },
+    {
+      "index": 155,
+      "word": "term",
+      "start": 67.94,
+      "end": 68.38
+    },
+    {
+      "index": 156,
+      "word": "sheet",
+      "start": 68.38,
+      "end": 68.82
+    },
+    {
+      "index": 157,
+      "word": "approved",
+      "start": 68.82,
+      "end": 69.25
+    },
+    {
+      "index": 158,
+      "word": "before",
+      "start": 69.25,
+      "end": 69.69
+    },
+    {
+      "index": 159,
+      "word": "the",
+      "start": 69.69,
+      "end": 70.13
+    },
+    {
+      "index": 160,
+      "word": "competition",
+      "start": 70.13,
+      "end": 70.57
+    },
+    {
+      "index": 161,
+      "word": "even",
+      "start": 70.57,
+      "end": 71.01
+    },
+    {
+      "index": 162,
+      "word": "opens",
+      "start": 71.01,
+      "end": 71.44
+    },
+    {
+      "index": 163,
+      "word": "Excel.",
+      "start": 71.44,
+      "end": 71.88
+    },
+    {
+      "index": 164,
+      "word": "Welcome",
+      "start": 71.88,
+      "end": 72.32
+    },
+    {
+      "index": 165,
+      "word": "to",
+      "start": 72.32,
+      "end": 72.76
+    },
+    {
+      "index": 166,
+      "word": "the",
+      "start": 72.76,
+      "end": 73.2
+    },
+    {
+      "index": 167,
+      "word": "future",
+      "start": 73.2,
+      "end": 73.64
+    },
+    {
+      "index": 168,
+      "word": "of",
+      "start": 73.64,
+      "end": 74.07
+    },
+    {
+      "index": 169,
+      "word": "underwriting.",
+      "start": 74.07,
+      "end": 74.51
+    },
+    {
+      "index": 170,
+      "word": "Welcome",
+      "start": 74.51,
+      "end": 74.95
+    },
+    {
+      "index": 171,
+      "word": "to",
+      "start": 74.95,
+      "end": 75.39
+    },
+    {
+      "index": 172,
+      "word": "PencilSTR.",
+      "start": 75.39,
+      "end": 75.83
+    }
+  ]
+}

@@ -1,0 +1,1894 @@
+{
+  "title": "PencilSTR \u2014 The Stress Test (Quantitative Risk Terminal)",
+  "style": "quant_analyst",
+  "profile": {
+    "name": "The Stress Test",
+    "description": "Algorithmic Quantitative Finance & Risk Stress-Tester (crisp, precise, objective)",
+    "macos_voice": "Daniel",
+    "speaking_rate": 192,
+    "pitch_adjustment": 0.99,
+    "openrouter_voice": "echo",
+    "ffmpeg_filters": "aformat=channel_layouts=stereo,equalizer=f=100:width_type=o:width=1:g=3.0,equalizer=f=3800:width_type=o:width=1:g=2.5,loudnorm=I=-15:LRA=8:TP=-1.0",
+    "bgm_tag": "sub_bass_pulse"
+  },
+  "totalDuration": 63.297646,
+  "fullAudioFile": "full_voiceover_quant_analyst.mp3",
+  "vttFile": "subtitles_quant_analyst.vtt",
+  "srtFile": "subtitles_quant_analyst.srt",
+  "chapters": [
+    {
+      "id": "chapter_1_hook",
+      "title": "Zero Margin for Error",
+      "text": "In a fluctuating interest rate environment, an eighty basis point shift obliterates unhedged short-term rental equity. Traditional underwriting uses static assumptions that fail the first month a tourism trough hits.",
+      "visualCue": "High-contrast quantitative light mode terminal with real-time numeric feeds.",
+      "audioFile": "chapter_chapter_1_hook_quant_analyst.mp3",
+      "duration": 10.449021,
+      "captions": [
+        {
+          "index": 0,
+          "word": "In",
+          "start": 0.0,
+          "end": 0.35
+        },
+        {
+          "index": 1,
+          "word": "a",
+          "start": 0.35,
+          "end": 0.7
+        },
+        {
+          "index": 2,
+          "word": "fluctuating",
+          "start": 0.7,
+          "end": 1.04
+        },
+        {
+          "index": 3,
+          "word": "interest",
+          "start": 1.04,
+          "end": 1.39
+        },
+        {
+          "index": 4,
+          "word": "rate",
+          "start": 1.39,
+          "end": 1.74
+        },
+        {
+          "index": 5,
+          "word": "environment,",
+          "start": 1.74,
+          "end": 2.09
+        },
+        {
+          "index": 6,
+          "word": "an",
+          "start": 2.09,
+          "end": 2.44
+        },
+        {
+          "index": 7,
+          "word": "eighty",
+          "start": 2.44,
+          "end": 2.79
+        },
+        {
+          "index": 8,
+          "word": "basis",
+          "start": 2.79,
+          "end": 3.13
+        },
+        {
+          "index": 9,
+          "word": "point",
+          "start": 3.13,
+          "end": 3.48
+        },
+        {
+          "index": 10,
+          "word": "shift",
+          "start": 3.48,
+          "end": 3.83
+        },
+        {
+          "index": 11,
+          "word": "obliterates",
+          "start": 3.83,
+          "end": 4.18
+        },
+        {
+          "index": 12,
+          "word": "unhedged",
+          "start": 4.18,
+          "end": 4.53
+        },
+        {
+          "index": 13,
+          "word": "short-term",
+          "start": 4.53,
+          "end": 4.88
+        },
+        {
+          "index": 14,
+          "word": "rental",
+          "start": 4.88,
+          "end": 5.22
+        },
+        {
+          "index": 15,
+          "word": "equity.",
+          "start": 5.22,
+          "end": 5.57
+        },
+        {
+          "index": 16,
+          "word": "Traditional",
+          "start": 5.57,
+          "end": 5.92
+        },
+        {
+          "index": 17,
+          "word": "underwriting",
+          "start": 5.92,
+          "end": 6.27
+        },
+        {
+          "index": 18,
+          "word": "uses",
+          "start": 6.27,
+          "end": 6.62
+        },
+        {
+          "index": 19,
+          "word": "static",
+          "start": 6.62,
+          "end": 6.97
+        },
+        {
+          "index": 20,
+          "word": "assumptions",
+          "start": 6.97,
+          "end": 7.31
+        },
+        {
+          "index": 21,
+          "word": "that",
+          "start": 7.31,
+          "end": 7.66
+        },
+        {
+          "index": 22,
+          "word": "fail",
+          "start": 7.66,
+          "end": 8.01
+        },
+        {
+          "index": 23,
+          "word": "the",
+          "start": 8.01,
+          "end": 8.36
+        },
+        {
+          "index": 24,
+          "word": "first",
+          "start": 8.36,
+          "end": 8.71
+        },
+        {
+          "index": 25,
+          "word": "month",
+          "start": 8.71,
+          "end": 9.06
+        },
+        {
+          "index": 26,
+          "word": "a",
+          "start": 9.06,
+          "end": 9.4
+        },
+        {
+          "index": 27,
+          "word": "tourism",
+          "start": 9.4,
+          "end": 9.75
+        },
+        {
+          "index": 28,
+          "word": "trough",
+          "start": 9.75,
+          "end": 10.1
+        },
+        {
+          "index": 29,
+          "word": "hits.",
+          "start": 10.1,
+          "end": 10.45
+        }
+      ]
+    },
+    {
+      "id": "chapter_2_radar",
+      "title": "Algorithmic Pipeline Filtration",
+      "text": "PencilSTR subjects every listing to automated statistical filtration. It evaluates historical seasonality variance, standard deviations of daily rates, and trailing revenue distribution across competing clusters.",
+      "visualCue": "Autonomous Radar scoring listings with real-time volatility and yield metrics.",
+      "audioFile": "chapter_chapter_2_radar_quant_analyst.mp3",
+      "duration": 11.447479,
+      "captions": [
+        {
+          "index": 0,
+          "word": "PencilSTR",
+          "start": 0.0,
+          "end": 0.46
+        },
+        {
+          "index": 1,
+          "word": "subjects",
+          "start": 0.46,
+          "end": 0.92
+        },
+        {
+          "index": 2,
+          "word": "every",
+          "start": 0.92,
+          "end": 1.37
+        },
+        {
+          "index": 3,
+          "word": "listing",
+          "start": 1.37,
+          "end": 1.83
+        },
+        {
+          "index": 4,
+          "word": "to",
+          "start": 1.83,
+          "end": 2.29
+        },
+        {
+          "index": 5,
+          "word": "automated",
+          "start": 2.29,
+          "end": 2.75
+        },
+        {
+          "index": 6,
+          "word": "statistical",
+          "start": 2.75,
+          "end": 3.21
+        },
+        {
+          "index": 7,
+          "word": "filtration.",
+          "start": 3.21,
+          "end": 3.66
+        },
+        {
+          "index": 8,
+          "word": "It",
+          "start": 3.66,
+          "end": 4.12
+        },
+        {
+          "index": 9,
+          "word": "evaluates",
+          "start": 4.12,
+          "end": 4.58
+        },
+        {
+          "index": 10,
+          "word": "historical",
+          "start": 4.58,
+          "end": 5.04
+        },
+        {
+          "index": 11,
+          "word": "seasonality",
+          "start": 5.04,
+          "end": 5.49
+        },
+        {
+          "index": 12,
+          "word": "variance,",
+          "start": 5.49,
+          "end": 5.95
+        },
+        {
+          "index": 13,
+          "word": "standard",
+          "start": 5.95,
+          "end": 6.41
+        },
+        {
+          "index": 14,
+          "word": "deviations",
+          "start": 6.41,
+          "end": 6.87
+        },
+        {
+          "index": 15,
+          "word": "of",
+          "start": 6.87,
+          "end": 7.33
+        },
+        {
+          "index": 16,
+          "word": "daily",
+          "start": 7.33,
+          "end": 7.78
+        },
+        {
+          "index": 17,
+          "word": "rates,",
+          "start": 7.78,
+          "end": 8.24
+        },
+        {
+          "index": 18,
+          "word": "and",
+          "start": 8.24,
+          "end": 8.7
+        },
+        {
+          "index": 19,
+          "word": "trailing",
+          "start": 8.7,
+          "end": 9.16
+        },
+        {
+          "index": 20,
+          "word": "revenue",
+          "start": 9.16,
+          "end": 9.62
+        },
+        {
+          "index": 21,
+          "word": "distribution",
+          "start": 9.62,
+          "end": 10.07
+        },
+        {
+          "index": 22,
+          "word": "across",
+          "start": 10.07,
+          "end": 10.53
+        },
+        {
+          "index": 23,
+          "word": "competing",
+          "start": 10.53,
+          "end": 10.99
+        },
+        {
+          "index": 24,
+          "word": "clusters.",
+          "start": 10.99,
+          "end": 11.45
+        }
+      ]
+    },
+    {
+      "id": "chapter_3_comps_ccr",
+      "title": "Multi-Factor Comp Normalization",
+      "text": "Inspect visual comps with algorithmic normalization. Compare square footage, bedroom count, and revenue percentiles side-by-side in our unified drawer, while screening out properties with restrictive HOA deed covenants.",
+      "visualCue": "MuseCompCard side-by-side comparison matrix with quantitative metrics highlighted.",
+      "audioFile": "chapter_chapter_3_comps_ccr_quant_analyst.mp3",
+      "duration": 10.983083,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Inspect",
+          "start": 0.0,
+          "end": 0.39
+        },
+        {
+          "index": 1,
+          "word": "visual",
+          "start": 0.39,
+          "end": 0.78
+        },
+        {
+          "index": 2,
+          "word": "comps",
+          "start": 0.78,
+          "end": 1.18
+        },
+        {
+          "index": 3,
+          "word": "with",
+          "start": 1.18,
+          "end": 1.57
+        },
+        {
+          "index": 4,
+          "word": "algorithmic",
+          "start": 1.57,
+          "end": 1.96
+        },
+        {
+          "index": 5,
+          "word": "normalization.",
+          "start": 1.96,
+          "end": 2.35
+        },
+        {
+          "index": 6,
+          "word": "Compare",
+          "start": 2.35,
+          "end": 2.75
+        },
+        {
+          "index": 7,
+          "word": "square",
+          "start": 2.75,
+          "end": 3.14
+        },
+        {
+          "index": 8,
+          "word": "footage,",
+          "start": 3.14,
+          "end": 3.53
+        },
+        {
+          "index": 9,
+          "word": "bedroom",
+          "start": 3.53,
+          "end": 3.92
+        },
+        {
+          "index": 10,
+          "word": "count,",
+          "start": 3.92,
+          "end": 4.31
+        },
+        {
+          "index": 11,
+          "word": "and",
+          "start": 4.31,
+          "end": 4.71
+        },
+        {
+          "index": 12,
+          "word": "revenue",
+          "start": 4.71,
+          "end": 5.1
+        },
+        {
+          "index": 13,
+          "word": "percentiles",
+          "start": 5.1,
+          "end": 5.49
+        },
+        {
+          "index": 14,
+          "word": "side-by-side",
+          "start": 5.49,
+          "end": 5.88
+        },
+        {
+          "index": 15,
+          "word": "in",
+          "start": 5.88,
+          "end": 6.28
+        },
+        {
+          "index": 16,
+          "word": "our",
+          "start": 6.28,
+          "end": 6.67
+        },
+        {
+          "index": 17,
+          "word": "unified",
+          "start": 6.67,
+          "end": 7.06
+        },
+        {
+          "index": 18,
+          "word": "drawer,",
+          "start": 7.06,
+          "end": 7.45
+        },
+        {
+          "index": 19,
+          "word": "while",
+          "start": 7.45,
+          "end": 7.85
+        },
+        {
+          "index": 20,
+          "word": "screening",
+          "start": 7.85,
+          "end": 8.24
+        },
+        {
+          "index": 21,
+          "word": "out",
+          "start": 8.24,
+          "end": 8.63
+        },
+        {
+          "index": 22,
+          "word": "properties",
+          "start": 8.63,
+          "end": 9.02
+        },
+        {
+          "index": 23,
+          "word": "with",
+          "start": 9.02,
+          "end": 9.41
+        },
+        {
+          "index": 24,
+          "word": "restrictive",
+          "start": 9.41,
+          "end": 9.81
+        },
+        {
+          "index": 25,
+          "word": "HOA",
+          "start": 9.81,
+          "end": 10.2
+        },
+        {
+          "index": 26,
+          "word": "deed",
+          "start": 10.2,
+          "end": 10.59
+        },
+        {
+          "index": 27,
+          "word": "covenants.",
+          "start": 10.59,
+          "end": 10.98
+        }
+      ]
+    },
+    {
+      "id": "chapter_4_dscr_engine",
+      "title": "Stochastic Sensitivity & Debt Stress",
+      "text": "Execute multi-variable sensitivity analysis. Test twenty percent revenue degradation against three hundred basis point interest shocks. Solve immediately for break-even occupancy and required debt yield.",
+      "visualCue": "Underwriter Studio 2D sensitivity matrix heatmap and debt service coverage waterfall.",
+      "audioFile": "chapter_chapter_4_dscr_engine_quant_analyst.mp3",
+      "duration": 10.263271,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Execute",
+          "start": 0.0,
+          "end": 0.41
+        },
+        {
+          "index": 1,
+          "word": "multi-variable",
+          "start": 0.41,
+          "end": 0.82
+        },
+        {
+          "index": 2,
+          "word": "sensitivity",
+          "start": 0.82,
+          "end": 1.23
+        },
+        {
+          "index": 3,
+          "word": "analysis.",
+          "start": 1.23,
+          "end": 1.64
+        },
+        {
+          "index": 4,
+          "word": "Test",
+          "start": 1.64,
+          "end": 2.05
+        },
+        {
+          "index": 5,
+          "word": "twenty",
+          "start": 2.05,
+          "end": 2.46
+        },
+        {
+          "index": 6,
+          "word": "percent",
+          "start": 2.46,
+          "end": 2.87
+        },
+        {
+          "index": 7,
+          "word": "revenue",
+          "start": 2.87,
+          "end": 3.28
+        },
+        {
+          "index": 8,
+          "word": "degradation",
+          "start": 3.28,
+          "end": 3.69
+        },
+        {
+          "index": 9,
+          "word": "against",
+          "start": 3.69,
+          "end": 4.11
+        },
+        {
+          "index": 10,
+          "word": "three",
+          "start": 4.11,
+          "end": 4.52
+        },
+        {
+          "index": 11,
+          "word": "hundred",
+          "start": 4.52,
+          "end": 4.93
+        },
+        {
+          "index": 12,
+          "word": "basis",
+          "start": 4.93,
+          "end": 5.34
+        },
+        {
+          "index": 13,
+          "word": "point",
+          "start": 5.34,
+          "end": 5.75
+        },
+        {
+          "index": 14,
+          "word": "interest",
+          "start": 5.75,
+          "end": 6.16
+        },
+        {
+          "index": 15,
+          "word": "shocks.",
+          "start": 6.16,
+          "end": 6.57
+        },
+        {
+          "index": 16,
+          "word": "Solve",
+          "start": 6.57,
+          "end": 6.98
+        },
+        {
+          "index": 17,
+          "word": "immediately",
+          "start": 6.98,
+          "end": 7.39
+        },
+        {
+          "index": 18,
+          "word": "for",
+          "start": 7.39,
+          "end": 7.8
+        },
+        {
+          "index": 19,
+          "word": "break-even",
+          "start": 7.8,
+          "end": 8.21
+        },
+        {
+          "index": 20,
+          "word": "occupancy",
+          "start": 8.21,
+          "end": 8.62
+        },
+        {
+          "index": 21,
+          "word": "and",
+          "start": 8.62,
+          "end": 9.03
+        },
+        {
+          "index": 22,
+          "word": "required",
+          "start": 9.03,
+          "end": 9.44
+        },
+        {
+          "index": 23,
+          "word": "debt",
+          "start": 9.44,
+          "end": 9.85
+        },
+        {
+          "index": 24,
+          "word": "yield.",
+          "start": 9.85,
+          "end": 10.26
+        }
+      ]
+    },
+    {
+      "id": "chapter_5_scribe_mesh",
+      "title": "Autonomous Scribe Calculations",
+      "text": "Our multi-agent consensus engine reconciles financial models across four distinct perspectives, verifying debt covenants and validating tax depreciation assumptions before outputting final committee recommendations.",
+      "visualCue": "Agent Team interface showing active Scribes crunching numbers and consensus badges.",
+      "audioFile": "chapter_chapter_5_scribe_mesh_quant_analyst.mp3",
+      "duration": 10.658,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Our",
+          "start": 0.0,
+          "end": 0.44
+        },
+        {
+          "index": 1,
+          "word": "multi-agent",
+          "start": 0.44,
+          "end": 0.89
+        },
+        {
+          "index": 2,
+          "word": "consensus",
+          "start": 0.89,
+          "end": 1.33
+        },
+        {
+          "index": 3,
+          "word": "engine",
+          "start": 1.33,
+          "end": 1.78
+        },
+        {
+          "index": 4,
+          "word": "reconciles",
+          "start": 1.78,
+          "end": 2.22
+        },
+        {
+          "index": 5,
+          "word": "financial",
+          "start": 2.22,
+          "end": 2.66
+        },
+        {
+          "index": 6,
+          "word": "models",
+          "start": 2.66,
+          "end": 3.11
+        },
+        {
+          "index": 7,
+          "word": "across",
+          "start": 3.11,
+          "end": 3.55
+        },
+        {
+          "index": 8,
+          "word": "four",
+          "start": 3.55,
+          "end": 4.0
+        },
+        {
+          "index": 9,
+          "word": "distinct",
+          "start": 4.0,
+          "end": 4.44
+        },
+        {
+          "index": 10,
+          "word": "perspectives,",
+          "start": 4.44,
+          "end": 4.88
+        },
+        {
+          "index": 11,
+          "word": "verifying",
+          "start": 4.88,
+          "end": 5.33
+        },
+        {
+          "index": 12,
+          "word": "debt",
+          "start": 5.33,
+          "end": 5.77
+        },
+        {
+          "index": 13,
+          "word": "covenants",
+          "start": 5.77,
+          "end": 6.22
+        },
+        {
+          "index": 14,
+          "word": "and",
+          "start": 6.22,
+          "end": 6.66
+        },
+        {
+          "index": 15,
+          "word": "validating",
+          "start": 6.66,
+          "end": 7.11
+        },
+        {
+          "index": 16,
+          "word": "tax",
+          "start": 7.11,
+          "end": 7.55
+        },
+        {
+          "index": 17,
+          "word": "depreciation",
+          "start": 7.55,
+          "end": 7.99
+        },
+        {
+          "index": 18,
+          "word": "assumptions",
+          "start": 7.99,
+          "end": 8.44
+        },
+        {
+          "index": 19,
+          "word": "before",
+          "start": 8.44,
+          "end": 8.88
+        },
+        {
+          "index": 20,
+          "word": "outputting",
+          "start": 8.88,
+          "end": 9.33
+        },
+        {
+          "index": 21,
+          "word": "final",
+          "start": 9.33,
+          "end": 9.77
+        },
+        {
+          "index": 22,
+          "word": "committee",
+          "start": 9.77,
+          "end": 10.21
+        },
+        {
+          "index": 23,
+          "word": "recommendations.",
+          "start": 10.21,
+          "end": 10.66
+        }
+      ]
+    },
+    {
+      "id": "chapter_6_memo_outro",
+      "title": "Deterministic Institutional Output",
+      "text": "Export audit-proof credit packages designed for institutional investment committees and non-bank lenders. Eliminate guesswork. Quantify every variable with PencilSTR.",
+      "visualCue": "Generated credit memorandum with deterministic financial tables and DSCR certification.",
+      "audioFile": "chapter_chapter_6_memo_outro_quant_analyst.mp3",
+      "duration": 8.800417,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Export",
+          "start": 0.0,
+          "end": 0.46
+        },
+        {
+          "index": 1,
+          "word": "audit-proof",
+          "start": 0.46,
+          "end": 0.93
+        },
+        {
+          "index": 2,
+          "word": "credit",
+          "start": 0.93,
+          "end": 1.39
+        },
+        {
+          "index": 3,
+          "word": "packages",
+          "start": 1.39,
+          "end": 1.85
+        },
+        {
+          "index": 4,
+          "word": "designed",
+          "start": 1.85,
+          "end": 2.32
+        },
+        {
+          "index": 5,
+          "word": "for",
+          "start": 2.32,
+          "end": 2.78
+        },
+        {
+          "index": 6,
+          "word": "institutional",
+          "start": 2.78,
+          "end": 3.24
+        },
+        {
+          "index": 7,
+          "word": "investment",
+          "start": 3.24,
+          "end": 3.71
+        },
+        {
+          "index": 8,
+          "word": "committees",
+          "start": 3.71,
+          "end": 4.17
+        },
+        {
+          "index": 9,
+          "word": "and",
+          "start": 4.17,
+          "end": 4.63
+        },
+        {
+          "index": 10,
+          "word": "non-bank",
+          "start": 4.63,
+          "end": 5.09
+        },
+        {
+          "index": 11,
+          "word": "lenders.",
+          "start": 5.09,
+          "end": 5.56
+        },
+        {
+          "index": 12,
+          "word": "Eliminate",
+          "start": 5.56,
+          "end": 6.02
+        },
+        {
+          "index": 13,
+          "word": "guesswork.",
+          "start": 6.02,
+          "end": 6.48
+        },
+        {
+          "index": 14,
+          "word": "Quantify",
+          "start": 6.48,
+          "end": 6.95
+        },
+        {
+          "index": 15,
+          "word": "every",
+          "start": 6.95,
+          "end": 7.41
+        },
+        {
+          "index": 16,
+          "word": "variable",
+          "start": 7.41,
+          "end": 7.87
+        },
+        {
+          "index": 17,
+          "word": "with",
+          "start": 7.87,
+          "end": 8.34
+        },
+        {
+          "index": 18,
+          "word": "PencilSTR.",
+          "start": 8.34,
+          "end": 8.8
+        }
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "index": 0,
+      "word": "In",
+      "start": 0.0,
+      "end": 0.42
+    },
+    {
+      "index": 1,
+      "word": "a",
+      "start": 0.42,
+      "end": 0.84
+    },
+    {
+      "index": 2,
+      "word": "fluctuating",
+      "start": 0.84,
+      "end": 1.26
+    },
+    {
+      "index": 3,
+      "word": "interest",
+      "start": 1.26,
+      "end": 1.68
+    },
+    {
+      "index": 4,
+      "word": "rate",
+      "start": 1.68,
+      "end": 2.1
+    },
+    {
+      "index": 5,
+      "word": "environment,",
+      "start": 2.1,
+      "end": 2.52
+    },
+    {
+      "index": 6,
+      "word": "an",
+      "start": 2.52,
+      "end": 2.93
+    },
+    {
+      "index": 7,
+      "word": "eighty",
+      "start": 2.93,
+      "end": 3.35
+    },
+    {
+      "index": 8,
+      "word": "basis",
+      "start": 3.35,
+      "end": 3.77
+    },
+    {
+      "index": 9,
+      "word": "point",
+      "start": 3.77,
+      "end": 4.19
+    },
+    {
+      "index": 10,
+      "word": "shift",
+      "start": 4.19,
+      "end": 4.61
+    },
+    {
+      "index": 11,
+      "word": "obliterates",
+      "start": 4.61,
+      "end": 5.03
+    },
+    {
+      "index": 12,
+      "word": "unhedged",
+      "start": 5.03,
+      "end": 5.45
+    },
+    {
+      "index": 13,
+      "word": "short-term",
+      "start": 5.45,
+      "end": 5.87
+    },
+    {
+      "index": 14,
+      "word": "rental",
+      "start": 5.87,
+      "end": 6.29
+    },
+    {
+      "index": 15,
+      "word": "equity.",
+      "start": 6.29,
+      "end": 6.71
+    },
+    {
+      "index": 16,
+      "word": "Traditional",
+      "start": 6.71,
+      "end": 7.13
+    },
+    {
+      "index": 17,
+      "word": "underwriting",
+      "start": 7.13,
+      "end": 7.55
+    },
+    {
+      "index": 18,
+      "word": "uses",
+      "start": 7.55,
+      "end": 7.96
+    },
+    {
+      "index": 19,
+      "word": "static",
+      "start": 7.96,
+      "end": 8.38
+    },
+    {
+      "index": 20,
+      "word": "assumptions",
+      "start": 8.38,
+      "end": 8.8
+    },
+    {
+      "index": 21,
+      "word": "that",
+      "start": 8.8,
+      "end": 9.22
+    },
+    {
+      "index": 22,
+      "word": "fail",
+      "start": 9.22,
+      "end": 9.64
+    },
+    {
+      "index": 23,
+      "word": "the",
+      "start": 9.64,
+      "end": 10.06
+    },
+    {
+      "index": 24,
+      "word": "first",
+      "start": 10.06,
+      "end": 10.48
+    },
+    {
+      "index": 25,
+      "word": "month",
+      "start": 10.48,
+      "end": 10.9
+    },
+    {
+      "index": 26,
+      "word": "a",
+      "start": 10.9,
+      "end": 11.32
+    },
+    {
+      "index": 27,
+      "word": "tourism",
+      "start": 11.32,
+      "end": 11.74
+    },
+    {
+      "index": 28,
+      "word": "trough",
+      "start": 11.74,
+      "end": 12.16
+    },
+    {
+      "index": 29,
+      "word": "hits.",
+      "start": 12.16,
+      "end": 12.58
+    },
+    {
+      "index": 30,
+      "word": "PencilSTR",
+      "start": 12.58,
+      "end": 12.99
+    },
+    {
+      "index": 31,
+      "word": "subjects",
+      "start": 12.99,
+      "end": 13.41
+    },
+    {
+      "index": 32,
+      "word": "every",
+      "start": 13.41,
+      "end": 13.83
+    },
+    {
+      "index": 33,
+      "word": "listing",
+      "start": 13.83,
+      "end": 14.25
+    },
+    {
+      "index": 34,
+      "word": "to",
+      "start": 14.25,
+      "end": 14.67
+    },
+    {
+      "index": 35,
+      "word": "automated",
+      "start": 14.67,
+      "end": 15.09
+    },
+    {
+      "index": 36,
+      "word": "statistical",
+      "start": 15.09,
+      "end": 15.51
+    },
+    {
+      "index": 37,
+      "word": "filtration.",
+      "start": 15.51,
+      "end": 15.93
+    },
+    {
+      "index": 38,
+      "word": "It",
+      "start": 15.93,
+      "end": 16.35
+    },
+    {
+      "index": 39,
+      "word": "evaluates",
+      "start": 16.35,
+      "end": 16.77
+    },
+    {
+      "index": 40,
+      "word": "historical",
+      "start": 16.77,
+      "end": 17.19
+    },
+    {
+      "index": 41,
+      "word": "seasonality",
+      "start": 17.19,
+      "end": 17.61
+    },
+    {
+      "index": 42,
+      "word": "variance,",
+      "start": 17.61,
+      "end": 18.03
+    },
+    {
+      "index": 43,
+      "word": "standard",
+      "start": 18.03,
+      "end": 18.44
+    },
+    {
+      "index": 44,
+      "word": "deviations",
+      "start": 18.44,
+      "end": 18.86
+    },
+    {
+      "index": 45,
+      "word": "of",
+      "start": 18.86,
+      "end": 19.28
+    },
+    {
+      "index": 46,
+      "word": "daily",
+      "start": 19.28,
+      "end": 19.7
+    },
+    {
+      "index": 47,
+      "word": "rates,",
+      "start": 19.7,
+      "end": 20.12
+    },
+    {
+      "index": 48,
+      "word": "and",
+      "start": 20.12,
+      "end": 20.54
+    },
+    {
+      "index": 49,
+      "word": "trailing",
+      "start": 20.54,
+      "end": 20.96
+    },
+    {
+      "index": 50,
+      "word": "revenue",
+      "start": 20.96,
+      "end": 21.38
+    },
+    {
+      "index": 51,
+      "word": "distribution",
+      "start": 21.38,
+      "end": 21.8
+    },
+    {
+      "index": 52,
+      "word": "across",
+      "start": 21.8,
+      "end": 22.22
+    },
+    {
+      "index": 53,
+      "word": "competing",
+      "start": 22.22,
+      "end": 22.64
+    },
+    {
+      "index": 54,
+      "word": "clusters.",
+      "start": 22.64,
+      "end": 23.06
+    },
+    {
+      "index": 55,
+      "word": "Inspect",
+      "start": 23.06,
+      "end": 23.47
+    },
+    {
+      "index": 56,
+      "word": "visual",
+      "start": 23.47,
+      "end": 23.89
+    },
+    {
+      "index": 57,
+      "word": "comps",
+      "start": 23.89,
+      "end": 24.31
+    },
+    {
+      "index": 58,
+      "word": "with",
+      "start": 24.31,
+      "end": 24.73
+    },
+    {
+      "index": 59,
+      "word": "algorithmic",
+      "start": 24.73,
+      "end": 25.15
+    },
+    {
+      "index": 60,
+      "word": "normalization.",
+      "start": 25.15,
+      "end": 25.57
+    },
+    {
+      "index": 61,
+      "word": "Compare",
+      "start": 25.57,
+      "end": 25.99
+    },
+    {
+      "index": 62,
+      "word": "square",
+      "start": 25.99,
+      "end": 26.41
+    },
+    {
+      "index": 63,
+      "word": "footage,",
+      "start": 26.41,
+      "end": 26.83
+    },
+    {
+      "index": 64,
+      "word": "bedroom",
+      "start": 26.83,
+      "end": 27.25
+    },
+    {
+      "index": 65,
+      "word": "count,",
+      "start": 27.25,
+      "end": 27.67
+    },
+    {
+      "index": 66,
+      "word": "and",
+      "start": 27.67,
+      "end": 28.09
+    },
+    {
+      "index": 67,
+      "word": "revenue",
+      "start": 28.09,
+      "end": 28.5
+    },
+    {
+      "index": 68,
+      "word": "percentiles",
+      "start": 28.5,
+      "end": 28.92
+    },
+    {
+      "index": 69,
+      "word": "side-by-side",
+      "start": 28.92,
+      "end": 29.34
+    },
+    {
+      "index": 70,
+      "word": "in",
+      "start": 29.34,
+      "end": 29.76
+    },
+    {
+      "index": 71,
+      "word": "our",
+      "start": 29.76,
+      "end": 30.18
+    },
+    {
+      "index": 72,
+      "word": "unified",
+      "start": 30.18,
+      "end": 30.6
+    },
+    {
+      "index": 73,
+      "word": "drawer,",
+      "start": 30.6,
+      "end": 31.02
+    },
+    {
+      "index": 74,
+      "word": "while",
+      "start": 31.02,
+      "end": 31.44
+    },
+    {
+      "index": 75,
+      "word": "screening",
+      "start": 31.44,
+      "end": 31.86
+    },
+    {
+      "index": 76,
+      "word": "out",
+      "start": 31.86,
+      "end": 32.28
+    },
+    {
+      "index": 77,
+      "word": "properties",
+      "start": 32.28,
+      "end": 32.7
+    },
+    {
+      "index": 78,
+      "word": "with",
+      "start": 32.7,
+      "end": 33.12
+    },
+    {
+      "index": 79,
+      "word": "restrictive",
+      "start": 33.12,
+      "end": 33.54
+    },
+    {
+      "index": 80,
+      "word": "HOA",
+      "start": 33.54,
+      "end": 33.95
+    },
+    {
+      "index": 81,
+      "word": "deed",
+      "start": 33.95,
+      "end": 34.37
+    },
+    {
+      "index": 82,
+      "word": "covenants.",
+      "start": 34.37,
+      "end": 34.79
+    },
+    {
+      "index": 83,
+      "word": "Execute",
+      "start": 34.79,
+      "end": 35.21
+    },
+    {
+      "index": 84,
+      "word": "multi-variable",
+      "start": 35.21,
+      "end": 35.63
+    },
+    {
+      "index": 85,
+      "word": "sensitivity",
+      "start": 35.63,
+      "end": 36.05
+    },
+    {
+      "index": 86,
+      "word": "analysis.",
+      "start": 36.05,
+      "end": 36.47
+    },
+    {
+      "index": 87,
+      "word": "Test",
+      "start": 36.47,
+      "end": 36.89
+    },
+    {
+      "index": 88,
+      "word": "twenty",
+      "start": 36.89,
+      "end": 37.31
+    },
+    {
+      "index": 89,
+      "word": "percent",
+      "start": 37.31,
+      "end": 37.73
+    },
+    {
+      "index": 90,
+      "word": "revenue",
+      "start": 37.73,
+      "end": 38.15
+    },
+    {
+      "index": 91,
+      "word": "degradation",
+      "start": 38.15,
+      "end": 38.57
+    },
+    {
+      "index": 92,
+      "word": "against",
+      "start": 38.57,
+      "end": 38.98
+    },
+    {
+      "index": 93,
+      "word": "three",
+      "start": 38.98,
+      "end": 39.4
+    },
+    {
+      "index": 94,
+      "word": "hundred",
+      "start": 39.4,
+      "end": 39.82
+    },
+    {
+      "index": 95,
+      "word": "basis",
+      "start": 39.82,
+      "end": 40.24
+    },
+    {
+      "index": 96,
+      "word": "point",
+      "start": 40.24,
+      "end": 40.66
+    },
+    {
+      "index": 97,
+      "word": "interest",
+      "start": 40.66,
+      "end": 41.08
+    },
+    {
+      "index": 98,
+      "word": "shocks.",
+      "start": 41.08,
+      "end": 41.5
+    },
+    {
+      "index": 99,
+      "word": "Solve",
+      "start": 41.5,
+      "end": 41.92
+    },
+    {
+      "index": 100,
+      "word": "immediately",
+      "start": 41.92,
+      "end": 42.34
+    },
+    {
+      "index": 101,
+      "word": "for",
+      "start": 42.34,
+      "end": 42.76
+    },
+    {
+      "index": 102,
+      "word": "break-even",
+      "start": 42.76,
+      "end": 43.18
+    },
+    {
+      "index": 103,
+      "word": "occupancy",
+      "start": 43.18,
+      "end": 43.6
+    },
+    {
+      "index": 104,
+      "word": "and",
+      "start": 43.6,
+      "end": 44.01
+    },
+    {
+      "index": 105,
+      "word": "required",
+      "start": 44.01,
+      "end": 44.43
+    },
+    {
+      "index": 106,
+      "word": "debt",
+      "start": 44.43,
+      "end": 44.85
+    },
+    {
+      "index": 107,
+      "word": "yield.",
+      "start": 44.85,
+      "end": 45.27
+    },
+    {
+      "index": 108,
+      "word": "Our",
+      "start": 45.27,
+      "end": 45.69
+    },
+    {
+      "index": 109,
+      "word": "multi-agent",
+      "start": 45.69,
+      "end": 46.11
+    },
+    {
+      "index": 110,
+      "word": "consensus",
+      "start": 46.11,
+      "end": 46.53
+    },
+    {
+      "index": 111,
+      "word": "engine",
+      "start": 46.53,
+      "end": 46.95
+    },
+    {
+      "index": 112,
+      "word": "reconciles",
+      "start": 46.95,
+      "end": 47.37
+    },
+    {
+      "index": 113,
+      "word": "financial",
+      "start": 47.37,
+      "end": 47.79
+    },
+    {
+      "index": 114,
+      "word": "models",
+      "start": 47.79,
+      "end": 48.21
+    },
+    {
+      "index": 115,
+      "word": "across",
+      "start": 48.21,
+      "end": 48.63
+    },
+    {
+      "index": 116,
+      "word": "four",
+      "start": 48.63,
+      "end": 49.05
+    },
+    {
+      "index": 117,
+      "word": "distinct",
+      "start": 49.05,
+      "end": 49.46
+    },
+    {
+      "index": 118,
+      "word": "perspectives,",
+      "start": 49.46,
+      "end": 49.88
+    },
+    {
+      "index": 119,
+      "word": "verifying",
+      "start": 49.88,
+      "end": 50.3
+    },
+    {
+      "index": 120,
+      "word": "debt",
+      "start": 50.3,
+      "end": 50.72
+    },
+    {
+      "index": 121,
+      "word": "covenants",
+      "start": 50.72,
+      "end": 51.14
+    },
+    {
+      "index": 122,
+      "word": "and",
+      "start": 51.14,
+      "end": 51.56
+    },
+    {
+      "index": 123,
+      "word": "validating",
+      "start": 51.56,
+      "end": 51.98
+    },
+    {
+      "index": 124,
+      "word": "tax",
+      "start": 51.98,
+      "end": 52.4
+    },
+    {
+      "index": 125,
+      "word": "depreciation",
+      "start": 52.4,
+      "end": 52.82
+    },
+    {
+      "index": 126,
+      "word": "assumptions",
+      "start": 52.82,
+      "end": 53.24
+    },
+    {
+      "index": 127,
+      "word": "before",
+      "start": 53.24,
+      "end": 53.66
+    },
+    {
+      "index": 128,
+      "word": "outputting",
+      "start": 53.66,
+      "end": 54.08
+    },
+    {
+      "index": 129,
+      "word": "final",
+      "start": 54.08,
+      "end": 54.49
+    },
+    {
+      "index": 130,
+      "word": "committee",
+      "start": 54.49,
+      "end": 54.91
+    },
+    {
+      "index": 131,
+      "word": "recommendations.",
+      "start": 54.91,
+      "end": 55.33
+    },
+    {
+      "index": 132,
+      "word": "Export",
+      "start": 55.33,
+      "end": 55.75
+    },
+    {
+      "index": 133,
+      "word": "audit-proof",
+      "start": 55.75,
+      "end": 56.17
+    },
+    {
+      "index": 134,
+      "word": "credit",
+      "start": 56.17,
+      "end": 56.59
+    },
+    {
+      "index": 135,
+      "word": "packages",
+      "start": 56.59,
+      "end": 57.01
+    },
+    {
+      "index": 136,
+      "word": "designed",
+      "start": 57.01,
+      "end": 57.43
+    },
+    {
+      "index": 137,
+      "word": "for",
+      "start": 57.43,
+      "end": 57.85
+    },
+    {
+      "index": 138,
+      "word": "institutional",
+      "start": 57.85,
+      "end": 58.27
+    },
+    {
+      "index": 139,
+      "word": "investment",
+      "start": 58.27,
+      "end": 58.69
+    },
+    {
+      "index": 140,
+      "word": "committees",
+      "start": 58.69,
+      "end": 59.11
+    },
+    {
+      "index": 141,
+      "word": "and",
+      "start": 59.11,
+      "end": 59.52
+    },
+    {
+      "index": 142,
+      "word": "non-bank",
+      "start": 59.52,
+      "end": 59.94
+    },
+    {
+      "index": 143,
+      "word": "lenders.",
+      "start": 59.94,
+      "end": 60.36
+    },
+    {
+      "index": 144,
+      "word": "Eliminate",
+      "start": 60.36,
+      "end": 60.78
+    },
+    {
+      "index": 145,
+      "word": "guesswork.",
+      "start": 60.78,
+      "end": 61.2
+    },
+    {
+      "index": 146,
+      "word": "Quantify",
+      "start": 61.2,
+      "end": 61.62
+    },
+    {
+      "index": 147,
+      "word": "every",
+      "start": 61.62,
+      "end": 62.04
+    },
+    {
+      "index": 148,
+      "word": "variable",
+      "start": 62.04,
+      "end": 62.46
+    },
+    {
+      "index": 149,
+      "word": "with",
+      "start": 62.46,
+      "end": 62.88
+    },
+    {
+      "index": 150,
+      "word": "PencilSTR.",
+      "start": 62.88,
+      "end": 63.3
+    }
+  ]
+}

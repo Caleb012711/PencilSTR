@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PencilSTR — Institutional Short-Term Rental Underwriting Terminal</title>
+    <meta name="description" content="Tactile short-term rental underwriting platform, autonomous market sweeps, multi-tier DSCR debt modeling, instant AI CC&amp;R covenant audits, and live underwriting chat." />
+    <meta property="og:title" content="PencilSTR — Institutional Short-Term Rental Underwriting Terminal" />
+    <meta property="og:description" content="Tactile short-term rental underwriting platform, autonomous market sweeps, multi-tier DSCR debt modeling, instant AI CC&amp;R covenant audits, and live underwriting chat." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..800;1,9..144,400..700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <script>
+      (function() {
+        try {
+          var stored = localStorage.getItem('deal-storage') || localStorage.getItem('pencilstr_store_v3');
+          var resolvedTheme = null;
+          if (stored) {
+            try {
+              var parsed = JSON.parse(stored);
+              if (parsed && parsed.state && parsed.state.theme) {
+                resolvedTheme = parsed.state.theme;
+              } else if (parsed && parsed.theme) {
+                resolvedTheme = parsed.theme;
+              }
+            } catch (err) {
+              if (stored === 'dark' || stored === 'light') {
+                resolvedTheme = stored;
+              }
+            }
+          }
+
+          if (resolvedTheme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else if (resolvedTheme === 'light') {
+            document.documentElement.classList.remove('dark');
+          } else {
+            var isSystemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (isSystemDark) {
+              document.documentElement.classList.add('dark');
+            } else {
+              document.documentElement.classList.remove('dark');
+            }
+          }
+        } catch (e) {
+          // fallback gracefully
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F9F8F5] dark:bg-[#0E0E0D] text-[#111110] dark:text-[#F4F3EF] antialiased selection:bg-[#FEF3C7] selection:text-[#111110]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-display: "Instrument Serif", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-alabaster: #F9F8F5;
+  --color-bone: #F1EFEB;
+  --color-charcoal: #111110;
+  --color-hairline: #E5E4DF;
+  --color-racing: #0B3B24;
+  --color-racing-emerald: #059669;
+  --color-racing-light: #E8F5EE;
+  --color-amber-gold: #D97706;
+  --color-amber-light: #FEF3C7;
+  --color-amber-dark: #92400E;
+  --color-slate-muted: #8F8D88;
+}
+
+@layer base {
+  body {
+    background-color: #F9F8F5;
+    color: #111110;
+    font-family: var(--font-sans);
+    letter-spacing: -0.01em;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  html.dark body,
+  body.dark {
+    background-color: #0E0E0D;
+    color: #F4F3EF;
+  }
+
+  html.dark ::selection {
+    background-color: #92400E;
+    color: #FFFFFF;
+  }
+
+  /* Custom subtle dark scrollbars */
+  html.dark ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  html.dark ::-webkit-scrollbar-track {
+    background: #141413;
+  }
+
+  html.dark ::-webkit-scrollbar-thumb {
+    background: #2A2A27;
+    border-radius: 4px;
+  }
+
+  html.dark ::-webkit-scrollbar-thumb:hover {
+    background: #3D3D38;
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}

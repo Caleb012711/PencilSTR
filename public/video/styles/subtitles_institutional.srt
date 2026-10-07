@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:13,800
+Every private equity sponsor has reviewed a retail pro-forma and realized the numbers were sheer fiction. Unverified occupancy projections, zero allowance for seasonality, and debt covenants modeled on optimism rather than sovereign underwriting.
+
+2
+00:00:13,800 --> 00:00:28,200
+This is PencilSTR. The institutional short-term rental underwriting terminal. Our autonomous market sweeps crawl unseasoned mountain cabins and luxury desert villas, applying an immediate institutional discount haircut before evaluating loan terms.
+
+3
+00:00:28,200 --> 00:00:43,100
+Inspect assets through Muse-inspired spatial comp cards with multi-angle photography scrubbing and corner debt indicators. Beneath the imagery lies our legal engine, parsing deed restrictions and county bed-tax resolutions with verbatim legal citations.
+
+4
+00:00:43,100 --> 00:00:58,549
+Calculate debt service coverage in sub-millisecond client time. Toggle between residential Non-QM guidelines and commercial fund net operating income. Stress-test two hundred basis point interest shocks and solve for the exact equity required to preserve a one-point-two-five DSCR.
+
+5
+00:00:58,549 --> 00:01:16,349
+Behind every valuation is a collaborative mesh of specialized agent scribes. Astra synthesizes committee theses. Scout monitors trailing comps. Cipher models bonus depreciation. And Lex audits zoning compliance. Controlled instantly via the universal Command Palette.
+
+6
+00:01:16,349 --> 00:01:28,649
+With a single click, export a fully formatted, investment-committee-grade credit memorandum ready for debt syndicate signoff. Stop relying on spreadsheets built on hope. Underwrite the truth with PencilSTR.
+

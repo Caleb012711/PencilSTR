@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:10,449
+In a fluctuating interest rate environment, an eighty basis point shift obliterates unhedged short-term rental equity. Traditional underwriting uses static assumptions that fail the first month a tourism trough hits.
+
+2
+00:00:10,449 --> 00:00:21,896
+PencilSTR subjects every listing to automated statistical filtration. It evaluates historical seasonality variance, standard deviations of daily rates, and trailing revenue distribution across competing clusters.
+
+3
+00:00:21,896 --> 00:00:32,879
+Inspect visual comps with algorithmic normalization. Compare square footage, bedroom count, and revenue percentiles side-by-side in our unified drawer, while screening out properties with restrictive HOA deed covenants.
+
+4
+00:00:32,879 --> 00:00:43,142
+Execute multi-variable sensitivity analysis. Test twenty percent revenue degradation against three hundred basis point interest shocks. Solve immediately for break-even occupancy and required debt yield.
+
+5
+00:00:43,142 --> 00:00:53,800
+Our multi-agent consensus engine reconciles financial models across four distinct perspectives, verifying debt covenants and validating tax depreciation assumptions before outputting final committee recommendations.
+
+6
+00:00:53,800 --> 00:01:02,601
+Export audit-proof credit packages designed for institutional investment committees and non-bank lenders. Eliminate guesswork. Quantify every variable with PencilSTR.
+

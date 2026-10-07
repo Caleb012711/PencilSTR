@@ -1,0 +1,1726 @@
+{
+  "title": "PencilSTR \u2014 The Tactile Engine (Minimalist Industrial Craft)",
+  "style": "tactile_craft",
+  "profile": {
+    "name": "The Tactile Engine",
+    "description": "Minimalist Industrial Designer & Precision Engineer (deliberate, calm, authentic)",
+    "macos_voice": "Samantha",
+    "speaking_rate": 158,
+    "pitch_adjustment": 0.97,
+    "openrouter_voice": "alloy",
+    "ffmpeg_filters": "aformat=channel_layouts=stereo,equalizer=f=160:width_type=o:width=1:g=2.2,equalizer=f=3000:width_type=o:width=1:g=1.2,loudnorm=I=-16:LRA=12:TP=-1.5",
+    "bgm_tag": "minimal_ambient_ticks"
+  },
+  "totalDuration": 68.498917,
+  "fullAudioFile": "full_voiceover_tactile_craft.mp3",
+  "vttFile": "subtitles_tactile_craft.vtt",
+  "srtFile": "subtitles_tactile_craft.srt",
+  "chapters": [
+    {
+      "id": "chapter_1_hook",
+      "title": "The Joy of Crafted Software",
+      "text": "Great financial tools should feel like precision instruments. Clean typography, tactile feedback, and instant responsiveness turn complex underwriting into a seamless creative experience.",
+      "visualCue": "Minimalist light mode typography showcase with Fraunces serif headlines and JetBrains Mono figures.",
+      "audioFile": "chapter_chapter_1_hook_tactile_craft.mp3",
+      "duration": 12.353063,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Great",
+          "start": 0.0,
+          "end": 0.54
+        },
+        {
+          "index": 1,
+          "word": "financial",
+          "start": 0.54,
+          "end": 1.07
+        },
+        {
+          "index": 2,
+          "word": "tools",
+          "start": 1.07,
+          "end": 1.61
+        },
+        {
+          "index": 3,
+          "word": "should",
+          "start": 1.61,
+          "end": 2.15
+        },
+        {
+          "index": 4,
+          "word": "feel",
+          "start": 2.15,
+          "end": 2.69
+        },
+        {
+          "index": 5,
+          "word": "like",
+          "start": 2.69,
+          "end": 3.22
+        },
+        {
+          "index": 6,
+          "word": "precision",
+          "start": 3.22,
+          "end": 3.76
+        },
+        {
+          "index": 7,
+          "word": "instruments.",
+          "start": 3.76,
+          "end": 4.3
+        },
+        {
+          "index": 8,
+          "word": "Clean",
+          "start": 4.3,
+          "end": 4.83
+        },
+        {
+          "index": 9,
+          "word": "typography,",
+          "start": 4.83,
+          "end": 5.37
+        },
+        {
+          "index": 10,
+          "word": "tactile",
+          "start": 5.37,
+          "end": 5.91
+        },
+        {
+          "index": 11,
+          "word": "feedback,",
+          "start": 5.91,
+          "end": 6.45
+        },
+        {
+          "index": 12,
+          "word": "and",
+          "start": 6.45,
+          "end": 6.98
+        },
+        {
+          "index": 13,
+          "word": "instant",
+          "start": 6.98,
+          "end": 7.52
+        },
+        {
+          "index": 14,
+          "word": "responsiveness",
+          "start": 7.52,
+          "end": 8.06
+        },
+        {
+          "index": 15,
+          "word": "turn",
+          "start": 8.06,
+          "end": 8.59
+        },
+        {
+          "index": 16,
+          "word": "complex",
+          "start": 8.59,
+          "end": 9.13
+        },
+        {
+          "index": 17,
+          "word": "underwriting",
+          "start": 9.13,
+          "end": 9.67
+        },
+        {
+          "index": 18,
+          "word": "into",
+          "start": 9.67,
+          "end": 10.2
+        },
+        {
+          "index": 19,
+          "word": "a",
+          "start": 10.2,
+          "end": 10.74
+        },
+        {
+          "index": 20,
+          "word": "seamless",
+          "start": 10.74,
+          "end": 11.28
+        },
+        {
+          "index": 21,
+          "word": "creative",
+          "start": 11.28,
+          "end": 11.82
+        },
+        {
+          "index": 22,
+          "word": "experience.",
+          "start": 11.82,
+          "end": 12.35
+        }
+      ]
+    },
+    {
+      "id": "chapter_2_radar",
+      "title": "Intentional Discovery",
+      "text": "Every deal on PencilSTR is rendered with spatial clarity. Discover high-yielding mountain chalets and coastal retreats without visual clutter or unnecessary noise.",
+      "visualCue": "Clean, breathable deal grid with subtle micro-interactions and tactile cards.",
+      "audioFile": "chapter_chapter_2_radar_tactile_craft.mp3",
+      "duration": 10.518688,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Every",
+          "start": 0.0,
+          "end": 0.48
+        },
+        {
+          "index": 1,
+          "word": "deal",
+          "start": 0.48,
+          "end": 0.96
+        },
+        {
+          "index": 2,
+          "word": "on",
+          "start": 0.96,
+          "end": 1.43
+        },
+        {
+          "index": 3,
+          "word": "PencilSTR",
+          "start": 1.43,
+          "end": 1.91
+        },
+        {
+          "index": 4,
+          "word": "is",
+          "start": 1.91,
+          "end": 2.39
+        },
+        {
+          "index": 5,
+          "word": "rendered",
+          "start": 2.39,
+          "end": 2.87
+        },
+        {
+          "index": 6,
+          "word": "with",
+          "start": 2.87,
+          "end": 3.35
+        },
+        {
+          "index": 7,
+          "word": "spatial",
+          "start": 3.35,
+          "end": 3.82
+        },
+        {
+          "index": 8,
+          "word": "clarity.",
+          "start": 3.82,
+          "end": 4.3
+        },
+        {
+          "index": 9,
+          "word": "Discover",
+          "start": 4.3,
+          "end": 4.78
+        },
+        {
+          "index": 10,
+          "word": "high-yielding",
+          "start": 4.78,
+          "end": 5.26
+        },
+        {
+          "index": 11,
+          "word": "mountain",
+          "start": 5.26,
+          "end": 5.74
+        },
+        {
+          "index": 12,
+          "word": "chalets",
+          "start": 5.74,
+          "end": 6.22
+        },
+        {
+          "index": 13,
+          "word": "and",
+          "start": 6.22,
+          "end": 6.69
+        },
+        {
+          "index": 14,
+          "word": "coastal",
+          "start": 6.69,
+          "end": 7.17
+        },
+        {
+          "index": 15,
+          "word": "retreats",
+          "start": 7.17,
+          "end": 7.65
+        },
+        {
+          "index": 16,
+          "word": "without",
+          "start": 7.65,
+          "end": 8.13
+        },
+        {
+          "index": 17,
+          "word": "visual",
+          "start": 8.13,
+          "end": 8.61
+        },
+        {
+          "index": 18,
+          "word": "clutter",
+          "start": 8.61,
+          "end": 9.08
+        },
+        {
+          "index": 19,
+          "word": "or",
+          "start": 9.08,
+          "end": 9.56
+        },
+        {
+          "index": 20,
+          "word": "unnecessary",
+          "start": 9.56,
+          "end": 10.04
+        },
+        {
+          "index": 21,
+          "word": "noise.",
+          "start": 10.04,
+          "end": 10.52
+        }
+      ]
+    },
+    {
+      "id": "chapter_3_comps_ccr",
+      "title": "Tactile Photographic Comps",
+      "text": "Slide effortlessly through property photography. Compare spatial volumes, architectural materials, and neighborhood comps with intuitive gesture navigation and corner debt health seals.",
+      "visualCue": "Smooth tactile hover scrubbing on MuseCompCard with hairline borders and subtle depth.",
+      "audioFile": "chapter_chapter_3_comps_ccr_tactile_craft.mp3",
+      "duration": 12.004771,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Slide",
+          "start": 0.0,
+          "end": 0.55
+        },
+        {
+          "index": 1,
+          "word": "effortlessly",
+          "start": 0.55,
+          "end": 1.09
+        },
+        {
+          "index": 2,
+          "word": "through",
+          "start": 1.09,
+          "end": 1.64
+        },
+        {
+          "index": 3,
+          "word": "property",
+          "start": 1.64,
+          "end": 2.18
+        },
+        {
+          "index": 4,
+          "word": "photography.",
+          "start": 2.18,
+          "end": 2.73
+        },
+        {
+          "index": 5,
+          "word": "Compare",
+          "start": 2.73,
+          "end": 3.27
+        },
+        {
+          "index": 6,
+          "word": "spatial",
+          "start": 3.27,
+          "end": 3.82
+        },
+        {
+          "index": 7,
+          "word": "volumes,",
+          "start": 3.82,
+          "end": 4.37
+        },
+        {
+          "index": 8,
+          "word": "architectural",
+          "start": 4.37,
+          "end": 4.91
+        },
+        {
+          "index": 9,
+          "word": "materials,",
+          "start": 4.91,
+          "end": 5.46
+        },
+        {
+          "index": 10,
+          "word": "and",
+          "start": 5.46,
+          "end": 6.0
+        },
+        {
+          "index": 11,
+          "word": "neighborhood",
+          "start": 6.0,
+          "end": 6.55
+        },
+        {
+          "index": 12,
+          "word": "comps",
+          "start": 6.55,
+          "end": 7.09
+        },
+        {
+          "index": 13,
+          "word": "with",
+          "start": 7.09,
+          "end": 7.64
+        },
+        {
+          "index": 14,
+          "word": "intuitive",
+          "start": 7.64,
+          "end": 8.19
+        },
+        {
+          "index": 15,
+          "word": "gesture",
+          "start": 8.19,
+          "end": 8.73
+        },
+        {
+          "index": 16,
+          "word": "navigation",
+          "start": 8.73,
+          "end": 9.28
+        },
+        {
+          "index": 17,
+          "word": "and",
+          "start": 9.28,
+          "end": 9.82
+        },
+        {
+          "index": 18,
+          "word": "corner",
+          "start": 9.82,
+          "end": 10.37
+        },
+        {
+          "index": 19,
+          "word": "debt",
+          "start": 10.37,
+          "end": 10.91
+        },
+        {
+          "index": 20,
+          "word": "health",
+          "start": 10.91,
+          "end": 11.46
+        },
+        {
+          "index": 21,
+          "word": "seals.",
+          "start": 11.46,
+          "end": 12.0
+        }
+      ]
+    },
+    {
+      "id": "chapter_4_dscr_engine",
+      "title": "Responsive Financial Modeling",
+      "text": "Interact with dynamic financial models where every slider feels weighted and deliberate. Adjust occupancy assumptions or debt terms and watch cash flow waterfalls recalculate in real time.",
+      "visualCue": "Interactive financial sliders with instant reactive chart updates and silky animations.",
+      "audioFile": "chapter_chapter_4_dscr_engine_tactile_craft.mp3",
+      "duration": 11.656458,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Interact",
+          "start": 0.0,
+          "end": 0.43
+        },
+        {
+          "index": 1,
+          "word": "with",
+          "start": 0.43,
+          "end": 0.86
+        },
+        {
+          "index": 2,
+          "word": "dynamic",
+          "start": 0.86,
+          "end": 1.3
+        },
+        {
+          "index": 3,
+          "word": "financial",
+          "start": 1.3,
+          "end": 1.73
+        },
+        {
+          "index": 4,
+          "word": "models",
+          "start": 1.73,
+          "end": 2.16
+        },
+        {
+          "index": 5,
+          "word": "where",
+          "start": 2.16,
+          "end": 2.59
+        },
+        {
+          "index": 6,
+          "word": "every",
+          "start": 2.59,
+          "end": 3.02
+        },
+        {
+          "index": 7,
+          "word": "slider",
+          "start": 3.02,
+          "end": 3.45
+        },
+        {
+          "index": 8,
+          "word": "feels",
+          "start": 3.45,
+          "end": 3.89
+        },
+        {
+          "index": 9,
+          "word": "weighted",
+          "start": 3.89,
+          "end": 4.32
+        },
+        {
+          "index": 10,
+          "word": "and",
+          "start": 4.32,
+          "end": 4.75
+        },
+        {
+          "index": 11,
+          "word": "deliberate.",
+          "start": 4.75,
+          "end": 5.18
+        },
+        {
+          "index": 12,
+          "word": "Adjust",
+          "start": 5.18,
+          "end": 5.61
+        },
+        {
+          "index": 13,
+          "word": "occupancy",
+          "start": 5.61,
+          "end": 6.04
+        },
+        {
+          "index": 14,
+          "word": "assumptions",
+          "start": 6.04,
+          "end": 6.48
+        },
+        {
+          "index": 15,
+          "word": "or",
+          "start": 6.48,
+          "end": 6.91
+        },
+        {
+          "index": 16,
+          "word": "debt",
+          "start": 6.91,
+          "end": 7.34
+        },
+        {
+          "index": 17,
+          "word": "terms",
+          "start": 7.34,
+          "end": 7.77
+        },
+        {
+          "index": 18,
+          "word": "and",
+          "start": 7.77,
+          "end": 8.2
+        },
+        {
+          "index": 19,
+          "word": "watch",
+          "start": 8.2,
+          "end": 8.63
+        },
+        {
+          "index": 20,
+          "word": "cash",
+          "start": 8.63,
+          "end": 9.07
+        },
+        {
+          "index": 21,
+          "word": "flow",
+          "start": 9.07,
+          "end": 9.5
+        },
+        {
+          "index": 22,
+          "word": "waterfalls",
+          "start": 9.5,
+          "end": 9.93
+        },
+        {
+          "index": 23,
+          "word": "recalculate",
+          "start": 9.93,
+          "end": 10.36
+        },
+        {
+          "index": 24,
+          "word": "in",
+          "start": 10.36,
+          "end": 10.79
+        },
+        {
+          "index": 25,
+          "word": "real",
+          "start": 10.79,
+          "end": 11.22
+        },
+        {
+          "index": 26,
+          "word": "time.",
+          "start": 11.22,
+          "end": 11.66
+        }
+      ]
+    },
+    {
+      "id": "chapter_5_scribe_mesh",
+      "title": "Quiet Autonomous Intelligence",
+      "text": "Intelligent agent scribes work quietly in the background, conducting legal checks and tax modeling without intrusive interruptions, surfaced whenever you invoke the command palette.",
+      "visualCue": "Subtle telemetry dock and Command Palette with clean keyboard shortcut navigation.",
+      "audioFile": "chapter_chapter_5_scribe_mesh_tactile_craft.mp3",
+      "duration": 10.936646,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Intelligent",
+          "start": 0.0,
+          "end": 0.46
+        },
+        {
+          "index": 1,
+          "word": "agent",
+          "start": 0.46,
+          "end": 0.91
+        },
+        {
+          "index": 2,
+          "word": "scribes",
+          "start": 0.91,
+          "end": 1.37
+        },
+        {
+          "index": 3,
+          "word": "work",
+          "start": 1.37,
+          "end": 1.82
+        },
+        {
+          "index": 4,
+          "word": "quietly",
+          "start": 1.82,
+          "end": 2.28
+        },
+        {
+          "index": 5,
+          "word": "in",
+          "start": 2.28,
+          "end": 2.73
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "start": 2.73,
+          "end": 3.19
+        },
+        {
+          "index": 7,
+          "word": "background,",
+          "start": 3.19,
+          "end": 3.65
+        },
+        {
+          "index": 8,
+          "word": "conducting",
+          "start": 3.65,
+          "end": 4.1
+        },
+        {
+          "index": 9,
+          "word": "legal",
+          "start": 4.1,
+          "end": 4.56
+        },
+        {
+          "index": 10,
+          "word": "checks",
+          "start": 4.56,
+          "end": 5.01
+        },
+        {
+          "index": 11,
+          "word": "and",
+          "start": 5.01,
+          "end": 5.47
+        },
+        {
+          "index": 12,
+          "word": "tax",
+          "start": 5.47,
+          "end": 5.92
+        },
+        {
+          "index": 13,
+          "word": "modeling",
+          "start": 5.92,
+          "end": 6.38
+        },
+        {
+          "index": 14,
+          "word": "without",
+          "start": 6.38,
+          "end": 6.84
+        },
+        {
+          "index": 15,
+          "word": "intrusive",
+          "start": 6.84,
+          "end": 7.29
+        },
+        {
+          "index": 16,
+          "word": "interruptions,",
+          "start": 7.29,
+          "end": 7.75
+        },
+        {
+          "index": 17,
+          "word": "surfaced",
+          "start": 7.75,
+          "end": 8.2
+        },
+        {
+          "index": 18,
+          "word": "whenever",
+          "start": 8.2,
+          "end": 8.66
+        },
+        {
+          "index": 19,
+          "word": "you",
+          "start": 8.66,
+          "end": 9.11
+        },
+        {
+          "index": 20,
+          "word": "invoke",
+          "start": 9.11,
+          "end": 9.57
+        },
+        {
+          "index": 21,
+          "word": "the",
+          "start": 9.57,
+          "end": 10.03
+        },
+        {
+          "index": 22,
+          "word": "command",
+          "start": 10.03,
+          "end": 10.48
+        },
+        {
+          "index": 23,
+          "word": "palette.",
+          "start": 10.48,
+          "end": 10.94
+        }
+      ]
+    },
+    {
+      "id": "chapter_6_memo_outro",
+      "title": "A Masterpiece of Underwriting",
+      "text": "Transform chaotic real estate data into an elegant, institutional-grade memorandum. This is underwriting elevated to craft. This is PencilSTR.",
+      "visualCue": "Final pristine credit memorandum presentation with print and export actions.",
+      "audioFile": "chapter_chapter_6_memo_outro_tactile_craft.mp3",
+      "duration": 10.100729,
+      "captions": [
+        {
+          "index": 0,
+          "word": "Transform",
+          "start": 0.0,
+          "end": 0.53
+        },
+        {
+          "index": 1,
+          "word": "chaotic",
+          "start": 0.53,
+          "end": 1.06
+        },
+        {
+          "index": 2,
+          "word": "real",
+          "start": 1.06,
+          "end": 1.59
+        },
+        {
+          "index": 3,
+          "word": "estate",
+          "start": 1.59,
+          "end": 2.13
+        },
+        {
+          "index": 4,
+          "word": "data",
+          "start": 2.13,
+          "end": 2.66
+        },
+        {
+          "index": 5,
+          "word": "into",
+          "start": 2.66,
+          "end": 3.19
+        },
+        {
+          "index": 6,
+          "word": "an",
+          "start": 3.19,
+          "end": 3.72
+        },
+        {
+          "index": 7,
+          "word": "elegant,",
+          "start": 3.72,
+          "end": 4.25
+        },
+        {
+          "index": 8,
+          "word": "institutional-grade",
+          "start": 4.25,
+          "end": 4.78
+        },
+        {
+          "index": 9,
+          "word": "memorandum.",
+          "start": 4.78,
+          "end": 5.32
+        },
+        {
+          "index": 10,
+          "word": "This",
+          "start": 5.32,
+          "end": 5.85
+        },
+        {
+          "index": 11,
+          "word": "is",
+          "start": 5.85,
+          "end": 6.38
+        },
+        {
+          "index": 12,
+          "word": "underwriting",
+          "start": 6.38,
+          "end": 6.91
+        },
+        {
+          "index": 13,
+          "word": "elevated",
+          "start": 6.91,
+          "end": 7.44
+        },
+        {
+          "index": 14,
+          "word": "to",
+          "start": 7.44,
+          "end": 7.97
+        },
+        {
+          "index": 15,
+          "word": "craft.",
+          "start": 7.97,
+          "end": 8.51
+        },
+        {
+          "index": 16,
+          "word": "This",
+          "start": 8.51,
+          "end": 9.04
+        },
+        {
+          "index": 17,
+          "word": "is",
+          "start": 9.04,
+          "end": 9.57
+        },
+        {
+          "index": 18,
+          "word": "PencilSTR.",
+          "start": 9.57,
+          "end": 10.1
+        }
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "index": 0,
+      "word": "Great",
+      "start": 0.0,
+      "end": 0.5
+    },
+    {
+      "index": 1,
+      "word": "financial",
+      "start": 0.5,
+      "end": 1.0
+    },
+    {
+      "index": 2,
+      "word": "tools",
+      "start": 1.0,
+      "end": 1.5
+    },
+    {
+      "index": 3,
+      "word": "should",
+      "start": 1.5,
+      "end": 2.0
+    },
+    {
+      "index": 4,
+      "word": "feel",
+      "start": 2.0,
+      "end": 2.5
+    },
+    {
+      "index": 5,
+      "word": "like",
+      "start": 2.5,
+      "end": 3.0
+    },
+    {
+      "index": 6,
+      "word": "precision",
+      "start": 3.0,
+      "end": 3.5
+    },
+    {
+      "index": 7,
+      "word": "instruments.",
+      "start": 3.5,
+      "end": 4.0
+    },
+    {
+      "index": 8,
+      "word": "Clean",
+      "start": 4.0,
+      "end": 4.5
+    },
+    {
+      "index": 9,
+      "word": "typography,",
+      "start": 4.5,
+      "end": 5.0
+    },
+    {
+      "index": 10,
+      "word": "tactile",
+      "start": 5.0,
+      "end": 5.5
+    },
+    {
+      "index": 11,
+      "word": "feedback,",
+      "start": 5.5,
+      "end": 6.0
+    },
+    {
+      "index": 12,
+      "word": "and",
+      "start": 6.0,
+      "end": 6.5
+    },
+    {
+      "index": 13,
+      "word": "instant",
+      "start": 6.5,
+      "end": 7.0
+    },
+    {
+      "index": 14,
+      "word": "responsiveness",
+      "start": 7.0,
+      "end": 7.5
+    },
+    {
+      "index": 15,
+      "word": "turn",
+      "start": 7.5,
+      "end": 8.0
+    },
+    {
+      "index": 16,
+      "word": "complex",
+      "start": 8.0,
+      "end": 8.5
+    },
+    {
+      "index": 17,
+      "word": "underwriting",
+      "start": 8.5,
+      "end": 9.0
+    },
+    {
+      "index": 18,
+      "word": "into",
+      "start": 9.0,
+      "end": 9.5
+    },
+    {
+      "index": 19,
+      "word": "a",
+      "start": 9.5,
+      "end": 10.0
+    },
+    {
+      "index": 20,
+      "word": "seamless",
+      "start": 10.0,
+      "end": 10.5
+    },
+    {
+      "index": 21,
+      "word": "creative",
+      "start": 10.5,
+      "end": 11.0
+    },
+    {
+      "index": 22,
+      "word": "experience.",
+      "start": 11.0,
+      "end": 11.5
+    },
+    {
+      "index": 23,
+      "word": "Every",
+      "start": 11.5,
+      "end": 12.0
+    },
+    {
+      "index": 24,
+      "word": "deal",
+      "start": 12.0,
+      "end": 12.5
+    },
+    {
+      "index": 25,
+      "word": "on",
+      "start": 12.5,
+      "end": 13.0
+    },
+    {
+      "index": 26,
+      "word": "PencilSTR",
+      "start": 13.0,
+      "end": 13.5
+    },
+    {
+      "index": 27,
+      "word": "is",
+      "start": 13.5,
+      "end": 14.0
+    },
+    {
+      "index": 28,
+      "word": "rendered",
+      "start": 14.0,
+      "end": 14.5
+    },
+    {
+      "index": 29,
+      "word": "with",
+      "start": 14.5,
+      "end": 15.0
+    },
+    {
+      "index": 30,
+      "word": "spatial",
+      "start": 15.0,
+      "end": 15.5
+    },
+    {
+      "index": 31,
+      "word": "clarity.",
+      "start": 15.5,
+      "end": 16.0
+    },
+    {
+      "index": 32,
+      "word": "Discover",
+      "start": 16.0,
+      "end": 16.5
+    },
+    {
+      "index": 33,
+      "word": "high-yielding",
+      "start": 16.5,
+      "end": 17.0
+    },
+    {
+      "index": 34,
+      "word": "mountain",
+      "start": 17.0,
+      "end": 17.5
+    },
+    {
+      "index": 35,
+      "word": "chalets",
+      "start": 17.5,
+      "end": 18.0
+    },
+    {
+      "index": 36,
+      "word": "and",
+      "start": 18.0,
+      "end": 18.5
+    },
+    {
+      "index": 37,
+      "word": "coastal",
+      "start": 18.5,
+      "end": 19.0
+    },
+    {
+      "index": 38,
+      "word": "retreats",
+      "start": 19.0,
+      "end": 19.5
+    },
+    {
+      "index": 39,
+      "word": "without",
+      "start": 19.5,
+      "end": 20.0
+    },
+    {
+      "index": 40,
+      "word": "visual",
+      "start": 20.0,
+      "end": 20.5
+    },
+    {
+      "index": 41,
+      "word": "clutter",
+      "start": 20.5,
+      "end": 21.0
+    },
+    {
+      "index": 42,
+      "word": "or",
+      "start": 21.0,
+      "end": 21.5
+    },
+    {
+      "index": 43,
+      "word": "unnecessary",
+      "start": 21.5,
+      "end": 22.0
+    },
+    {
+      "index": 44,
+      "word": "noise.",
+      "start": 22.0,
+      "end": 22.5
+    },
+    {
+      "index": 45,
+      "word": "Slide",
+      "start": 22.5,
+      "end": 23.0
+    },
+    {
+      "index": 46,
+      "word": "effortlessly",
+      "start": 23.0,
+      "end": 23.5
+    },
+    {
+      "index": 47,
+      "word": "through",
+      "start": 23.5,
+      "end": 24.0
+    },
+    {
+      "index": 48,
+      "word": "property",
+      "start": 24.0,
+      "end": 24.5
+    },
+    {
+      "index": 49,
+      "word": "photography.",
+      "start": 24.5,
+      "end": 25.0
+    },
+    {
+      "index": 50,
+      "word": "Compare",
+      "start": 25.0,
+      "end": 25.5
+    },
+    {
+      "index": 51,
+      "word": "spatial",
+      "start": 25.5,
+      "end": 26.0
+    },
+    {
+      "index": 52,
+      "word": "volumes,",
+      "start": 26.0,
+      "end": 26.5
+    },
+    {
+      "index": 53,
+      "word": "architectural",
+      "start": 26.5,
+      "end": 27.0
+    },
+    {
+      "index": 54,
+      "word": "materials,",
+      "start": 27.0,
+      "end": 27.5
+    },
+    {
+      "index": 55,
+      "word": "and",
+      "start": 27.5,
+      "end": 28.0
+    },
+    {
+      "index": 56,
+      "word": "neighborhood",
+      "start": 28.0,
+      "end": 28.5
+    },
+    {
+      "index": 57,
+      "word": "comps",
+      "start": 28.5,
+      "end": 29.0
+    },
+    {
+      "index": 58,
+      "word": "with",
+      "start": 29.0,
+      "end": 29.5
+    },
+    {
+      "index": 59,
+      "word": "intuitive",
+      "start": 29.5,
+      "end": 30.0
+    },
+    {
+      "index": 60,
+      "word": "gesture",
+      "start": 30.0,
+      "end": 30.5
+    },
+    {
+      "index": 61,
+      "word": "navigation",
+      "start": 30.5,
+      "end": 31.0
+    },
+    {
+      "index": 62,
+      "word": "and",
+      "start": 31.0,
+      "end": 31.5
+    },
+    {
+      "index": 63,
+      "word": "corner",
+      "start": 31.5,
+      "end": 32.0
+    },
+    {
+      "index": 64,
+      "word": "debt",
+      "start": 32.0,
+      "end": 32.5
+    },
+    {
+      "index": 65,
+      "word": "health",
+      "start": 32.5,
+      "end": 33.0
+    },
+    {
+      "index": 66,
+      "word": "seals.",
+      "start": 33.0,
+      "end": 33.5
+    },
+    {
+      "index": 67,
+      "word": "Interact",
+      "start": 33.5,
+      "end": 34.0
+    },
+    {
+      "index": 68,
+      "word": "with",
+      "start": 34.0,
+      "end": 34.5
+    },
+    {
+      "index": 69,
+      "word": "dynamic",
+      "start": 34.5,
+      "end": 35.0
+    },
+    {
+      "index": 70,
+      "word": "financial",
+      "start": 35.0,
+      "end": 35.5
+    },
+    {
+      "index": 71,
+      "word": "models",
+      "start": 35.5,
+      "end": 36.0
+    },
+    {
+      "index": 72,
+      "word": "where",
+      "start": 36.0,
+      "end": 36.5
+    },
+    {
+      "index": 73,
+      "word": "every",
+      "start": 36.5,
+      "end": 37.0
+    },
+    {
+      "index": 74,
+      "word": "slider",
+      "start": 37.0,
+      "end": 37.5
+    },
+    {
+      "index": 75,
+      "word": "feels",
+      "start": 37.5,
+      "end": 38.0
+    },
+    {
+      "index": 76,
+      "word": "weighted",
+      "start": 38.0,
+      "end": 38.5
+    },
+    {
+      "index": 77,
+      "word": "and",
+      "start": 38.5,
+      "end": 39.0
+    },
+    {
+      "index": 78,
+      "word": "deliberate.",
+      "start": 39.0,
+      "end": 39.5
+    },
+    {
+      "index": 79,
+      "word": "Adjust",
+      "start": 39.5,
+      "end": 40.0
+    },
+    {
+      "index": 80,
+      "word": "occupancy",
+      "start": 40.0,
+      "end": 40.5
+    },
+    {
+      "index": 81,
+      "word": "assumptions",
+      "start": 40.5,
+      "end": 41.0
+    },
+    {
+      "index": 82,
+      "word": "or",
+      "start": 41.0,
+      "end": 41.5
+    },
+    {
+      "index": 83,
+      "word": "debt",
+      "start": 41.5,
+      "end": 42.0
+    },
+    {
+      "index": 84,
+      "word": "terms",
+      "start": 42.0,
+      "end": 42.5
+    },
+    {
+      "index": 85,
+      "word": "and",
+      "start": 42.5,
+      "end": 43.0
+    },
+    {
+      "index": 86,
+      "word": "watch",
+      "start": 43.0,
+      "end": 43.5
+    },
+    {
+      "index": 87,
+      "word": "cash",
+      "start": 43.5,
+      "end": 44.0
+    },
+    {
+      "index": 88,
+      "word": "flow",
+      "start": 44.0,
+      "end": 44.5
+    },
+    {
+      "index": 89,
+      "word": "waterfalls",
+      "start": 44.5,
+      "end": 45.0
+    },
+    {
+      "index": 90,
+      "word": "recalculate",
+      "start": 45.0,
+      "end": 45.5
+    },
+    {
+      "index": 91,
+      "word": "in",
+      "start": 45.5,
+      "end": 46.0
+    },
+    {
+      "index": 92,
+      "word": "real",
+      "start": 46.0,
+      "end": 46.5
+    },
+    {
+      "index": 93,
+      "word": "time.",
+      "start": 46.5,
+      "end": 47.0
+    },
+    {
+      "index": 94,
+      "word": "Intelligent",
+      "start": 47.0,
+      "end": 47.5
+    },
+    {
+      "index": 95,
+      "word": "agent",
+      "start": 47.5,
+      "end": 48.0
+    },
+    {
+      "index": 96,
+      "word": "scribes",
+      "start": 48.0,
+      "end": 48.5
+    },
+    {
+      "index": 97,
+      "word": "work",
+      "start": 48.5,
+      "end": 49.0
+    },
+    {
+      "index": 98,
+      "word": "quietly",
+      "start": 49.0,
+      "end": 49.5
+    },
+    {
+      "index": 99,
+      "word": "in",
+      "start": 49.5,
+      "end": 50.0
+    },
+    {
+      "index": 100,
+      "word": "the",
+      "start": 50.0,
+      "end": 50.5
+    },
+    {
+      "index": 101,
+      "word": "background,",
+      "start": 50.5,
+      "end": 51.0
+    },
+    {
+      "index": 102,
+      "word": "conducting",
+      "start": 51.0,
+      "end": 51.5
+    },
+    {
+      "index": 103,
+      "word": "legal",
+      "start": 51.5,
+      "end": 52.0
+    },
+    {
+      "index": 104,
+      "word": "checks",
+      "start": 52.0,
+      "end": 52.5
+    },
+    {
+      "index": 105,
+      "word": "and",
+      "start": 52.5,
+      "end": 53.0
+    },
+    {
+      "index": 106,
+      "word": "tax",
+      "start": 53.0,
+      "end": 53.5
+    },
+    {
+      "index": 107,
+      "word": "modeling",
+      "start": 53.5,
+      "end": 54.0
+    },
+    {
+      "index": 108,
+      "word": "without",
+      "start": 54.0,
+      "end": 54.5
+    },
+    {
+      "index": 109,
+      "word": "intrusive",
+      "start": 54.5,
+      "end": 55.0
+    },
+    {
+      "index": 110,
+      "word": "interruptions,",
+      "start": 55.0,
+      "end": 55.5
+    },
+    {
+      "index": 111,
+      "word": "surfaced",
+      "start": 55.5,
+      "end": 56.0
+    },
+    {
+      "index": 112,
+      "word": "whenever",
+      "start": 56.0,
+      "end": 56.5
+    },
+    {
+      "index": 113,
+      "word": "you",
+      "start": 56.5,
+      "end": 57.0
+    },
+    {
+      "index": 114,
+      "word": "invoke",
+      "start": 57.0,
+      "end": 57.5
+    },
+    {
+      "index": 115,
+      "word": "the",
+      "start": 57.5,
+      "end": 58.0
+    },
+    {
+      "index": 116,
+      "word": "command",
+      "start": 58.0,
+      "end": 58.5
+    },
+    {
+      "index": 117,
+      "word": "palette.",
+      "start": 58.5,
+      "end": 59.0
+    },
+    {
+      "index": 118,
+      "word": "Transform",
+      "start": 59.0,
+      "end": 59.5
+    },
+    {
+      "index": 119,
+      "word": "chaotic",
+      "start": 59.5,
+      "end": 60.0
+    },
+    {
+      "index": 120,
+      "word": "real",
+      "start": 60.0,
+      "end": 60.5
+    },
+    {
+      "index": 121,
+      "word": "estate",
+      "start": 60.5,
+      "end": 61.0
+    },
+    {
+      "index": 122,
+      "word": "data",
+      "start": 61.0,
+      "end": 61.5
+    },
+    {
+      "index": 123,
+      "word": "into",
+      "start": 61.5,
+      "end": 62.0
+    },
+    {
+      "index": 124,
+      "word": "an",
+      "start": 62.0,
+      "end": 62.5
+    },
+    {
+      "index": 125,
+      "word": "elegant,",
+      "start": 62.5,
+      "end": 63.0
+    },
+    {
+      "index": 126,
+      "word": "institutional-grade",
+      "start": 63.0,
+      "end": 63.5
+    },
+    {
+      "index": 127,
+      "word": "memorandum.",
+      "start": 63.5,
+      "end": 64.0
+    },
+    {
+      "index": 128,
+      "word": "This",
+      "start": 64.0,
+      "end": 64.5
+    },
+    {
+      "index": 129,
+      "word": "is",
+      "start": 64.5,
+      "end": 65.0
+    },
+    {
+      "index": 130,
+      "word": "underwriting",
+      "start": 65.0,
+      "end": 65.5
+    },
+    {
+      "index": 131,
+      "word": "elevated",
+      "start": 65.5,
+      "end": 66.0
+    },
+    {
+      "index": 132,
+      "word": "to",
+      "start": 66.0,
+      "end": 66.5
+    },
+    {
+      "index": 133,
+      "word": "craft.",
+      "start": 66.5,
+      "end": 67.0
+    },
+    {
+      "index": 134,
+      "word": "This",
+      "start": 67.0,
+      "end": 67.5
+    },
+    {
+      "index": 135,
+      "word": "is",
+      "start": 67.5,
+      "end": 68.0
+    },
+    {
+      "index": 136,
+      "word": "PencilSTR.",
+      "start": 68.0,
+      "end": 68.5
+    }
+  ]
+}

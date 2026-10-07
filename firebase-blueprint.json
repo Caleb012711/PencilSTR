@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Represents an authenticated user profile and their preferences.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "displayName": { "type": "string" },
+        "role": { "type": "string", "enum": ["operator", "scout", "admin"] },
+        "isGuest": { "type": "boolean" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["uid", "email"]
+    },
+    "Deal": {
+      "title": "Deal",
+      "description": "Represents a short-term rental property under consideration or acquired.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "mlsNumber": { "type": "string" },
+        "title": { "type": "string" },
+        "address": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "zip": { "type": "string" },
+        "price": { "type": "number" },
+        "originalPrice": { "type": "number" },
+        "priceDrop": { "type": "number" },
+        "beds": { "type": "number" },
+        "baths": { "type": "number" },
+        "sqft": { "type": "number" },
+        "yearBuilt": { "type": "number" },
+        "imageUrl": { "type": "string" },
+        "stage": {
+          "type": "string",
+          "enum": ["inbox", "underwriting", "due_diligence", "offer_sent", "under_contract", "acquired"]
+        },
+        "financingType": {
+          "type": "string",
+          "enum": ["conventional", "dscr", "seller_carry", "subject_to"]
+        },
+        "adr": { "type": "number" },
+        "occupancy": { "type": "number" },
+        "hoaFeeMonthly": { "type": "number" },
+        "taxesAnnual": { "type": "number" },
+        "insuranceAnnual": { "type": "number" },
+        "utilitiesMonthly": { "type": "number" },
+        "managementFeeRate": { "type": "number" },
+        "cleaningFeePerStay": { "type": "number" },
+        "downPaymentPct": { "type": "number" },
+        "interestRate": { "type": "number" },
+        "sellerInterestRate": { "type": "number" },
+        "sellerDownPct": { "type": "number" },
+        "balloonYears": { "type": "number" },
+        "existingLoanBalance": { "type": "number" },
+        "existingLoanPayment": { "type": "number" },
+        "notes": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "userId", "title", "price", "stage"]
+    },
+    "CcrAudit": {
+      "title": "CcrAudit",
+      "description": "Represents an AI legal HOA and zoning clause audit for a property.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "dealId": { "type": "string" },
+        "userId": { "type": "string" },
+        "documentName": { "type": "string" },
+        "strStatus": { "type": "string", "enum": ["PERMITTED", "CONDITIONAL", "PROHIBITED"] },
+        "riskRating": { "type": "string", "enum": ["LOW", "MEDIUM", "HIGH"] },
+        "minimumStayDays": { "type": "number" },
+        "parkingLimitVehicles": { "type": "string" },
+        "quietHours": { "type": "string" },
+        "amenityFees": { "type": "string" },
+        "finesSchedule": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "userId", "strStatus", "riskRating"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User profile document containing account attributes"
+    },
+    "/deals/{dealId}": {
+      "schema": "Deal",
+      "description": "Saved and monitored acquisition pipeline deals"
+    },
+    "/audits/{auditId}": {
+      "schema": "CcrAudit",
+      "description": "HOA and CC&R audit analyses generated for deals"
+    }
+  }
+}
