@@ -838,9 +838,10 @@ export const AgentTeamView: React.FC = () => {
                     ? 'bg-white dark:bg-[#20201D] text-[#111110] dark:text-[#F4F3EF] shadow-xs border border-[#E5E4DF] dark:border-[#2E2E2A]'
                     : 'text-[#787570] hover:text-[#111110] dark:hover:text-[#F4F3EF]'
                 }`}
+                title="Talk with all agents collaboratively in team underwriting"
               >
                 <span className="w-2 h-2 rounded-full bg-[#8B5CF6]"></span>
-                <span>Scribe Mesh</span>
+                <span>All Agents (Team)</span>
               </button>
 
               <button
@@ -1110,11 +1111,12 @@ export const AgentTeamView: React.FC = () => {
               </div>
             </div>
 
-            {/* INTERACTIVE AGENT SELECTOR STRIP: Super easy 1-click selection of who to talk to */}
-            <div className="bg-[#FAF9F5] dark:bg-[#161615] px-3 sm:px-4 py-2 border-b border-[#E5E4DF] dark:border-[#262624] flex items-center gap-1.5 overflow-x-auto no-scrollbar shrink-0">
-              <span className="text-[10px] font-mono uppercase tracking-wider font-bold text-[#787570] shrink-0 mr-1">
-                Talking to:
-              </span>
+            {/* INTERACTIVE AGENT SELECTOR STRIP: Shown when left roster is minimized so user still has 1-click access */}
+            {isLeftMinimized && (
+              <div className="bg-[#FAF9F5] dark:bg-[#161615] px-3 sm:px-4 py-2 border-b border-[#E5E4DF] dark:border-[#262624] flex items-center gap-1.5 overflow-x-auto no-scrollbar shrink-0">
+                <span className="text-[10px] font-mono uppercase tracking-wider font-bold text-[#787570] shrink-0 mr-1">
+                  Talking to:
+                </span>
 
               {/* Team Collaboration Mode (All Agents) */}
               <button
@@ -1171,6 +1173,7 @@ export const AgentTeamView: React.FC = () => {
                 );
               })}
             </div>
+          )}
 
             {/* Main Agent Chat Body: Messages Feed */}
             <div className="flex-1 flex min-w-0 overflow-hidden relative">
@@ -1298,8 +1301,8 @@ export const AgentTeamView: React.FC = () => {
 
               {isProcessing && (
                 <div className="flex items-center gap-2 text-xs font-mono text-[#8B5CF6] animate-pulse py-2">
-                  <span className="w-2 h-2 rounded-full bg-[#8B5CF6]"></span>
-                  <span>Pencil Scribes actively moving and synthesizing underwriting pro forma...</span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#8B5CF6]"></span>
+                  <span>Synthesizing pro forma analysis...</span>
                 </div>
               )}
 
@@ -1346,27 +1349,26 @@ export const AgentTeamView: React.FC = () => {
                 )}
               </div>
 
-              {/* Quick Prompt Starters */}
+              {/* Streamlined Analysis Prompts */}
               <div className="flex items-center gap-1.5 overflow-x-auto pb-0.5 text-[11px] font-mono text-[#787570] no-scrollbar">
-                <span className="text-[10px] uppercase font-bold shrink-0 text-[#8B5CF6]">Quick Ideas:</span>
                 <button
                   type="button"
-                  onClick={() => handleSendMessage('Underwrite full STR pro forma for this deal and verify if DSCR exceeds 1.25x')}
-                  className="px-2.5 py-1 rounded-xl bg-[#FAF9F5] dark:bg-[#1A1A18] hover:bg-[#F2EFE9] dark:hover:bg-[#252522] border border-[#E5E4DF] dark:border-[#282825] shrink-0 cursor-pointer text-[#111110] dark:text-[#F4F3EF] transition-colors"
+                  onClick={() => handleSendMessage('Underwrite full STR pro forma and verify DSCR coverage')}
+                  className="px-2.5 py-1 rounded-lg bg-[#FAF9F5] dark:bg-[#1A1A18] hover:bg-[#F2EFE9] dark:hover:bg-[#252522] border border-[#E5E4DF] dark:border-[#282825] shrink-0 cursor-pointer text-[#111110] dark:text-[#F4F3EF] transition-colors text-[11px]"
                 >
                   Verify DSCR Coverage
                 </button>
                 <button
                   type="button"
                   onClick={() => handleSendMessage('Audit municipal short-term rental permits and CC&R deed restrictions')}
-                  className="px-2.5 py-1 rounded-xl bg-[#FAF9F5] dark:bg-[#1A1A18] hover:bg-[#F2EFE9] dark:hover:bg-[#252522] border border-[#E5E4DF] dark:border-[#282825] shrink-0 cursor-pointer text-[#111110] dark:text-[#F4F3EF] transition-colors"
+                  className="px-2.5 py-1 rounded-lg bg-[#FAF9F5] dark:bg-[#1A1A18] hover:bg-[#F2EFE9] dark:hover:bg-[#252522] border border-[#E5E4DF] dark:border-[#282825] shrink-0 cursor-pointer text-[#111110] dark:text-[#F4F3EF] transition-colors text-[11px]"
                 >
                   Audit Zoning &amp; CC&amp;Rs
                 </button>
                 <button
                   type="button"
-                  onClick={() => handleSendMessage('Draft full 10-year pro forma cash flow spreadsheet and save to Drafting Table')}
-                  className="px-2.5 py-1 rounded-xl bg-[#FAF9F5] dark:bg-[#1A1A18] hover:bg-[#F2EFE9] dark:hover:bg-[#252522] border border-[#E5E4DF] dark:border-[#282825] shrink-0 cursor-pointer text-[#111110] dark:text-[#F4F3EF] transition-colors"
+                  onClick={() => handleSendMessage('Draft 10-year pro forma cash flow spreadsheet')}
+                  className="px-2.5 py-1 rounded-lg bg-[#FAF9F5] dark:bg-[#1A1A18] hover:bg-[#F2EFE9] dark:hover:bg-[#252522] border border-[#E5E4DF] dark:border-[#282825] shrink-0 cursor-pointer text-[#111110] dark:text-[#F4F3EF] transition-colors text-[11px]"
                 >
                   Draft Cash Flow Sheet
                 </button>
@@ -1380,7 +1382,7 @@ export const AgentTeamView: React.FC = () => {
                 }}
                 className="relative"
               >
-                <div className="flex items-end gap-2 bg-[#FAF9F5] dark:bg-[#181816] border border-[#E5E4DF] dark:border-[#282825] rounded-2xl p-2 focus-within:border-[#8B5CF6] focus-within:ring-1 focus-within:ring-[#8B5CF6] transition-all">
+                <div className="flex items-end gap-2 bg-[#FAF9F5] dark:bg-[#181816] border border-[#E5E4DF] dark:border-[#282825] rounded-xl p-2 focus-within:border-[#8B5CF6] focus-within:ring-1 focus-within:ring-[#8B5CF6] transition-all">
                   <textarea
                     ref={textareaRef}
                     rows={1}
@@ -1389,8 +1391,8 @@ export const AgentTeamView: React.FC = () => {
                     onKeyDown={handleKeyDown}
                     placeholder={
                       activeTab === 'mesh'
-                        ? 'Ask all agents anything about this deal (Enter to send, Shift+Enter for new line)...'
-                        : `Message ${activeDirectAgent.name} directly about ${activeDirectAgent.role}...`
+                        ? 'Direct query or command to underwriting team...'
+                        : `Direct prompt to ${activeDirectAgent.name}...`
                     }
                     className="flex-1 bg-transparent border-0 resize-none px-2 py-1 text-xs sm:text-sm text-[#111110] dark:text-[#F4F3EF] focus:outline-none min-h-[36px] max-h-[140px]"
                   />
