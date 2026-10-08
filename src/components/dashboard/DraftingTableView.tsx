@@ -916,10 +916,10 @@ export const DraftingTableView: React.FC = () => {
                               <td className="px-3 sm:px-4 py-2.5 sm:py-3 text-[#787570] font-mono text-[11px] whitespace-nowrap">
                                 {row.frequency}
                               </td>
-                              <td className="px-3 sm:px-4 py-2.5 sm:py-3 font-mono font-semibold text-[#111110] dark:text-[#F4F3EF] whitespace-nowrap">
+                              <td className="px-3 sm:px-4 py-2.5 sm:py-3 font-mono font-semibold text-[#111110] dark:text-[#F4F3EF] whitespace-nowrap tabular-nums">
                                 ${row.monthly.toLocaleString()}
                               </td>
-                              <td className="px-3 sm:px-4 py-2.5 sm:py-3 font-mono font-bold text-[#059669] dark:text-[#34D399] whitespace-nowrap">
+                              <td className="px-3 sm:px-4 py-2.5 sm:py-3 font-mono font-bold text-[#059669] dark:text-[#34D399] whitespace-nowrap tabular-nums">
                                 ${row.annual.toLocaleString()}
                               </td>
                               <td className="px-3 sm:px-4 py-2.5 sm:py-3 text-[11px] text-[#787570] dark:text-[#A3A19B] max-w-xs truncate">
