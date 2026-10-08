@@ -163,7 +163,7 @@ const DealCard: React.FC<DealCardProps> = ({
           <span className="text-[9px] font-mono text-[#8F8D88] dark:text-[#73716B] block uppercase">
             CoC Yield
           </span>
-          <span className="font-mono font-bold text-xs text-[#0B3B24] dark:text-[#34D399]">
+          <span className="font-mono font-bold text-xs text-[#0B3B24] dark:text-[#34D399] tabular-nums">
             {metrics.cashOnCashReturn.toFixed(1)}%
           </span>
         </div>
@@ -173,7 +173,7 @@ const DealCard: React.FC<DealCardProps> = ({
             DSCR Ratio
           </span>
           <span
-            className={`font-mono font-bold text-xs ${
+            className={`font-mono font-bold text-xs tabular-nums ${
               metrics.dscrBadge === 'green'
                 ? 'text-[#0B3B24] dark:text-[#34D399]'
                 : metrics.dscrBadge === 'amber'
