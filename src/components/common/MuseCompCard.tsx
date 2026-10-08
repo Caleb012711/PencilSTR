@@ -397,7 +397,7 @@ export const MuseCompCard: React.FC<MuseCompCardProps> = ({
         >
           <div className="flex items-center justify-between text-[#5F5D59] dark:text-[#9E9C96]">
             <span>Break-Even:</span>
-            <span className="font-bold text-[#111110] dark:text-[#F4F3EF]">
+            <span className="font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">
               {metrics.breakEvenOcc.toFixed(0)}% Occ
             </span>
           </div>
@@ -405,7 +405,7 @@ export const MuseCompCard: React.FC<MuseCompCardProps> = ({
           <div className="flex items-center justify-between text-[#5F5D59] dark:text-[#9E9C96]">
             <span>Monthly Free:</span>
             <span
-              className={`font-bold ${
+              className={`font-bold tabular-nums ${
                 metrics.netCashMonthly >= 0
                   ? 'text-emerald-600 dark:text-emerald-400'
                   : 'text-rose-600 dark:text-rose-400'
@@ -417,14 +417,14 @@ export const MuseCompCard: React.FC<MuseCompCardProps> = ({
 
           <div className="flex items-center justify-between text-[#5F5D59] dark:text-[#9E9C96]">
             <span>Monthly Debt:</span>
-            <span className="font-bold text-[#111110] dark:text-[#F4F3EF]">
+            <span className="font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">
               ${Math.round(metrics.monthlyDebt).toLocaleString()}/mo
             </span>
           </div>
 
           <div className="flex items-center justify-between text-[#5F5D59] dark:text-[#9E9C96]">
             <span>Monthly NOI:</span>
-            <span className="font-bold text-[#111110] dark:text-[#F4F3EF]">
+            <span className="font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">
               ${Math.round(metrics.noiMonthly).toLocaleString()}/mo
             </span>
           </div>
