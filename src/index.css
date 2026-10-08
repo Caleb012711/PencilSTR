@@ -72,6 +72,84 @@
   font-feature-settings: "tnum";
 }
 
+/* Custom Tactile Range Slider (Linear / Apple aesthetic) */
+.str-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 5px;
+  border-radius: 9999px;
+  background: var(--slider-bg, #E5E4DF);
+  outline: none;
+  cursor: grab;
+  transition: background 0.15s ease;
+}
+
+html.dark .str-slider {
+  background: var(--slider-bg, #262624);
+}
+
+.str-slider:active {
+  cursor: grabbing;
+}
+
+.str-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 2px solid #111110;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+  transition: transform 0.15s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.15s ease;
+}
+
+html.dark .str-slider::-webkit-slider-thumb {
+  background: #F4F3EF;
+  border: 2px solid #D97706;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.str-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.str-slider::-webkit-slider-thumb:active {
+  transform: scale(0.95);
+}
+
+/* Tactile press haptic */
+.active-press {
+  transition: transform 0.1s ease-out, box-shadow 0.1s ease-out;
+}
+.active-press:active {
+  transform: scale(0.98);
+}
+
+/* Keycap component */
+kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  padding: 1px 4px;
+  border-radius: 4px;
+  background: #FAF9F5;
+  color: #8F8D88;
+  border: 1px solid #E5E4DF;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+html.dark kbd {
+  background: #20201D;
+  color: #A3A299;
+  border-color: #262624;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
+}
+
 @media print {
   body {
     background-color: #ffffff !important;
