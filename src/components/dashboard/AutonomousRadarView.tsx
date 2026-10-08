@@ -340,7 +340,7 @@ export const AutonomousRadarView: React.FC<AutonomousRadarViewProps> = ({ onOpen
 
           <div>
             <label className="text-[10px] font-mono uppercase text-[#8F8D88] dark:text-[#7A7874] block mb-1">
-              Min Bedrooms: <span className="font-bold text-[#111110] dark:text-[#F4F3EF]">{minBeds} Beds</span>
+              Min Bedrooms: <span className="font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">{minBeds} Beds</span>
             </label>
             <input
               type="range"
@@ -348,13 +348,13 @@ export const AutonomousRadarView: React.FC<AutonomousRadarViewProps> = ({ onOpen
               max="8"
               value={minBeds}
               onChange={(e) => setMinBeds(Number(e.target.value))}
-              className="w-full accent-[#111110] dark:accent-[#F4F3EF]"
+              className="str-slider w-full cursor-pointer"
             />
           </div>
 
           <div>
             <label className="text-[10px] font-mono uppercase text-[#8F8D88] dark:text-[#7A7874] block mb-1">
-              Max Purchase Price: <span className="font-bold text-[#111110] dark:text-[#F4F3EF]">${(maxPrice / 1000).toFixed(0)}k</span>
+              Max Purchase Price: <span className="font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">${(maxPrice / 1000).toFixed(0)}k</span>
             </label>
             <input
               type="range"
@@ -363,13 +363,13 @@ export const AutonomousRadarView: React.FC<AutonomousRadarViewProps> = ({ onOpen
               step="25000"
               value={maxPrice}
               onChange={(e) => setMaxPrice(Number(e.target.value))}
-              className="w-full accent-[#111110] dark:accent-[#F4F3EF]"
+              className="str-slider w-full cursor-pointer"
             />
           </div>
 
           <div>
             <label className="text-[10px] font-mono uppercase text-[#8F8D88] dark:text-[#7A7874] block mb-1">
-              Min Target CoC Return: <span className="font-bold text-[#0B3B24] dark:text-[#34D399]">{minCoC}%</span>
+              Min Target CoC Return: <span className="font-bold text-[#0B3B24] dark:text-[#34D399] tabular-nums">{minCoC}%</span>
             </label>
             <input
               type="range"
@@ -377,7 +377,7 @@ export const AutonomousRadarView: React.FC<AutonomousRadarViewProps> = ({ onOpen
               max="30"
               value={minCoC}
               onChange={(e) => setMinCoC(Number(e.target.value))}
-              className="w-full accent-[#0B3B24] dark:accent-[#34D399]"
+              className="str-slider w-full cursor-pointer"
             />
           </div>
         </div>
