@@ -243,7 +243,7 @@ export const PortfolioIntelligenceView: React.FC = () => {
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-6">
         <div className="bg-white dark:bg-[#141413] p-4 rounded-xl border border-[#E5E4DF] dark:border-[#262624] shadow-2xs">
           <span className="text-[10px] font-mono uppercase text-[#8F8D88] dark:text-[#9A9893] block">Total AUM</span>
-          <span className="font-serif text-2xl font-bold text-[#111110] dark:text-[#F4F3EF]">
+          <span className="font-serif text-2xl font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">
             ${(totalAum / 1000000).toFixed(2)}M
           </span>
           <span className="text-[10px] font-mono text-[#666562] dark:text-[#9A9893] block mt-1">
@@ -253,7 +253,7 @@ export const PortfolioIntelligenceView: React.FC = () => {
 
         <div className="bg-white dark:bg-[#141413] p-4 rounded-xl border border-[#E5E4DF] dark:border-[#262624] shadow-2xs">
           <span className="text-[10px] font-mono uppercase text-[#8F8D88] dark:text-[#9A9893] block">Total Debt</span>
-          <span className="font-serif text-2xl font-bold text-[#111110] dark:text-[#F4F3EF]">
+          <span className="font-serif text-2xl font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">
             ${(totalDebtBalance / 1000000).toFixed(2)}M
           </span>
           <span className="text-[10px] font-mono text-[#666562] dark:text-[#9A9893] block mt-1">
@@ -263,7 +263,7 @@ export const PortfolioIntelligenceView: React.FC = () => {
 
         <div className="bg-white dark:bg-[#141413] p-4 rounded-xl border border-[#E5E4DF] dark:border-[#262624] shadow-2xs">
           <span className="text-[10px] font-mono uppercase text-[#8F8D88] dark:text-[#9A9893] block">Net Free Cash</span>
-          <span className="font-serif text-2xl font-bold text-[#111110] dark:text-[#F4F3EF]">
+          <span className="font-serif text-2xl font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">
             ${Math.round(totalMonthlyCashFlow).toLocaleString()}
           </span>
           <span className="text-[10px] font-mono text-[#666562] dark:text-[#9A9893] block mt-1">
@@ -273,7 +273,7 @@ export const PortfolioIntelligenceView: React.FC = () => {
 
         <div className="bg-white dark:bg-[#141413] p-4 rounded-xl border border-[#E5E4DF] dark:border-[#262624] shadow-2xs">
           <span className="text-[10px] font-mono uppercase text-[#8F8D88] dark:text-[#9A9893] block">Avg Occupancy</span>
-          <span className="font-serif text-2xl font-bold text-[#111110] dark:text-[#F4F3EF]">
+          <span className="font-serif text-2xl font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">
             {avgOccupancy.toFixed(0)}%
           </span>
           <span className="text-[10px] font-mono text-[#0B3B24] dark:text-[#34D399] block mt-1 font-semibold">
@@ -283,7 +283,7 @@ export const PortfolioIntelligenceView: React.FC = () => {
 
         <div className="bg-white dark:bg-[#141413] p-4 rounded-xl border border-[#E5E4DF] dark:border-[#262624] shadow-2xs">
           <span className="text-[10px] font-mono uppercase text-[#8F8D88] dark:text-[#9A9893] block">Blended CoC</span>
-          <span className="font-serif text-2xl font-bold text-[#0B3B24] dark:text-[#34D399]">
+          <span className="font-serif text-2xl font-bold text-[#0B3B24] dark:text-[#34D399] tabular-nums">
             {blendedCoC.toFixed(1)}%
           </span>
           <span className="text-[10px] font-mono text-[#0B3B24] dark:text-[#34D399] block mt-1 font-semibold">
@@ -293,7 +293,7 @@ export const PortfolioIntelligenceView: React.FC = () => {
 
         <div className="bg-white dark:bg-[#141413] p-4 rounded-xl border border-[#E5E4DF] dark:border-[#262624] shadow-2xs">
           <span className="text-[10px] font-mono uppercase text-[#8F8D88] dark:text-[#9A9893] block">DSCR Safety</span>
-          <span className="font-serif text-2xl font-bold text-[#0B3B24] dark:text-[#34D399]">
+          <span className="font-serif text-2xl font-bold text-[#0B3B24] dark:text-[#34D399] tabular-nums">
             {avgDscr.toFixed(2)}x
           </span>
           <span className="text-[10px] font-mono text-[#0B3B24] dark:text-[#34D399] block mt-1 font-semibold">
