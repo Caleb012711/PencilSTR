@@ -176,70 +176,32 @@ export const ScannerHero: React.FC<ScannerHeroProps> = ({
           ))}
         </div>
 
-        {/* Autonomous Scribe Animal Mascot & Cyber Shape Squad Strip */}
-        <div className="w-full max-w-4xl mt-6 p-3 rounded-2xl bg-white/80 dark:bg-[#181816]/80 backdrop-blur-md border border-[#E5E4DF] dark:border-[#282826] shadow-xs flex flex-col sm:flex-row items-center justify-between gap-3">
-          <div className="flex items-center gap-2 text-left">
-            <span className="text-sm">🐾</span>
-            <div>
-              <div className="text-xs font-semibold text-[#111110] dark:text-[#F4F3EF] flex items-center gap-1.5">
-                <span>Autonomous Scribes &amp; Cyber Shapes</span>
-                <span className="px-1.5 py-0.5 rounded-full text-[9px] font-mono font-bold bg-[#E8F5EE] dark:bg-[#064E3B]/40 text-[#059669] dark:text-[#34D399]">
-                  30 COMPANIONS
+        {/* Institutional Verification Credential Bar */}
+        <div className="w-full max-w-4xl mt-6 p-3 rounded-2xl bg-white/90 dark:bg-[#181816]/90 backdrop-blur-md border border-[#E5E4DF] dark:border-[#282826] shadow-2xs flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+          <div className="flex items-center gap-2.5 min-w-0">
+            <div className="w-7 h-7 rounded-lg bg-[#059669]/10 text-[#059669] flex items-center justify-center shrink-0 font-mono font-bold text-xs">
+              ✓
+            </div>
+            <div className="text-left min-w-0">
+              <div className="font-sans font-bold text-xs text-[#111110] dark:text-[#F4F3EF] flex items-center gap-2 flex-wrap">
+                <span>Autonomous Credit Committee &amp; Underwriting Mesh</span>
+                <span className="px-2 py-0.5 rounded-full text-[9px] font-mono font-bold bg-[#E8F5EE] dark:bg-[#064E3B]/40 text-[#059669] dark:text-[#34D399] border border-[#059669]/30">
+                  INSTITUTIONAL GRADE
                 </span>
               </div>
-              <p className="text-[11px] text-[#787570] dark:text-[#A3A09A]">
-                Choose between distinct animal mascots or geometric cyber shapes (dots, prism bot, tesseract).
+              <p className="text-[11px] text-[#787570] dark:text-[#A3A09A] truncate">
+                Multi-tier DSCR stress testing, municipal CC&amp;R deed screening, and live pro forma drafting.
               </p>
             </div>
-          </div>
-
-          {/* Animal mascot & cyber shape avatars row */}
-          <div className="flex items-center -space-x-1.5 overflow-x-auto py-1 px-1">
-            {[
-              { type: 'owl' as PetType, name: 'Archie', role: 'Chief Scribe 🦉' },
-              { type: 'cyber-bot' as PetType, name: 'Byte', role: 'Prism Bot 🤖' },
-              { type: 'quantum-dots' as PetType, name: 'Dotsy', role: 'Quantum Dots ⠕' },
-              { type: 'shiba' as PetType, name: 'Pip', role: 'Comp Scout 🐕' },
-              { type: 'hex-shield' as PetType, name: 'Aegis', role: 'Hex Droid 🛡️' },
-              { type: 'tesseract' as PetType, name: 'Tess', role: 'Hypercube 🧊' },
-              { type: 'cat' as PetType, name: 'Miso', role: 'Debt & DSCR 🐈' },
-              { type: 'whale' as PetType, name: 'Bubbles', role: 'Ocean Spout 🐋' },
-              { type: 'pulse-core' as PetType, name: 'Aura', role: 'Pulse Core 🔮' },
-              { type: 'beaver' as PetType, name: 'Barnaby', role: 'Zoning & CC&R 🦫' },
-              { type: 'chrono-gyro' as PetType, name: 'Chrono', role: 'Gyro Droid ⚙️' },
-              { type: 'delta-prism' as PetType, name: 'Vector', role: 'Delta Prism 💎' },
-              { type: 'badger' as PetType, name: 'Rocky', role: 'Tough Zoning 🦡' },
-              { type: 'fox' as PetType, name: 'Rusty', role: 'ADR Yield 🦊' },
-              { type: 'astro-star' as PetType, name: 'Nova-Star', role: 'Stellar Tetra ⭐' },
-              { type: 'lion' as PetType, name: 'Leo', role: 'Equity Waterfall 🦁' },
-              { type: 'sloth' as PetType, name: 'Snooze', role: 'Slow Yield 🦥' },
-              { type: 'bee' as PetType, name: 'Buzz', role: 'Hyper-Yield 🐝' },
-              { type: 'frog' as PetType, name: 'Finley', role: 'Liquidity Leap 🐸' },
-              { type: 'falcon' as PetType, name: 'Swift', role: 'Stealth Scout 🦅' },
-              { type: 'flamingo' as PetType, name: 'Coral', role: 'Equity Flamingo 🦩' },
-              { type: 'turtle' as PetType, name: 'Shelly', role: 'Capital Shield 🐢' },
-            ].map((p, idx) => (
-              <button
-                key={idx}
-                type="button"
-                onClick={onEnterDashboard}
-                title={`${p.name}: ${p.role} · Click to open Agent Chat`}
-                className="transition-transform hover:scale-125 hover:z-20 cursor-pointer focus:outline-none"
-              >
-                <div className="p-0.5 rounded-full bg-white dark:bg-[#222220] ring-1 ring-[#E5E4DF] dark:ring-[#333330] shadow-2xs">
-                  <AgentPetAvatar petType={p.type} size="sm" isWorking={idx === 1 || idx === 3} />
-                </div>
-              </button>
-            ))}
           </div>
 
           {onEnterDashboard && (
             <button
               type="button"
               onClick={onEnterDashboard}
-              className="shrink-0 text-xs font-semibold px-3 py-1.5 rounded-xl bg-[#111110] dark:bg-[#F4F3EF] text-white dark:text-[#111110] hover:bg-black dark:hover:bg-white transition-all shadow-xs cursor-pointer flex items-center gap-1.5 whitespace-nowrap"
+              className="shrink-0 text-xs font-mono font-semibold px-3.5 py-1.5 rounded-xl bg-[#111110] dark:bg-[#F4F3EF] text-white dark:text-[#111110] hover:bg-black dark:hover:bg-white transition-all shadow-xs cursor-pointer flex items-center gap-1.5 whitespace-nowrap active:scale-[0.98]"
             >
-              <span>Meet Companions</span>
+              <span>Launch Studio Terminal</span>
               <span className="text-[#D97706] font-bold">→</span>
             </button>
           )}
