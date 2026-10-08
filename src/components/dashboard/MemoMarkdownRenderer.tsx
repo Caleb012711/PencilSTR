@@ -199,6 +199,26 @@ export const MemoMarkdownRenderer: React.FC<MemoMarkdownRendererProps> = ({ cont
       }
     }
 
+    // Check markdown table
+    if (trimmed.startsWith('|') && trimmed.endsWith('|')) {
+      flushList();
+      const cells = trimmed.split('|').slice(1, -1).map(c => c.trim());
+      // Check if it's separator line
+      if (cells.every(c => /^:?-+:?$/.test(c))) {
+        continue;
+      }
+      renderedElements.push(
+        <div key={`table-row-${i}`} className="grid grid-cols-2 sm:grid-cols-4 gap-2 py-1.5 border-b border-[#E5E4DF]/60 dark:border-[#262624]/60 text-xs font-mono">
+          {cells.map((cell, cIdx) => (
+            <div key={cIdx} className={`${cIdx === 0 ? 'font-bold text-[#111110] dark:text-[#F4F3EF]' : 'text-right tabular-nums text-[#0B3B24] dark:text-[#34D399]'}`}>
+              {formatInline(cell)}
+            </div>
+          ))}
+        </div>
+      );
+      continue;
+    }
+
     // Empty line separates paragraphs
     if (!trimmed) {
       flushList();
