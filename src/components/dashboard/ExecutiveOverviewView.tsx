@@ -441,7 +441,7 @@ Generated via PencilSTR Institutional Underwriting Terminal`;
               <div>
                 <div className="flex justify-between text-xs font-mono mb-1">
                   <span className="text-[#666562] dark:text-[#A3A19B]">Purchase Price</span>
-                  <span className="font-bold text-[#111110] dark:text-[#F4F3EF]">{formatCurrency(scratchPrice)}</span>
+                  <span className="font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">{formatCurrency(scratchPrice)}</span>
                 </div>
                 <input
                   type="range"
@@ -450,14 +450,14 @@ Generated via PencilSTR Institutional Underwriting Terminal`;
                   step={25000}
                   value={scratchPrice}
                   onChange={(e) => setScratchPrice(Number(e.target.value))}
-                  className="w-full accent-[#111110] dark:accent-[#F4F3EF] cursor-pointer"
+                  className="str-slider w-full cursor-pointer"
                 />
               </div>
 
               <div>
                 <div className="flex justify-between text-xs font-mono mb-1">
                   <span className="text-[#666562] dark:text-[#A3A19B]">Down Payment %</span>
-                  <span className="font-bold text-[#111110] dark:text-[#F4F3EF]">
+                  <span className="font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">
                     {scratchDownPct}% ({formatCurrency(scratchDownDollars)})
                   </span>
                 </div>
@@ -468,14 +468,14 @@ Generated via PencilSTR Institutional Underwriting Terminal`;
                   step={5}
                   value={scratchDownPct}
                   onChange={(e) => setScratchDownPct(Number(e.target.value))}
-                  className="w-full accent-[#111110] dark:accent-[#F4F3EF] cursor-pointer"
+                  className="str-slider w-full cursor-pointer"
                 />
               </div>
 
               <div>
                 <div className="flex justify-between text-xs font-mono mb-1">
                   <span className="text-[#666562] dark:text-[#A3A19B]">Nightly ADR ($)</span>
-                  <span className="font-bold text-[#111110] dark:text-[#F4F3EF]">${scratchAdr} / night</span>
+                  <span className="font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">${scratchAdr} / night</span>
                 </div>
                 <input
                   type="range"
@@ -484,14 +484,14 @@ Generated via PencilSTR Institutional Underwriting Terminal`;
                   step={15}
                   value={scratchAdr}
                   onChange={(e) => setScratchAdr(Number(e.target.value))}
-                  className="w-full accent-[#059669] cursor-pointer"
+                  className="str-slider w-full cursor-pointer"
                 />
               </div>
 
               <div>
                 <div className="flex justify-between text-xs font-mono mb-1">
                   <span className="text-[#666562] dark:text-[#A3A19B]">Occupancy Rate %</span>
-                  <span className="font-bold text-[#111110] dark:text-[#F4F3EF]">
+                  <span className="font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">
                     {scratchOcc}% ({Math.round(365 * (scratchOcc / 100))} nights)
                   </span>
                 </div>
@@ -502,7 +502,7 @@ Generated via PencilSTR Institutional Underwriting Terminal`;
                   step={1}
                   value={scratchOcc}
                   onChange={(e) => setScratchOcc(Number(e.target.value))}
-                  className="w-full accent-[#059669] cursor-pointer"
+                  className="str-slider w-full cursor-pointer"
                 />
               </div>
             </div>

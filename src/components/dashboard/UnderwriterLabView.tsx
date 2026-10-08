@@ -1330,7 +1330,7 @@ export const UnderwriterLabView: React.FC<UnderwriterLabViewProps> = ({ onOpenLe
                 <div>
                   <div className="flex items-center justify-between text-xs font-mono mb-1">
                     <span className="text-[#8F8D88] dark:text-[#73716B] uppercase">Purchase Price</span>
-                    <span className="font-bold text-[#111110] dark:text-[#F4F3EF]">
+                    <span className="font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">
                       ${purchasePrice.toLocaleString()}
                     </span>
                   </div>
@@ -1341,14 +1341,14 @@ export const UnderwriterLabView: React.FC<UnderwriterLabViewProps> = ({ onOpenLe
                     step="10000"
                     value={purchasePrice}
                     onChange={(e) => setPurchasePrice(Number(e.target.value))}
-                    className="w-full accent-[#111110] dark:accent-[#F4F3EF]"
+                    className="str-slider w-full cursor-pointer"
                   />
                 </div>
 
                 <div>
                   <div className="flex items-center justify-between text-xs font-mono mb-1">
                     <span className="text-[#8F8D88] dark:text-[#73716B] uppercase">Down Payment</span>
-                    <span className="font-bold text-[#111110] dark:text-[#F4F3EF]">
+                    <span className="font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">
                       {downPaymentPct}% (${Math.round(purchasePrice * (downPaymentPct / 100)).toLocaleString()})
                     </span>
                   </div>
@@ -1359,7 +1359,7 @@ export const UnderwriterLabView: React.FC<UnderwriterLabViewProps> = ({ onOpenLe
                     step="5"
                     value={downPaymentPct}
                     onChange={(e) => setDownPaymentPct(Number(e.target.value))}
-                    className="w-full accent-[#111110] dark:accent-[#F4F3EF]"
+                    className="str-slider w-full cursor-pointer"
                   />
                 </div>
               </div>
@@ -1369,7 +1369,7 @@ export const UnderwriterLabView: React.FC<UnderwriterLabViewProps> = ({ onOpenLe
                 <div>
                   <div className="flex items-center justify-between text-xs font-mono mb-1">
                     <span className="text-[#8F8D88] dark:text-[#73716B] uppercase">Interest Rate</span>
-                    <span className="font-bold text-[#111110] dark:text-[#F4F3EF]">{interestRate}%</span>
+                    <span className="font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">{interestRate}%</span>
                   </div>
                   <input
                     type="range"
@@ -1378,14 +1378,14 @@ export const UnderwriterLabView: React.FC<UnderwriterLabViewProps> = ({ onOpenLe
                     step="0.125"
                     value={interestRate}
                     onChange={(e) => setInterestRate(Number(e.target.value))}
-                    className="w-full accent-[#111110] dark:accent-[#F4F3EF]"
+                    className="str-slider w-full cursor-pointer"
                   />
                 </div>
 
                 <div>
                   <div className="flex items-center justify-between text-xs font-mono mb-1">
                     <span className="text-[#8F8D88] dark:text-[#73716B] uppercase">PM Co-Host Cut</span>
-                    <span className="font-bold text-[#111110] dark:text-[#F4F3EF]">{managementFeePct}%</span>
+                    <span className="font-bold text-[#111110] dark:text-[#F4F3EF] tabular-nums">{managementFeePct}%</span>
                   </div>
                   <input
                     type="range"
@@ -1394,7 +1394,7 @@ export const UnderwriterLabView: React.FC<UnderwriterLabViewProps> = ({ onOpenLe
                     step="1"
                     value={managementFeePct}
                     onChange={(e) => setManagementFeePct(Number(e.target.value))}
-                    className="w-full accent-[#111110] dark:accent-[#F4F3EF]"
+                    className="str-slider w-full cursor-pointer"
                   />
                 </div>
               </div>
@@ -1404,7 +1404,7 @@ export const UnderwriterLabView: React.FC<UnderwriterLabViewProps> = ({ onOpenLe
                 <div>
                   <div className="flex items-center justify-between text-xs font-mono mb-1">
                     <span className="text-[#8F8D88] dark:text-[#73716B] uppercase">Average Daily Rate</span>
-                    <span className="font-bold text-[#059669] dark:text-[#34D399]">${adr} / nt</span>
+                    <span className="font-bold text-[#059669] dark:text-[#34D399] tabular-nums">${adr} / nt</span>
                   </div>
                   <input
                     type="range"
@@ -1413,14 +1413,14 @@ export const UnderwriterLabView: React.FC<UnderwriterLabViewProps> = ({ onOpenLe
                     step="10"
                     value={adr}
                     onChange={(e) => setAdr(Number(e.target.value))}
-                    className="w-full accent-[#059669]"
+                    className="str-slider w-full cursor-pointer"
                   />
                 </div>
 
                 <div>
                   <div className="flex items-center justify-between text-xs font-mono mb-1">
                     <span className="text-[#8F8D88] dark:text-[#73716B] uppercase">Annual Occupancy</span>
-                    <span className="font-bold text-[#059669] dark:text-[#34D399]">{occupancy}%</span>
+                    <span className="font-bold text-[#059669] dark:text-[#34D399] tabular-nums">{occupancy}%</span>
                   </div>
                   <input
                     type="range"
@@ -1429,7 +1429,7 @@ export const UnderwriterLabView: React.FC<UnderwriterLabViewProps> = ({ onOpenLe
                     step="1"
                     value={occupancy}
                     onChange={(e) => setOccupancy(Number(e.target.value))}
-                    className="w-full accent-[#059669]"
+                    className="str-slider w-full cursor-pointer"
                   />
                 </div>
               </div>
